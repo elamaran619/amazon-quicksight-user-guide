@@ -1,10 +1,12 @@
 # Creating a Data Set Using a Local Text File<a name="create-a-data-set-file"></a>
 
-To create a data set using a local text file data source, identify the location of a \.csv, \.tsv, \.clf, or \.elf file and then upload it\. The file data will be automatically imported into SPICE as part of creating a data set\.
+To create a data set using a local text file data source, identify the location of the file, and then upload it\. The file data will be automatically imported into [SPICE](welcome.md#spice) as part of creating a data set\. 
 
 Use the following procedure to create a data set based on a local text file\.
 
 1. Check [Data Source Limits](data-source-limits.md) to make sure that your target file doesn't exceed data source limits\.
+
+   Supported file types include \.csv, \.json, \.tsv, \.clf, or \.elf files\.
 
 1. On the Amazon QuickSight start page, choose **Manage data**\.
 

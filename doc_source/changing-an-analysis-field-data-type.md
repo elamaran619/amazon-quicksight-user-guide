@@ -12,11 +12,8 @@ If you are working in a pivot table visual, applying a table calculation changes
 Use the following procedure to change a field's data type\.
 
 1. Choose one of the following options:
-
    + In the **Field list** pane, hover over the numeric field you want to change and then choose the selector icon to the right of the field name\.
-
    + On any visual that contains an on\-visual editor associated with the numeric field you want to change, choose that on\-visual editor\.
-
    + Expand the **Field wells** pane, then choose the field well associated with the numeric field you want to change\.
 
 1. Choose **Show as** and then choose **Number**, **Currency**, or **Percent**\.

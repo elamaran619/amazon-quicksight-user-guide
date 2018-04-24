@@ -1,15 +1,10 @@
 # Changing Date Field Granularity<a name="changing-date-field-granularity"></a>
 
 You can change the granularity for a date field on a visual to determine the intervals for which item values are shown\. You can set the date field granularity to one of the following values:
-
 + Year \(this is the default\)\. 
-
 + Month
-
 + Week
-
 + Day
-
 + Hour\. This is only supported when the date data includes time information\.
 
 ## Changing Date Field Granularity by Using an On\-Visual Editor<a name="change-date-granularity-element-controls"></a>

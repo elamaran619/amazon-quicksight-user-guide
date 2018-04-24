@@ -1,4 +1,4 @@
-# max Function<a name="max-function"></a>
+# max<a name="max-function"></a>
 
 The `max` function returns the maximum value of the specified measure, grouped by the chosen dimension or dimensions\. For example, `max(sales goal)` returns the maximum sales goals grouped by the \(optional\) chosen dimension\.
 

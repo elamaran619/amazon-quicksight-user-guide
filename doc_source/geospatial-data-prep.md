@@ -3,7 +3,8 @@
 You can flag geographic fields in your data, so that Amazon QuickSight can display them on a map\. Amazon QuickSight can chart latitude and longitude coordinates\. It also recognizes geographic components such as country, state, county, city, and zip code\. You can also create geographic hierarchies that can disambiguate similar entities, for example the same city name in two states\.
 
 **Note**  
-For now, automatic geocoding works only for US locations\. You can add latitude and longitude coordinates to your data to make geospatial charts\. 
+For now, automatic geocoding works only for US locations\. You can add latitude and longitude coordinates to your data to make geospatial charts\.   
+Geospatial charts in Amazon QuickSight aren't currently supported in some geographies, including India and China\. We are working on adding support for more regions\.
 
 Use the following procedures to add geospatial data types and hierarchies to your data set\.
 
@@ -32,9 +33,7 @@ Currently drill\-down is not working in map charts\. We are working to add this\
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/geo-hierarchy-addto-1.png)
 
 1. On the **Add field to hierarchy** screen, choose one of the following:
-
    + Choose **Create a new geospatial hierarchy** to create a new grouping\.
-
    + Choose **Add to existing geospatial hierarchy** to add a field to a grouping that already exists\. The existing hierarchies displayed include only those of matching geospatial types\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/geo-hierarchy-addto-2.png)
 
@@ -46,9 +45,7 @@ Currently drill\-down is not working in map charts\. We are working to add this\
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/geo-hierarchy-addto-3-latlong.png)
 
    For geographical components, the **Create hierarchy** screen has two choices:
-
    + Choose **This hierarchy is for a single country** if your data only contains one country\. Choose the specific country from the list\. Your data doesn't need to contain every level of the hierarchy\. You can add fields to the hierarchy in any order\. 
-
    + Choose **This hierarchy is for multiple countries** if your data contains more than one country\. Choose the field that contains the country names\. Currently, Amazon QuickSight only supports US geographical areas\. Thus, at this time, you can't create a hierarchy containing other geographical types\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/geo-create-hierarchy.png)
 

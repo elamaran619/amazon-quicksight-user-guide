@@ -16,7 +16,7 @@ Before you try to read files from Amazon S3 buckets, make sure that you grant Am
 
 1. For **Data source name**, type a name for the data source\.
 
-1. Choose **Validate connection** to validate the connection\. If validation fails, make sure Amazon QuickSight has permission to access Athena resources\. Then, try validating again\. For more information on setting Amazon QuickSight permissions to AWS resources, see [Managing User Access in Amazon QuickSight](managing-access.md)
+1. Choose **Validate connection** to validate the connection\. If validation fails, make sure Amazon QuickSight has permission to access Athena resources\. Then, try validating again\. For more information on setting Amazon QuickSight permissions to AWS resources, see [Working with AWS Data Sources](working-with-aws-data-sources.md)
 
 1. Choose **Create data source**\. 
 **Note**  
@@ -28,21 +28,17 @@ Amazon QuickSight automatically secures connections to Athena instances by using
 If you want to create a custom SQL query, click **Edit/Preview data** to edit a query\. If you do this without selecting a table, you will see an error in the data preview area\. You can safely ignore this\. The error is saying that there is no data to display until your query is created\. 
 
 1. Choose one of the following options:
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to begin data preparation\. Choose to prepare data at this point if you are planning on writing a SQL query, rather than selecting data from a single table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-
    + Otherwise, choose a table, and then choose **Select** to confirm\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-select-table.png)
 
 1. If you did not choose to prepare the data in the previous step, you will see the following screen\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-finish-data-set.png)
 
-   To load your data into SPICE, choose **Import to SPICE**\. The green indicator shows whether or not you have space available\. 
+   To load your data into [SPICE](welcome.md#spice), choose **Import to SPICE**\. The green indicator shows whether or not you have space available\. 
 
-   Alternately, you can choose to query your data without using SPICE\. To do this, choose **Directly query your data** 
+   Alternately, you can choose to query your data without using SPICE\. To do this, choose **Directly query your data**\.
 
 1. After choosing how to query your data, choose one of the following options:
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to begin data preparation for the selected table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-
    + To create a data set and analyze the data using the table as\-is, choose **Visualize**\.

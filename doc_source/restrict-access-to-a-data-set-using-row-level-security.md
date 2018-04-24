@@ -2,16 +2,14 @@
 
 In the Enterprise edition of Amazon QuickSight, you can restrict access to a data set by configuring row\-level security on it\. You can do this before or after you have shared the data set\. Only the users you shared with can see any of the data\. By adding row\-level security to all or some of these users, you can further control their access\.
 
-To do this, you create a query or file that has one column named `username`\. You can also think of this as *adding a rule* for that user\. Then you can add one column to the query or file for each field that you want to grant or restrict access to\. For each username that you add, you add the values for each field\. You can use NULL \(no value\) to mean "all values"\. To see examples of data set rules, see [Creating Data Set Rules for Row\-Level Security](#create-data-set-rules-for-row-level-security)\.
+To do this, you create a query or file that has one column named `UserName`\. You can also think of this as *adding a rule* for that user\. Then you can add one column to the query or file for each field that you want to grant or restrict access to\. For each user name that you add, you add the values for each field\. You can use NULL \(no value\) to mean all values\. To see examples of data set rules, see [Creating Data Set Rules for Row\-Level Security](#create-data-set-rules-for-row-level-security)\.
 
 To apply the data set rules, you add the rules as a *permissions data set* to your data set\. Then you choose to explicitly allow or deny access based on the data set rules\. Allowing access is the default\. Keep in mind these points when you allow and deny access\.
-
 + If you use the rules to *grant access*, each user specified can see only the rows that *match* the field values in the data set rules\. 
 
   If you add a rule for a user, and leave all the other columns with no value \(NULL\), you grant that user access to all the data\. 
 
   If you don't add a rule for a user, that user can't see any of the data\. 
-
 + If you use the rules to *deny access*, each user specified can see only the rows that *don't match* the field values in the data set rules\. 
 
   If you add a rule for a user, and leave all the other columns with no value \(NULL\), you deny that user access to all the data\.
@@ -32,7 +30,7 @@ Use the following procedure to create a permissions files or query to use as dat
 
 1. Create a file or a query that contains the data set rules \(permissions\)\. 
 
-   The only required field name is `username` \(not case\-sensitive\)\. It doesn't matter what order the fields are in\. However, all the fields other than `username` are case\-sensitive\. They must exactly match the field names and values\. 
+   It doesn't matter what order the fields are in\. However, all the fields are case\-sensitive\. They must exactly match the field names and values\. 
 
    The structure should look similar to the following\.     
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/restrict-access-to-a-data-set-using-row-level-security.html)
@@ -40,7 +38,7 @@ Use the following procedure to create a permissions files or query to use as dat
    Alternately, if you prefer to use a \.csv file, the structure should look similar to the following\.
 
    ```
-   Username,Region,Segment
+   UserName,Region,Segment
    AlejandroRosalez,EMEA,"Enterprise,SMB,Startup"
    MarthaRivera,US,Enterprise
    NikhilJayashankars,US,SMB
@@ -74,9 +72,7 @@ Use the following procedure to apply row\-level permissions by using a file or q
    If your permissions data set doesn't appear on this screen, return to your data sets, and refresh the page\.
 
 1. Choose the permissions policy\. There are two choices: 
-
    + To use the data set rules to allow access to the data, choose **Grant access to data set**\.
-
    + To use the data set rules to prevent access to the data, choose **Deny access to data set**\.
 
    Each data set has only one active permissions data set\. If you try to add a second permissions data set, it overwrites the existing one\.

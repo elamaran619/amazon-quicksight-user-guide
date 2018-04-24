@@ -1,6 +1,6 @@
 # Choosing File Upload Settings<a name="choosing-file-upload-settings"></a>
 
-If you are using a file data source, you should confirm the upload settings that Amazon QuickSight uses to import the file into SPICE, and correct them if necessary\.
+If you are using a file data source, you should confirm the upload settings that Amazon QuickSight uses to import the file into [SPICE](welcome.md#spice), and correct them if necessary\.
 
 **Important**  
 If it's necessary to change upload settings, make these changes before you make any other changes to the data set\. Changing upload settings causes Amazon QuickSight to reimport the file\. This process overwrites any changes you have made so far\.

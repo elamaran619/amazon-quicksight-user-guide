@@ -14,7 +14,7 @@ Use the following procedure to prepare the Marketing data set and create an anal
 
 1. Name the data set\.
 
-   Highlight **Group 1** in the data set name box, and type **Marketing**\.  
+   Highlight **Group 1** in the data set name box, and type **Marketing Sample**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/tutorial-ds-name.png)
 
 1. Change the field selection to remove some fields we won't be working with\.
@@ -58,4 +58,4 @@ Use the following procedure to prepare the Marketing data set and create an anal
 
 ## Next Steps<a name="example-next-step-data-set"></a>
 
-Create an analysis with the Marketing data set by using the procedure in [Tutorial: Create an Analysis](example-create-an-analysis.md)\.
+Create an analysis by using the procedure in [Tutorial: Create an Analysis](example-create-an-analysis.md)\.

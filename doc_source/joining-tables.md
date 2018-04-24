@@ -3,9 +3,7 @@
 If you want to use fields from multiple tables in your data set, you can use Amazon QuickSight's join interface to join two or more tables from the same data source\. On the join interface, you can specify the join type and the fields to use to join the tables\. The fields used in the join must be from the data source and not calculated fields\. The join interface doesn't let you use any additional SQL statements to refine the data set\. If you want to do this, use a custom SQL query instead\. For more information about using a SQL query to create a data set, see [Using a SQL Query](adding-a-SQL-query.md)\.
 
 To successfully join tables, make sure that these requirements are in place: 
-
-+ The target of the join is a SPICE data set\.
-
++ The target of the join is a [SPICE](welcome.md#spice) data set\.
 + Both data sets are based on the same SQL database data source\.
 
  To join tables from different data sources, create the join before importing to Amazon QuickSight\. 
@@ -30,13 +28,10 @@ Use the following procedure to join several tables to use in a data set\.
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/join4.png)
 
 1. Enter the join column information:
-
    + In the **Data sources** section of the **Configure join** pane, choose the join column for the left table\. This should be a column that has a matching column in the table to the right\. For example, a Customers table usually has a customer ID column to uniquely identify the customer\. An Orders table usually has a customer ID column to identify what customer that order belongs to\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/join6.png)
-
    + Choose the join column for the table to the right\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/join7.png)
-
    + \(Optional\) If the tables you selected join on multiple columns, choose **Add a new join clause** and specify the next set of join columns\. Repeat this process until you have identified all of the join columns for the tables\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/join8.png)  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/join9.png)
@@ -45,7 +40,6 @@ Use the following procedure to join several tables to use in a data set\.
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/join5.png)
 
    You can choose from the following join types:
-
    + **Inner** — An inner join records only where both tables have matching values in the join columns\. This join type is the most commonly used one\. For example, suppose that you perform an inner join on the following Safety Ratings and Widgets tables\.
 
      ```
@@ -79,7 +73,6 @@ Use the following procedure to join several tables to use in a data set\.
      2	        A                 4        WidgetD        2
      5	        B                 6        WidgetF        5
      ```
-
    + **Left** — A left outer join returns all records from the left table, and only records that have a value in the join column for the table to the right\. For example, suppose that you perform a left outer join on the Safety Ratings \(left table\) and Widgets \(right table\) tables\. In this case, all safety ratings records are returned, and only matching widget records are returned\.
 
      ```
@@ -92,7 +85,6 @@ Use the following procedure to join several tables to use in a data set\.
      4	        B+        	
      5	        B                 6        WidgetF   	5
      ```
-
    + **Right** — A right outer join returns all records from the table to the right, and only records that have a value in the join column for the left table\. For example, suppose that you perform a right outer join on the Safety Ratings \(left table\) and Widgets \(right table\) tables\. In this case, all widget records are returned, and only matching safety ratings records are returned\.
 
      ```
@@ -106,7 +98,6 @@ Use the following procedure to join several tables to use in a data set\.
      5	        B                 6	WidgetF   	 5
                                        7     WidgetG
      ```
-
    + **Outer** — A full outer join returns all records from both tables, regardless of the values in the join columns\. This type of join can return very large result sets because it includes all rows from both tables\. For example, if you perform a full outer join on the Safety Ratings and Widgets tables, all records are returned\.
 
      ```

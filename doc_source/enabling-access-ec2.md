@@ -16,23 +16,16 @@ Enabling connection from Amazon QuickSight servers to your instance is just one 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/create-ec2-security-group.png)
 
 1. Enter the security group information as follows:
-
    + For **Security group name**, type **Amazon\-QuickSight\-access**\.
-
    + For **Description**, type **Amazon\-QuickSight\-access**\.
-
    + For **VPC**, choose the VPC ID that you noted in step 2 if your Amazon EC2 instance is in a VPC\. Otherwise, choose **No VPC**\.
 
 1. Choose **Add Rule** on the **Inbound** tab\.
 
 1. Create a new rule with the following values:
-
    + For **Type**, choose **Custom TCP Rule**\.
-
    + For **Protocol**, choose **TCP**\.
-
    + \(Optional\) For **Port Range**, enter the port number used by the instance on this Amazon EC2 instance to which you are providing access\.
-
    + For **Source**, type the CIDR address block for the region where you'll be using QuickSight\. For example, here is the CIDR address block for EU \(Ireland\): `52.210.255.224/27`\. For more information on the IP address ranges for Amazon QuickSight in supported regions, see [AWS Regions and IP Address Ranges](regions.md)\.
 **Note**  
 If you have activated Amazon QuickSight in multiple regions, you can create inbound rules for each Amazon QuickSight endpoint CIDR\. Doing this allows Amazon QuickSight to have access to the Amazon RDS DB instance from any region defined in the inbound rules\.   

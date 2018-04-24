@@ -1,4 +1,4 @@
-# min Function<a name="min-function"></a>
+# min<a name="min-function"></a>
 
 The `min` function returns the minimum value of the specified measure, grouped by the chosen dimension or dimensions\. For example, `min(return rate)` returns the minimum rate of returns grouped by the \(optional\) chosen dimension\.
 

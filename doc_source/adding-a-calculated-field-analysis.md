@@ -10,82 +10,61 @@ By creating the aggregated calculated field within the analysis, you can then dr
 
 For example, let's say that you want to figure out the percentage of profit for each country, region, and state\. You can add a calculated field to your analysis, `(sum({sales amount} - cost)) / sum({sales amount})`\. This field is then calculated for each country, region, and state, at the time your analyst drills down into the geography\.
 
-The functions available in SPICE data include the following\. 
-
-+ avg
-
-+ ceil
-
-+ count
-
-+ dateDiff
-
-+ decimalToInt
-
-+ distinct\_count
-
-+ epochDate
-
-+ extract
-
-+ floor
-
-+ intToDecimal
-
-+ max
-
-+ min
-
-+ round
-
-+ sum
-
-+ truncDate
+The functions available in [SPICE](welcome.md#spice) data include the following\. 
++ [avg](avg-function.md)
++ [ceil](ceil-function.md)
++ [count](count-function.md)
++ [dateDiff](dateDiff-function.md)
++ [decimalToInt](decimalToInt-function.md)
++ [distinct\_count](distinct_count-function.md)
++ [epochDate](epochDate-function.md)
++ [extract](extract-function.md)
++ [floor](floor-function.md)
++ [intToDecimal](intToDecimal-function.md)
++ [max](max-function.md)
++ [min](min-function.md)
++ [round](round-function.md)
++ [sum](sum-function.md)
++ [truncDate](truncDate-function.md)
 
 **Note**  
 The date functions `extract` and `truncDate` don't support SS \(second\) in SPICE\. 
 
 For information on calculated fields in data sets, see [Working with Calculated Fields](working-with-calculated-fields.md)\. 
 
+**Topics**
++ [Using Aggregate Functions in Calculated Fields](#calculated-field-aggregations)
++ [Adding a Calculated Field](#add-a-calculated-field-analysis)
++ [Editing a Calculated Field](#edit-a-calculated-field-analysis)
++ [Deleting a Calculated Field](#delete-a-calculated-field-analysis)
+
 ## Using Aggregate Functions in Calculated Fields<a name="calculated-field-aggregations"></a>
 
 You can use the following aggregate functions on calculated fields during analysis and visualization: 
-
 + Average – Averages the set of numbers in the specified measure, grouped by the chosen dimension or dimensions\.
-
 + Count – Calculates the number of values in a dimension or measure, grouped by the chosen dimension or dimensions\. 
-
 + Distinct Count– Calculates the number of distinct values in a dimension or measure, grouped by the chosen dimension or dimensions\. 
-
 + Max – Returns the maximum value of the specified measure, grouped by the chosen dimension or dimensions\.
-
 + Min – Returns the minimum value of the specified measure, grouped by the chosen dimension or dimensions\.
-
 + Sum – Adds the set of numbers in the specified measure, grouped by the chosen dimension or dimensions\.
 
 When a calculated field formula contains an aggregation, it becomes a custom aggregation\. To make sure your data is accurately displayed, Amazon QuickSight applies the following rules:
-
 + Custom aggregations can't contain nested aggregate functions\. For example, this formula won't work: `sum(avg(x)/avg(y))`\. However, nesting nonaggregated functions inside or outside aggregate functions do work\. For example, `ceil(avg(x))` works\. So does `avg(ceil(x))`\.
-
 + Custom aggregations can't contain both aggregated and nonaggregated fields, in any combination\. For example, this formula won't work: `Sum(sales)+quantity`
-
 + Filter groups can't contain both aggregated and nonaggregated fields\.
-
 + Custom aggregations can't be converted to a dimension\. They also can't be dropped into the field well as a dimension\.
-
 + In a pivot table, custom aggregations can't be added to table calculations\.
-
 + Scatter plots with custom aggregations need at least one dimension under **Group/Color** in the field wells\.
 
 For details about supported functions and operators, see [Amazon QuickSight Calculated Field Function and Operator ReferenceFunctions and Operators](calculated-field-reference.md)\.
 
-
-+ [avg Function](avg-function.md)
-+ [count Function](count-function.md)
-+ [distinct\_count Function](distinct_count-function.md)
-+ [max Function](max-function.md)
-+ [min Function](min-function.md)
-+ [sum Function](sum-function.md)
+**Topics**
++ [avg](avg-function.md)
++ [count](count-function.md)
++ [distinct\_count](distinct_count-function.md)
++ [max](max-function.md)
++ [min](min-function.md)
++ [sum](sum-function.md)
 
 ## Adding a Calculated Field<a name="add-a-calculated-field-analysis"></a>
 

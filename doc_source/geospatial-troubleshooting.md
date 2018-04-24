@@ -3,9 +3,10 @@
 Use this section to discover QuickSight's requirements for correctly processing geospatial data\. If QuickSight doesn't recognize your geospatial data as geospatial, use this section to help troubleshoot the issue\. Make sure that your data follows the guidelines listed, so that it works in geospatial visuals\.
 
 **Note**  
+Geospatial charts in Amazon QuickSight currently aren't supported in some geographies, including India and China\. We are working on adding support for more regions\.  
 If your geography follows all the guidelines listed here, and still generates errors, contact the Amazon QuickSight team from within the Amazon QuickSight console\. 
 
-
+**Topics**
 + [Geocoding Issues](#geocoding)
 + [Issues with Latitude and Longitude](#latitude-and-longitude)
 
@@ -17,7 +18,7 @@ For this process to work properly, your data must include at least the country\.
 
 A few issues prevent place names from showing up on a map chart\. These issues include unsupported, ambiguous, or invalid locations, as described following\.
 
-
+**Topics**
 + [Issues with Unsupported Areas](#geospatial-unsupported-areas)
 + [Issues with Ambiguous Locations](#geospatial-ambiguous-locations)
 + [Issues with Invalid Geospatial Data](#geospatial-invalid-data)
@@ -67,7 +68,7 @@ Amazon QuickSight uses latitude and longitude coordinates in the background to f
 
 Latitude and longitude values must be numeric\. For example, the map point indicated by **28\.5383355 \-81\.3792365** is compatible with Amazon QuickSight\. But **28° 32' 18\.0096'' N 81° 22' 45\.2424'' W** is not\. 
 
-
+**Topics**
 + [Valid Ranges for Latitude and Longitude Coordinates](#valid-ranges-for-coordinates)
 + [Using Coordinates in Degrees, Minutes, and Seconds \(DMS\) Format](#using-coordinates-in-dms-format)
 
@@ -156,9 +157,6 @@ ifelse(
 ```
 
 The formats of GPS latitude and longitude can vary, so customize your formulas to match your data\. For more information, see the following links:
-
 + [Degrees Minutes Seconds to Decimal Degrees](https://www.latlong.net/degrees-minutes-seconds-to-decimal-degrees) on LatLong\.net
-
 + [Converting Degrees/Minutes/Seconds to Decimals using SQL](https://stackoverflow.com/questions/12186110/converts-degrees-minutes-seconds-to-decimals-using-sql) on Stack Overflow
-
 + [Geographic Coordinate Conversion](https://en.wikipedia.org/wiki/Geographic_coordinate_conversion) on Wikipedia

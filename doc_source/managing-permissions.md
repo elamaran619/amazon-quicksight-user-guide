@@ -10,9 +10,9 @@ You should only edit Amazon QuickSight permissions to your AWS resources from wi
 1. Choose your user name on the application bar, and then choose **Manage QuickSight**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/admin-menu.png)
 
-1. Choose **Account permissions**\.
+1. Choose **Account settings**\.
 
-1. Choose **Edit AWS Permissions**\.
+1. Under **Account permissions**, choose **Edit AWS Permissions**\.
 
 1. \(For Amazon QuickSight Enterprise edition accounts only\) On the AWS sign\-in page, enter your AWS or IAM credentials\.
 

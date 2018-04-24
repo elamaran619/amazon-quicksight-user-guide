@@ -2,7 +2,7 @@
 
 To create your first analysis using your own Amazon S3 data, follow these steps:
 
-
+**Topics**
 + [Step 1: Create an Amazon S3 Data Set and an Analysis](#step-1-create-s3-data-set-and-analysis)
 + [Step 2: Create a Visual](#step-2-create-s3-visual)
 
@@ -25,9 +25,7 @@ Complete the following procedure to create a data set and an analysis:
 1. For **Data source name**, type a name for the data source\.
 
 1. For **Upload a manifest file**, do one of the following options:
-
    + Choose **URL** and type or paste in a URL for the manifest file\. You can find this in the Amazon S3 console by right\-clicking on the manifest file, choosing **Properties**, and looking at the **Link** field\.
-
    + Choose **Upload** and then choose **Upload a JSON manifest file**\. In **Open**, browse to a file, select it, and then choose **Open**\.
 
 1. Choose **Connect**\.

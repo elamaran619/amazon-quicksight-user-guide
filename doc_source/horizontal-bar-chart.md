@@ -39,11 +39,8 @@ Use the following procedure to create a horizontal bar chart\.
 1. On the **Visual types** pane, choose the horizontal bar chart icon\.
 
 1. From the **Fields list** pane, drag the fields you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\.
-
    + To create a single\-measure horizontal bar chart, drag a dimension to the **Y axis** field well and a measure to the **Value** field well\.
-
    + To create a multi\-measure horizontal bar chart, drag a dimension to the **Y axis** field well and two or more measures to the **Value** field well\. Leave the **Group/Color** field well empty\.
-
    + To create a clustered horizontal bar chart, drag a dimension to the **Y axis** field well, a measure to the **Value** field well, and another dimension to the **Group/Color** field well\.
 
 1. \(Optional\) Add drill\-down layers by dragging one or more additional fields to the **Y axis** or **Group/Color** field wells\. For more information about adding drill\-downs, see [Adding Drill\-Downs to Visual Data in Amazon QuickSight](adding-drill-downs.md)\. 

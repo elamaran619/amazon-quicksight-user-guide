@@ -1,17 +1,11 @@
 # Changing Field Aggregation<a name="changing-field-aggregation"></a>
 
 You can apply functions to fields to display aggregate information, like the sum of the sales for a given product\. You can apply an aggregate function by using the options in either an on\-visual editor or a field well\. The following aggregate functions are available in Amazon QuickSight:
-
 + Average – Calculates the average value for the selected field\.
-
 + Count – Provides a count of the number of records containing the selected measure for a given dimension\. An example is a count of Order ID by State\. 
-
 + Distinct Count – Provides a count of how many different values are in the selected measure, for the selected dimension or dimensions\. An example is a count of Product by Region\. A simple count can show how many products are sold for each region\. A distinct count can show how many different products are sold for each region\. You might have sold 2000 items, but only two different types of items\. 
-
 + Max – Calculates the maximum value for the selected field\.
-
 + Min – Calculates the minimum value for the selected field\.
-
 + Sum – Totals all of the values for the selected field\.
 
 All aggregate functions can be applied to numeric fields\. *Count* is automatically applied to a dimension if you choose to use it in a field well that expects a measure\. If you have used a dimension in that way, you can also change the aggregate function applied to it\. You can't apply aggregate functions to fields in dimension field wells\.

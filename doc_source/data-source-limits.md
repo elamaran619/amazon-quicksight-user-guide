@@ -4,15 +4,13 @@ Data sources that you use with Amazon QuickSight must conform to the following l
 
 ## File Limits<a name="file-limits"></a>
 
-Any file you import into SPICE must be 1 GB or smaller, whether that file is local or coming from Amazon S3\. 
-
 If you are retrieving multiple files from Amazon S3, the total size of the files specified in the manifest file cannot exceed 10 GB\. The total number of files specified in the manifest file cannot exceed 1000\. 
 
 Files can have up to 1000 columns\. Each column name can have up to 127 characters\. 
 
 ## Table and Query Limits<a name="table-limits"></a>
 
-Any table or query result set you import into SPICE must be 10 GB or smaller\. If you want to retrieve data from a larger table, there are several methods you can use to reduce the size of the data\. You can unselect columns, or apply filters\. In a SQL query, you can also use predicates, such as `WHERE`, `HAVING`\.
+Any table or query result set you import into [SPICE](welcome.md#spice) must be 10 GB or smaller\. If you want to retrieve data from a larger table, there are several methods you can use to reduce the size of the data\. You can unselect columns, or apply filters\. In a SQL query, you can also use predicates, such as `WHERE`, `HAVING`\.
 
 Tables can have up to 1000 columns\. Each column name can have up to 127 characters\. 
 
@@ -23,15 +21,11 @@ Data in any field of a data set you import into SPICE must be 511 characters or 
 ## Supported Data Types<a name="supported-data-types"></a>
 
 Amazon QuickSight currently supports the following primitive data types:
-
 + Date\. Dates must be in one of the [Supported Date Formats](#supported-date-formats)\.
-
 + Decimal\. The decimal data type supports up to four decimal places to the right of the decimal point\. Values that have a higher scale than this are truncated to the fourth decimal place when displayed in data preparation or analyses and when imported into SPICE\. For example, 13\.00049 is truncated to 13\.0004\.
 
   During data preparation, calculated fields that use decimal data with more than four decimal places use the full value to perform the calculation\. If the result is again decimal data that uses more than four decimal places, the result is then truncated as described preceding\. For more information, see [Handling Decimal Values in Calculated Fields](working-with-calculated-fields.md#handling-decimal-fields)\. 
-
 + Integer
-
 + String
 
 Make sure that any table or file that you use as a data source contains only fields that can be implicitly converted to these data types\. Amazon QuickSight skips any data rows that can't be converted\. 
@@ -110,7 +104,7 @@ For file uploads, Amazon S3 sources, Athena and Salesforce, Amazon QuickSight su
 
 For relational database sources, including Amazon Redshift, Amazon RDS, PostgreSQL, MySQL, Aurora, MariaDB, and Microsoft SQL Server, Amazon QuickSight supports the following date and time formats \(24 hr only\): 
 
-Amazon QuickSight supports dates in the range from Jan 1, 1900 00:00:00 UTC to Dec 31, 2037 23:59:59 UTC
+Amazon QuickSight supports dates in the range from Jan 1, 1900 00:00:00 UTC to Dec 31, 2037 23:59:59 UTC\.
 
 1.  `dd/MM/yyyy HH:mm:ss`, for example 31/12/2016 15:30:00\. 
 

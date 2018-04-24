@@ -1,27 +1,17 @@
 # I can't connect even though my data source connection options look right \(SSL\)<a name="troubleshoot-connect-SSL"></a>
 
 Problems connecting can occur when SSL is incorrectly configured\. The symptoms can include the following\.
-
 + You can connect to your database in other ways or from other locations\.
-
 + You can connect to a similar database but not this one\.
 
  Rule out the following circumstances: 
-
 + Permissions issues
-
 + Availability issues
-
 + Expired or invalid certificate
-
 + Self\-signed certificate
-
 + Certificate chain in the wrong order
-
 + Ports not enabled
-
 + Firewall blocking IP
-
 + VPC or security group not configured correctly\.
 
  To help find issues with SSL, you can use an online SSL checker, or a tool like OpenSSL\. 
@@ -76,5 +66,4 @@ Problems connecting can occur when SSL is incorrectly configured\. The symptoms 
 1. The administrator corrects the problem by installing the SSL certificate on the user's database server\. 
 
 Please see the following for more detail on the solution in this example:
-
 + [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html)

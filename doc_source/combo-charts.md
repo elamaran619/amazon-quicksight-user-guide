@@ -1,9 +1,7 @@
 # Using Combo Charts<a name="combo-charts"></a>
 
 Amazon QuickSight supports the following types of combo charts:
-
 + Clustered bar combo chart
-
 + Stacked bar combo chart
 
 These are also known as line and column charts\.
@@ -14,6 +12,6 @@ On the clustered bar combo chart, bars display for each child dimension, grouped
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/combo-chart-example1.png)
 
-
+**Topics**
 + [Working with Clustered Bar Combo Charts](clustered-bar-combo-chart.md)
 + [Working with Stacked Bar Combo Charts](stacked-bar-combo-chart.md)

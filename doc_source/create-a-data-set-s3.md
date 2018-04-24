@@ -1,6 +1,6 @@
 # Creating a Data Set Using Amazon S3 Files<a name="create-a-data-set-s3"></a>
 
-To create a data set using one or more text files \(\.csv, \.tsv, \.clf, or \.elf\) from Amazon S3, create a manifest that Amazon QuickSight can use to identify the files that you want to use, and also the upload settings needed to import them\. When you create a data set using Amazon S3, the file data is automatically imported into SPICE\.
+To create a data set using one or more text files \(\.csv, \.tsv, \.clf, or \.elf\) from Amazon S3, create a manifest that Amazon QuickSight can use to identify the files that you want to use, and also the upload settings needed to import them\. When you create a data set using Amazon S3, the file data is automatically imported into [SPICE](welcome.md#spice)\.
 
 You must grant Amazon QuickSight access to any Amazon S3 buckets that you want to read files from\. For information about granting Amazon QuickSight access to AWS resources, see [Managing Amazon QuickSight Permissions to AWS Resources](managing-permissions.md)\.
 
@@ -21,9 +21,7 @@ Use the following procedure to create an Amazon S3 data set\.
 1. For **Data source name**, type a description of the data source\. This name should be something that helps you distinguish this data source from others\.
 
 1. For **Upload a manifest file**, do one of the following:
-
    + To use a local manifest file, choose **Upload**, and then choose **Upload a JSON manifest file**\. For **Open**, choose a file, and then choose **Open**\.
-
    + To use a manifest file from Amazon S3, choose **URL**, and type the URL for the manifest file\. To find the URL of a pre\-existing manifest file in the Amazon S3 console, navigate to the appropriate file and choose it\. A properties panel displays, including the link URL\. You can copy the URL and paste it into Amazon QuickSight\.
 
 1. Choose **Connect**\.

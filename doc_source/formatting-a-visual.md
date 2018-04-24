@@ -84,13 +84,10 @@ Use the following procedure to set the axis range for a visual\.
 1. On the **Format Visual** pane, expand the **<X\-or\-Y>\-Axis** section\. This is the **X\-Axis** section for horizontal bar charts, the **Y\-Axis** section for vertical bar charts and line charts, and both axes are available for scatter plots\.
 
 1. Set the range for the axis by choosing one of the following options:
-
    + Choose **Auto \(starting at 0\)** to have the range start at 0 and end around the highest value for the measure being displayed\.
-
    + Choose **Auto \(based on data range\)** to have the range start at the lowest value for the measure being displayed and end around the highest value for the measure being displayed\.
-
    + Choose **Custom range** to have the range start and end at values that you specify\.
 
-     If you choose **Custom range**, type the start and end values in the fields in that section\. Typically, you use integers for the range values\. For stacked 100percent bar charts, use a decimal value to indicate the percentage you want\. For example, if you want the range to be 0–30 percent instead of 0–100 percent, type 0 for the start value and \.3 for the end value\.
+     If you choose **Custom range**, type the start and end values in the fields in that section\. Typically, you use integers for the range values\. For stacked 100 percent bar charts, use a decimal value to indicate the percentage you want\. For example, if you want the range to be 0–30 percent instead of 0–100 percent, type 0 for the start value and \.3 for the end value\.
 
 1. Close the **Format Visual** pane, either by choosing the X icon in the upper\-right corner of the pane, or by choosing the on\-visual menu at the upper\-right corner of the visual, and then choosing **Format visual** again\.

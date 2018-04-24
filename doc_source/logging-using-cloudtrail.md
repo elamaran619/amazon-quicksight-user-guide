@@ -9,7 +9,7 @@ When CloudTrail logging is enabled in your AWS account, Amazon QuickSight operat
 **Note**  
 AWS CloudTrail logging for Amazon QuickSight is available for both Standard and Enterprise Editions, across all supported Amazon QuickSight regions\. For more information, read [AWS Regions and IP Address Ranges](regions.md)\.
 
-
+**Topics**
 + [Working with Amazon QuickSight Log Files](log-files.md)
 + [Understanding Amazon QuickSight Log File Contents](log-file-contents.md)
 + [Tracking Non\-API Events by Using CloudTrail Logs](logging-non-api.md)

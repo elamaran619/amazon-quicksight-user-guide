@@ -6,7 +6,7 @@
 
  Amazon QuickSight supports up to 20 data sets in a single analysis, and up to 20 visuals in a single analysis\.
 
-
+**Topics**
 + [Creating an Analysis](creating-an-analysis.md)
 + [Saving Changes to an Analysis](saving-changes-to-an-analysis.md)
 + [Renaming an Analysis](renaming-an-analysis.md)

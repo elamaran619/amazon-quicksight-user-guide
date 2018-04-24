@@ -25,11 +25,8 @@ Use the following procedure to change the colors for a visual\.
 1. To change the chart color, choose any element on the visual, and then choose **Chart Color**\.
 
    To select elements, do the following: 
-
    +  On a bar chart, choose any bar\. 
-
    +  On a line chart, choose the end of a line\. 
-
    +  On a scatter plot, choose an element\. The field must be in the **Group/Color** section of **Field wells**\. 
 
 1. Choose the color you want\. All elements on the visual are changed to use this color, except for any that have previously had their color individually set\. In that case, the element color overrides the chart color\.  

@@ -2,7 +2,7 @@
 
 To create your first analysis using your own local text file data, follow these steps:
 
-
+**Topics**
 + [Step 1: Create a File Data Set and an Analysis](#step-1-create-file-data-set-and-analysis)
 + [Step 2: Create a Visual](#step-2-create-file-visual)
 

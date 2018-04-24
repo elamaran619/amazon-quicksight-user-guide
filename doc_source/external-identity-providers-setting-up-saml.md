@@ -2,7 +2,7 @@
 
 You can use an AWS Identity and Access Management \(IAM\) role and a relay state URL to configure an identity provider \(IdP\) that is compliant with SAML 2\.0\. The role grants users permissions to access Amazon QuickSight\. The relay state is the portal that the user is forwarded to, after successful authentication by AWS\.
 
-
+**Topics**
 + [Prerequisites](#external-identity-providers-setting-up-prerequisites)
 + [Step 1: Create a SAML Provider in AWS](#external-identity-providers-create-saml-provider)
 + [Step 2: Configure Permissions in AWS for Your Federated Users](#external-identity-providers-grantperms)
@@ -13,18 +13,13 @@ You can use an AWS Identity and Access Management \(IAM\) role and a relay state
 ## Prerequisites<a name="external-identity-providers-setting-up-prerequisites"></a>
 
 Before configuring your SAML 2\.0 connection, you need to do the following:
-
 + Configure your IdP to establish a trust relationship with AWS: 
-
   + Inside your organization's network, configure your identity store, such as Windows Active Directory, to work with a SAML\-based IdP\. SAML\-based IdPs include Microsoft Windows Active Directory Federation Services, Shibboleth, and so on\.
-
   + Using your IdP, generate a metadata document that describes your organization as an identity provider\.
-
   + Set up SAML 2\.0 authentication, using the same steps as for the AWS Management Console\. When this process is complete, you can configure your relay state to match the relay state of Amazon QuickSight \(See [Step 5: Configure the Relay State of Your Federation](#external-identity-providers-relay-state)\)\. 
-
 + Create an Amazon QuickSight account and note the name to use when you configure your IAM policy and IdP\. For more information on creating an Amazon QuickSight account, see [Signing Up for Amazon QuickSight](signing-up.md)\.
 
-After you have created the setup to federate to the AWS Management Console as outlined in the tutorial, you can edit the relay state provided in the tutorial with the relay state of Amazon QuickSight \(Step 5 below\)\. For more information about integrating with your IdP, see [ Integrating Third\-Party SAML Solution Providers with AWS in the *IAM User Guide* ](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_saml_3rd-party.html)\. 
+After you have created the setup to federate to the AWS Management Console as outlined in the tutorial, you can edit the relay state provided in the tutorial with the relay state of Amazon QuickSight \(step 5 following\)\. For more information about integrating with your IdP, see [Integrating Third\-Party SAML Solution Providers with AWS](http://docs.aws.amazon.com/singlesignon/latest/userguide/) in the *IAM User Guide*\. For more information on using SSO in AWS, see [Integrating Third\-Party SAML Solution Providers with AWS](http://docs.aws.amazon.com/singlesignon/latest/userguide/) in the *IAM User Guide*\. 
 
 ## Step 1: Create a SAML Provider in AWS<a name="external-identity-providers-create-saml-provider"></a>
 
@@ -86,7 +81,7 @@ If you want to provide access to Amazon QuickSight and also the ability to creat
 
 You can view account details in the AWS Management Console\.
 
-Once you have set up SAML and the IAM policy\(ies\), you don't need to invite users manually\. The first time users open Amazon QuickSight, they are provisioned automatically\. If they have permissions for the "quicksight:CreateUser" action, they will be added as QuickSight users\. If they have permissions for the "quicksight:CreateAdmin" action, they will be added as QuickSight administrators\.
+Once you have set up SAML and the IAM policy or policies, you don't need to invite users manually\. The first time users open Amazon QuickSight, they are provisioned automatically\. If they have permissions for the `quicksight:CreateUser` action, they are added as Amazon QuickSight users\. If they have permissions for the `quicksight:CreateAdmin` action, they are added as Amazon QuickSight administrators\.
 
 ## Step 3: Configure the SAML IdP<a name="external-identity-providers-config-idp"></a>
 

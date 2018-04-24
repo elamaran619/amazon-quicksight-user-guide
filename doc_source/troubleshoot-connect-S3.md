@@ -8,7 +8,7 @@ To verify authentication, make sure you authorized Amazon QuickSight to access t
 
 1. You must temporarily switch to the US East \(N\. Virginia\) region \(top right\), while you edit your account permissions\. 
 
-1. Inside of Amazon QuickSight, choose your profile name \(very top right\)\. Choose **Manage QuickSight**\. 
+1. Inside of Amazon QuickSight, choose your profile name \(top right\)\. Choose **Manage QuickSight**\. 
 
 1. Then choose **Account Settings**, on the left\. 
 
@@ -43,3 +43,5 @@ It is crucial to make sure your manifest file is valid\. If Amazon QuickSight ca
    For more information on manifest files and connecting to Amazon S3 see: [Supported Formats for Amazon S3 Manifest Files](supported-manifest-file-format.md)
 
 Finally, verify that your Amazon S3 dataset was created according to these steps: [Creating a Data Set Using Amazon S3 Files](create-a-data-set-s3.md)
+
+If you use Athena to connect to Amazon S3 , see [I can't connect to Athena](troubleshoot-connect-athena.md)

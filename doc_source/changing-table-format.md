@@ -10,9 +10,7 @@ Use the following procedure to change a pivot table format\.
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/expand-field-wells.png)
 
 1. On the **Values** field well, choose one of the following options:
-
    + Choose **Column** for a columnar format\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/pivot-column-format.png)
-
    + Choose **Row** for a row format\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/pivot-row-format.png)

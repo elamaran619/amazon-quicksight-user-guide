@@ -27,16 +27,12 @@ You can add calculated fields to a data set during data preparation or from the 
 
 ## Handling Decimal Values in Calculated Fields<a name="handling-decimal-fields"></a>
 
-The decimal data type supports up to four decimal places to the right of the decimal point\. During data preparation, calculated fields that use decimal data with more than four decimal places use the full value to perform the calculation\. If the result is again decimal data that uses more than four decimal places, the result is then truncated when the data set is imported into SPICE or displayed in an analysis\.
+The decimal data type supports up to four decimal places to the right of the decimal point\. During data preparation, calculated fields that use decimal data with more than four decimal places use the full value to perform the calculation\. If the result is again decimal data that uses more than four decimal places, the result is then truncated when the data set is imported into [SPICE](welcome.md#spice) or displayed in an analysis\.
 
 As an example, take decimal field FieldA with a value of 0\.00006, which is displayed in the user interface as 0\.0\. The full value 0\.00006 is still used in all calculations\. The following are some examples of how you can use this value in calculations:
-
 + FieldA > 0 = true\. The calculated field value displayed in the analysis or imported into SPICE is **true**\.
-
 + ceil\(FieldA\) = 1\. The calculated field value displayed in the analysis or imported into SPICE is **1**\.
-
 + FieldA \+ 0\.00009 = 0\.00015\. The calculated field value displayed in the analysis or imported into SPICE is **0\.0001**\.
-
 + FieldA \* 1\.5 = 0\.00009\. The calculated field value displayed in the analysis or imported into SPICE is **0\.0**\.
 
 ## Adding a Calculated Field During Data Preparation<a name="adding-a-calculated-field"></a>
@@ -52,12 +48,10 @@ Use this topic to learn about adding calculated fields during data preparation\.
 Use the following procedure to add a calculated field\.
 
 1. Do one of the following:
-
    + Create a calculated field without having the formula populated by a field\.
 
      On the data preparation page, expand the **Fields** pane, and then choose **New Field**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/new-field.png)
-
    + Create a calculated field and have the formula populated with a specified field\.
 
      On the data preparation page, expand the **Fields** pane, hover over the field that you want to use as the basis for the calculated field, choose the ellipsis that appears to the right of it, and then choose **Add calculation based on <field name>**\.  
@@ -67,10 +61,8 @@ Use the following procedure to add a calculated field\.
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/function-field-name.png)
 
 1. Add a function to the calculated field formula by doing one of the following:
-
    + If you created the calculated field by choosing **New Field**, choose a function from **Function list** and then choose **Add**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/add-function.png)
-
    + If you created the calculated field by choosing a specific field to use, place your cursor in front of the field name in **Formula**\. Then type the name of the function that you want to use and an open parenthesis, then place your cursor after the field name and type a close parenthesis\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/type-function.png)
 

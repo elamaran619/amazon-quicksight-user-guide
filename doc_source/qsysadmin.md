@@ -1,13 +1,13 @@
 # Administration<a name="qsysadmin"></a>
 
-Welcome to the administrator's guide for Amazon QuickSight\! This guide is intended to consolidate Amazon QuickSight administrative tasks into one area\. The guide contains information about controlling access, managing accounts, and choosing editions and regions\. 
+Use the following section to learn about Amazon QuickSight administrative tasks\. This section contains information about controlling access, managing accounts, and choosing AWS Regions\. 
 
- If you like what you see here, let us know\. \(Click one of the feedback buttons below\)\. 
-
-
-+ [Editions](editions.md)
+**Topics**
++ [Different Editions of Amazon QuickSight](editions.md)
 + [AWS Regions and IP Address Ranges](regions.md)
++ [Supported Browsers](supported-browsers.md)
 + [Signing Up for Amazon QuickSight](signing-up.md)
-+ [Managing User Access in Amazon QuickSight](managing-access.md)
++ [Access & Authentication in Amazon QuickSight](access-and-authentication.md)
++ [Managing User Access inside Amazon QuickSight](managing-quicksight-users.md)
 + [Managing Amazon QuickSight Usage](managing-service-usage.md)
 + [Working with AWS Services](working-with-aws.md)

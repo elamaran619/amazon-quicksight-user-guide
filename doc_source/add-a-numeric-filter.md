@@ -3,33 +3,21 @@
 Fields with decimal or int data types are considered numeric fields\. You create filters on numeric fields by specifying a comparison type, for example **Greater than** or **Between**, and a comparison value or values as appropriate to the comparison type\. Comparison values must be positive integers and should not contain commas\.
 
 You can use the following comparison types in numeric filters:
-
 + Equals
-
 + Does not equal
-
 + Greater than
-
 + Less than
-
 + Greater than or equal to
-
 + Less than or equal to
-
 + Between
 
 For data sets based on database queries, you can also optionally apply an aggregate function to the comparison value or values, for example **Sum** or **Average**\. 
 
 You can use the following aggregate functions in numeric filters:
-
 + Average
-
 + Count
-
 + Max
-
 + Min
-
 + Sum
 
 ## Creating a Numeric Filter<a name="create-a-numeric-filter"></a>

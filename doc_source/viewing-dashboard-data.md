@@ -1,3 +1,0 @@
-# Viewing Dashboard Data<a name="viewing-dashboard-data"></a>
-
-You can scroll through and view the details of any visual in a dashboard and also focus on or exclude visual elements, the same way you can in an analysis\. You can also update chart colors on the visuals\. Any changes you make exist for your current viewing session only, and aren't saved\. For more information about viewing visual data, see [Viewing Visual Data in Amazon QuickSight](viewing-visual-data.md)\. For more information about changing chart colors, see [Changing Visual Colors in Amazon QuickSight](changing-visual-colors.md)\.

@@ -19,20 +19,14 @@ Use the following procedure to create a custom SQL query to define a data set\.
 In some cases, Amazon QuickSight can't change a table data source into a query\. In this case, the screen doesn't display the option to switch to a custom SQL query\. To use a query instead, create a new data set that is based on the query you want to use\. 
 
 1. Do one of the following:
-
    + Choose an existing query in the **Custom SQL** pane\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/existing-query.png)
-
    + Enter information for a new SQL query:
-
      + In the **Custom SQL** pane, choose **New Custom SQL**\.
-
      + For **Custom SQL name**, type a query name\.
-
      + For **Custom SQL**, type or paste in a SQL query\. The query must conform to the SQL syntax of the target database engine in terms of capitalization, command termination, and other requirements\.
 **Note**  
 The **Custom SQL** box has no query editing functionality\. It's significantly easier to create the query you want in your SQL editor of choice and then paste it in\.
-
      + Choose **Finish**\. The query is processed and the query results display in the data preview pane\. The saved query appears in the **Custom SQL** pane\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/enter-sql.png)
 

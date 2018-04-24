@@ -6,7 +6,7 @@ When you share a dashboard, you specify which users have access to it\. These us
 
 Use the following sections to learn how to create, share, and view dashboards\.
 
-
+**Topics**
 + [Creating and Sharing a New Dashboard](creating-a-dashboard.md)
 + [Copying a Dashboard](copying-a-dashboard.md)
 + [Deleting a Dashboard](deleting-a-dashboard.md)

@@ -51,11 +51,8 @@ Use the following procedure to create a pivot table\.
 1. On the **Visual types** pane, choose the pivot table icon\.
 
 1. From the **Fields list** pane, drag the fields you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\.
-
    + To create a single\-measure pivot table, drag a dimension to the **Rows** field well, a dimension to the **Columns** field well, and a measure to the **Values** field well\.
-
    + To create a multi\-measure pivot table, drag a dimension to the **Rows** field well, a dimension to the **Columns** field well, and two or more measures to the **Values** field well\.
-
    + To create a clustered pivot table, drag one or more dimensions to the **Rows** field well, one or more dimensions to the **Columns** field well, and a measure to the **Values** field well\.
 
    You can also select multiple fields for all of the pivot table field wells if you want to, to combine the multi\-measure and clustered pivot table approaches\.

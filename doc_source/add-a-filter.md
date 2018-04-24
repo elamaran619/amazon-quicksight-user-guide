@@ -8,7 +8,7 @@ Once you apply a filter to a visual, a filter icon appears on the visual so you 
 
 You can create filters on text \(string data type\), numeric \(int or decimal data types\) and date fields\. Depending on the data type of the field you choose, you are offered different filtering options, as described in the following topics\. 
 
-
+**Topics**
 + [Adding a Text Filter](add-a-text-filter.md)
 + [Adding a Numeric Filter](add-a-numeric-filter.md)
 + [Adding a Date Filter](add-a-date-filter2.md)

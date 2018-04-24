@@ -31,26 +31,22 @@ If you want to create a data set using an existing Amazon Athena data source, us
 1. For **Database: contain sets of tables\.**, choose **Select**, and then choose your Athena database\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-select-dbschema.png)
 **Note**  
-If you want to create a custom SQL query, click **Edit/Preview data** to edit a query\. If you do this without selecting a table, you will see an error in the data preview area\. You can safely ignore this\. The error is saying that there is no data to display until your query is created\. 
+If you want to create a custom SQL query, click **Edit/Preview data** to edit a query\. If you do this without selecting a table, you see an error in the data preview area\. You can safely ignore this\. The error is saying that there is no data to display until your query is created\. 
 
 1. Choose one of the following options:
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to begin data preparation\. Choose to prepare data at this point if you are planning on writing a SQL query, rather than selecting data from a single table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-
    + Otherwise, choose a table, and then choose **Select** to confirm\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-select-table.png)
 
-1. If you did not choose to prepare the data in the previous step, you will see the following screen\.  
+1. If you didn't choose to prepare the data in the previous step, the following screen appears\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-finish-data-set.png)
 
-   To load your data into SPICE, choose **Import to SPICE**\. The green indicator shows whether or not you have space available\. 
+   To load your data into [SPICE](welcome.md#spice), choose **Import to SPICE**\. The green indicator shows whether or not you have space available\. 
 
-   Alternately, you can choose to query your data without using SPICE\. To do this, choose **Directly query your data** 
+   Alternately, you can choose to query your data without using SPICE\. To do this, choose **Directly query your data**\.
 
 1. After choosing how to query your data, choose one of the following options:
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to begin data preparation for the selected table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-
    + To create a data set and analyze the data using the table as\-is, choose **Visualize**\.
 
 ## Create a Data Set Using an Existing Salesforce Data Source<a name="create-a-data-set-existing-salesforce"></a>
@@ -69,19 +65,15 @@ Use the following procedure to create a data set using an existing Salesforce da
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/salesforce2.png)
 
 1. Choose one of the following options:
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-
    + Otherwise, choose a report or object and then choose **Select**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/salesforce3.png)
 
 1. Choose one of the following options:
-
    + To create a data set and an analysis using the data as\-is, choose **Visualize**\.
 **Note**  
-If you don't have enough SPICE capacity, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size or apply a filter that reduces the number of rows returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
+If you don't have enough [SPICE](welcome.md#spice) capacity, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size or apply a filter that reduces the number of rows returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/salesforce4.png)
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation for the selected report or object\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
 
 ## Creating a Data Set Using an Existing Database Data Source<a name="create-a-data-set-existing-database"></a>
@@ -94,27 +86,24 @@ Use the following procedure to create a data set using an existing database data
 
 1. In the **FROM EXISTING DATA SOURCES** section of the **Create a Data Set** page, choose the database data source to use, and then choose **Create Data Set**\.
 
-1. For **Schema: contain sets of tables**, choose **Select** and then choose a schema\. Note that in some cases where there is only a single schema in the database, that schema will be automatically chosen and the schema selection option won't be displayed\.  
+1. For **Schema: contain sets of tables**, choose **Select** and then choose a schema\. 
+
+   In some cases where there is only a single schema in the database, that schema is automatically chosen and the schema selection option isn't displayed\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-schema.png)
 
 1. Choose one of the following options:
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Typically, you would choose to prepare data at this point if you are planning on writing a SQL query rather than selecting data from a single table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-
    + Otherwise, choose a table and then choose **Select**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-table.png)
 
 1. Choose one of the following options:
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation for the selected table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-
-   + To create a data set and an analysis using the table data as\-is, and to import the data set data into SPICE for improved performance \(recommended\), check the SPICE indicator to see if you have enough space\.  
+   + To create a data set and an analysis using the table data as\-is, and to import the data set data into [SPICE](welcome.md#spice) for improved performance \(recommended\), check the SPICE indicator to see if you have enough space\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-meter.png)
 
      If you have enough SPICE capacity, choose the **Import to SPICE for quicker analytics** radio button and then create an analysis by choosing **Visualize**\.
 **Note**  
 If you want to use SPICE and you don't have enough space, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size, apply a filter, or write a SQL query that reduces the number of rows or columns returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-or-query2.png)
-
    + To create a data set and an analysis using the table data as\-is, and to have the data queried directly from the database, choose the **Directly query your data** radio button and then create an analysis by choosing **Visualize**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-or-query3.png)

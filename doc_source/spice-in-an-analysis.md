@@ -1,6 +1,6 @@
 # SPICE Data in an Analysis<a name="spice-in-an-analysis"></a>
 
-When you use SPICE data to create an analysis, a data import indicator appears next to the data set list at the top of the **Fields list** pane\. When you first open the analysis and the data set is importing, this icon appears as a spinner\.
+When you use [SPICE](welcome.md#spice) data to create an analysis, a data import indicator appears next to the data set list at the top of the **Fields list** pane\. When you first open the analysis and the data set is importing, this icon appears as a spinner\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/importing-data-icon.png)
 

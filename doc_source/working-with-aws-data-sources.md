@@ -2,7 +2,7 @@
 
 Use this section to help you configure autodiscovery, manage permissions, and authorize connections\.
 
-
+**Topics**
 + [Allowing Autodiscovery of AWS Resources](autodiscover-aws-data-sources.md)
 + [Authorizing Connections from Amazon QuickSight to AWS Data Stores](enabling-access.md)
 + [Exploring Your AWS Data in Amazon QuickSight](explore-in-quicksight.md)

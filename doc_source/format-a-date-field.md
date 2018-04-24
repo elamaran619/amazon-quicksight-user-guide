@@ -11,21 +11,14 @@ If you want to format a date field by choosing from a list of common options, yo
 Use the following procedure to change a date field's format by choosing a list option\.
 
 1. Choose one of the following options:
-
    + In the **Field list** pane, choose the selector icon to the right of the date field you want to format\.
-
    + On any visual that contains an on\-visual editor associated with the date field you want to format, choose that on\-visual editor\.
-
    + Expand the **Field wells** pane, then choose the field well associated with the date field you want to change\.
 
 1. Choose **Format**, and then choose the format you want\. The following quick formatting options are offered for date fields:
-
    + Show the month, day, year, and time\.
-
    + Show the month, day, and year\.
-
    + Show the month and year\.
-
    + Show the year\.
 
 ## Format a Date Field Manually<a name="format-a-date-field-manual"></a>
@@ -35,11 +28,8 @@ Manually formatting the field allows you to choose from a more extensive list of
 Use the following procedure to manually change a date field's format\.
 
 1. Choose one of the following options:
-
    + In the **Field list** pane, choose the selector icon to the right of the date field you want to format\.
-
    + On any visual that contains an on\-visual editor associated with the date field you want to format, choose that on\-visual editor\.
-
    + Expand the **Field wells** pane, then choose the field well associated with the date field you want to change\.
 
 1. Choose **Format** and then choose **More Formatting Options\.\.\.**\.

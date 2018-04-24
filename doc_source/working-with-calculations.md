@@ -1,6 +1,10 @@
 # Working with Table Calculations<a name="working-with-calculations"></a>
 
-You can use table calculations to apply statistical functions to pivot table cells\. Use the following sections to understand how to apply or remove a table calculation, the functions you can use in calculations, and the different ways you can apply a calculation to a pivot table\.
+You can use table calculations to apply statistical functions to pivot table cells that contain measures \(numeric values\)\. Use the following sections to understand which functions you can use in calculations, and how to apply or remove them \.
+
+If the data type doesn't work properly for the calculation you create, then the data type of the cell values is changed\. For example, let's say you apply the **Rank** function to a currency data type\. The values display as integers rather than currency, because rank isn't measured as currency\. Similarly, if you apply the **Percent difference** function instead, the cell values display as percentages\. 
+
+Table calculations can be added only to non\-aggregated fields\. For example, if you create a calculated field that is a sum of a measure, you can't add a table calculation to it\.
 
 ## Adding and Removing Table Calculations<a name="adding-a-calculation"></a>
 
@@ -9,9 +13,6 @@ Use the following procedures to add, modify, and remove table calculation on a p
 ### Adding a Table Calculation<a name="add-a-calculation"></a>
 
 Use the following procedure to add a table calculation to a pivot table\.
-
-**Note**  
-Applying a table calculation changes the data type of the cell values if the data type doesn't make sense with the applied calculation\. For example, if you apply the **Rank** function to a numeric field that you modified to use a currency data type, the cell values display as integers rather than currency\. Similarly, if you apply the **Percent difference** function instead, the cell values display as percentages rather than currency\. For more information about changing field data types in an analysis, see [Changing a Field Data Type](changing-an-analysis-field-data-type.md)\.
 
 1. Expand the **Field wells** pane by choosing the expand icon\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/expand-field-wells.png)
@@ -43,7 +44,7 @@ Use the following procedure to remove a table calculation from a pivot table\.
 
 You can use the following functions in pivot table calculations\.
 
-
+**Topics**
 + [Running Total](#running-total)
 + [Difference](#difference)
 + [Percent Difference](#percent-difference)
@@ -121,7 +122,7 @@ Applying the percentile function across the table rows gives you the following r
 
 You can apply table calculations in the ways described following\. Table calculations are applied to only one field at a time, so if you have a pivot table with multiple values, calculations are only applied to the cells representing the field you applied the calculation to\.
 
-
+**Topics**
 + [Table Across](#table-across)
 + [Table Down](#table-down)
 + [Table Across Down](#table-across-down)

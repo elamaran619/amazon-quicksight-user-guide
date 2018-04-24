@@ -21,17 +21,13 @@ Joined reports aren't supported as Amazon QuickSight data sources\.
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/salesforce2.png)
 
 1. Choose one of the following options:
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-
    + Otherwise, choose a report or object and then choose **Select**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/salesforce3.png)
 
 1. Choose one of the following options:
-
    + To create a data set and an analysis using the data as\-is, choose **Visualize**\.
 **Note**  
-If you don't have enough SPICE capacity, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size or apply a filter that reduces the number of rows returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
+If you don't have enough [SPICE](welcome.md#spice) capacity, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size or apply a filter that reduces the number of rows returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/salesforce4.png)
-
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation for the selected report or object\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.

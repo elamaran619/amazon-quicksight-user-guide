@@ -2,7 +2,7 @@
 
 To create your first analysis using your own database data, follow these steps:
 
-
+**Topics**
 + [Connect to a Database Data Source](#step-1-connect-to-database-data-source)
 + [Step 2: Create a Database Data Set and an Analysis](#step-2-create-database-data-set-and-analysis)
 + [Step 3: Create a Visual](#step-3-create-database-visual)
@@ -11,7 +11,9 @@ To create your first analysis using your own database data, follow these steps:
 
 Choose the situation that applies to you and follow the steps in the procedure to connect to your data source\.
 
-Your Amazon QuickSight Account
+**Topics**
++ [Has Autodiscovered AWS Data Sources](#step-1-connect-to-data-source-autodiscover)
++ [Does Not Have Autodiscovered AWS Data Sources](#step-1-connect-to-data-source-no-autodiscover)
 
 ### Your Amazon QuickSight Account Has Autodiscovered AWS Data Sources<a name="step-1-connect-to-data-source-autodiscover"></a>
 
@@ -30,15 +32,10 @@ If your Amazon QuickSight account has any autodiscovered AWS data sources, icons
 1. In the **FROM NEW DATA SOURCES** section of the **Create a Data Set** page, choose either the **RDS** or the **Redshift Auto\-discovered** icon, depending on the AWS service you want to connect to\.
 
 1. Enter the connection information for the data source, as follows:
-
    + For **Data source name**, type a name for the data source\.
-
    + For **Instance ID**, choose the name of the instance or cluster you want to connect to\.
-
    + **Database name** shows the default database for the **Instance ID** cluster or instance\. If you want to use a different database on that cluster or instance, type its name\.
-
    + For **Username**, type the user name of an account that has permissions to access the target database, and also to read \(perform a `SELECT` statement on\) any tables in that database that you want to use\.
-
    + For **Password**, type the password associated with the user account you entered\.
 
 1. \(Optional\) Choose **Validate connection** to verify your connection information is correct\.
@@ -66,23 +63,14 @@ If you don't have any autodiscovered AWS data sources, use the following procedu
 1. In the **FROM NEW DATA SOURCES** section of the **Create a Data Set** page, choose the **Redshift Manual connect** icon if you want to connect to an Amazon Redshift cluster in another region or associated with a different AWS account, or choose the appropriate database management system icon to connect to an instance of Amazon Aurora, MariaDB, Microsoft SQL Server, MySQL, or PostgreSQL\.
 
 1. Enter the connection information for the data source, as follows:
-
    + For **Data source name**, type a name for the data source\.
-
    + For **Database server**, type or paste one of the following values:
-
      + For an Amazon Redshift cluster or Amazon RDS instance, type the endpoint of the cluster or instance without the port number\. For example, if the endpoint value is **clustername\.1234abcd\.us\-west\-2\.redshift\.amazonaws\.com:1234**, then type **clustername\.1234abcd\.us\-west\-2\.redshift\.amazonaws\.com**\. You can get the endpoint value from the **Endpoint** field on the cluster or instance detail page in the AWS console\.
-
      + For an Amazon EC2 instance of MariaDB, Microsoft SQL Server, MySQL, or PostgreSQL, type the public DNS\. You can get the public DNS value from the **Public DNS** field on the instance detail pane in the EC2 console\.
-
-     + For a non\-Amazon EC2 instance of MariaDB, Microsoft SQL Server, MySQL, or PostgreSQL, type the hostname or public IP address of the database server\.
-
+     + For a non–Amazon EC2 instance of MariaDB, Microsoft SQL Server, MySQL, or PostgreSQL, type the host name or public IP address of the database server\.
    + For **Port**, type the port that the cluster or instance uses for connections\.
-
    + For **Database name**, type the name of the database that you want to use\.
-
    + For **Username**, type the user name of an account that has permissions to access the target database and also to read \(perform a `SELECT` statement on\) any tables in that database that you want to use\.
-
    + For **Password**, type the password associated with the user account you entered\.
 
 1. \(Optional\) If you are connecting to anything other than an Amazon Redshift cluster and you ***don't*** want a secured connection, uncheck **Enable SSL**\. *We strongly recommend leaving this checked*, as an unsecured connection can be open to tampering\. For more information on how the target instance uses Secure Sockets Layer \(SSL\) to secure connections, refer to the documentation for that database management system\.

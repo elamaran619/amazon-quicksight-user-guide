@@ -16,7 +16,7 @@ To access the user account menu, choose your user icon in the upper right of any
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/user-account-menu.png)
 
-****Manage QuickSight**** – If you have appropriate permissions, you can access administrative functions such as managing users, subscriptions, SPICE capacity, and account settings\.
+****Manage QuickSight**** – If you have appropriate permissions, you can access administrative functions such as managing users, subscriptions, [SPICE](welcome.md#spice) capacity, and account settings\.
 
 ****Community**** – Choose this option to visit the Amazon QuickSight online community\.
 

@@ -3,7 +3,7 @@
 Most visual types offer the ability to change data sort order\. Whether sorting is supported and what visual element you can sort by depends on the visual type\. 
 
 **Important**  
-Sorting by text fields \(those with a string data type\) isn't supported for visuals based on SPICE data sets\.
+Sorting by text fields \(those with a string data type\) isn't supported for visuals based on [SPICE](welcome.md#spice) data sets\.
 
 Use the following table to identify the field wells/on\-visual editors that support sorting for each visual type\.
 
@@ -12,15 +12,18 @@ Use the following table to identify the field wells/on\-visual editors that supp
 
 | Visual type | Field well or on\-visual editor | 
 | --- | --- | 
-| Horizontal bar charts \(all\) | Y axis and Value | 
-| Vertical bar charts \(all\) | X axis and Value | 
+| Bar charts \(all Horizontal\) | Y axis and Value | 
+| Bar charts \(all Vertical\) | X axis and Value | 
 | Combo charts \(all\) | X axis, Bars, and Lines | 
-| Line charts \(all\) | X axis and Value | 
+| Geospatial charts | Sorting not supported | 
+| Heat map | Columns and Values | 
+| KPIs | Sorting not supported | 
+| Line charts \(all\) | X axis and Value for numeric measures only | 
+| Pie chart | Value and Group/Color | 
 | Pivot table | Column | 
 | Scatter plot | Sorting not supported | 
+| Tabular Reports | Group by and Value | 
 | Tree map | Size, Group by, and Color | 
-| Pie graph | Value and Group/Color | 
-| Heat map | Columns and Values | 
 
 ## Sorting a Visual<a name="sort-a-visual"></a>
 

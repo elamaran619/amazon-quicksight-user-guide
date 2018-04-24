@@ -10,11 +10,8 @@ Use the following procedure to export data from a visual to a file with the comm
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/export-visual-to-csv.png)
 
 1.  Depending on your browser settings, one of the following happens: 
-
    +  The file automatically goes to your default **Download** location\. 
-
    +  A dialog box appears so you can choose a file name and location\. 
-
    +  A dialog box appears so you can choose to open the file with the default software or to save the file\. If you choose to save, you can choose a file name and location\. 
 
    By default, the CSV file name is the name of your analysis or dashboard\. To make the file name unique, it has a sequential timestamp \(a Unix epoch data type\) or a date in the format `yyyy-MM-dd_THH_mm_ss.SSSZ`\. You can choose rename the downloaded file, for example to include the name of the visual\. 

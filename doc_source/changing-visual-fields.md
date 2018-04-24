@@ -9,7 +9,7 @@ You can also change the data type and format of numeric fields by using field we
 
 Use the following topics to learn more about adding, removing, and modifying fields on a visual\.
 
-
+**Topics**
 + [Using Visual Field Controls](using-visual-field-controls.md)
 + [Adding or Removing a Field](adding-or-removing-a-field.md)
 + [Changing the Field Associated with a Visual Element](changing-a-field-association.md)

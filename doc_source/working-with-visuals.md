@@ -8,7 +8,7 @@ After you have created a visual, you can modify it in a range of ways to customi
 
 Use the following sections to learn how to create and modify visuals\.
 
-
+**Topics**
 + [Creating an Amazon QuickSight Visual](creating-a-visual.md)
 + [Renaming an Amazon QuickSight Visual](renaming-a-visual.md)
 + [Deleting an Amazon QuickSight Visual](deleting-a-visual.md)

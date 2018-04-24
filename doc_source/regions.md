@@ -2,7 +2,7 @@
 
 AWS cloud computing resources are housed in highly available data center facilities in different areas of the world \(for example, North America, Europe, or Asia\)\. Each data center location is called a region\. For more information about AWS regions, see [Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)\.
 
-Amazon QuickSight is currently supported in the following regions and IP address ranges\.
+Amazon QuickSight is currently supported in the following regions and IP address ranges\. 
 
 
 | Region | IP address range | 
@@ -16,7 +16,7 @@ Amazon QuickSight is currently supported in the following regions and IP address
 
 When you sign up for Amazon QuickSight, you select a home region\. This is the AWS Region where you want Amazon QuickSight to allocate the SPICE capacity associated with any user accounts you create\. Typically, this will be the region closest to your physical location, and the same region where you have the majority of your other AWS resources \(like Amazon RDS instances\)\. For more information about how SPICE capacity is allocated, see [Managing SPICE Capacity](managing-spice-capacity.md)\.
 
-When you sign in to Amazon QuickSight using the default URL of quicksight\.aws\.amazon\.com, the US East \(N\. Virginia\) \(us\-east\-1\) region is selected by default\. If you sign in using a URL that specifies a supported region, for example us\-west\-2\-quicksight\.aws\.amazon\.com, the region specified in the URL is selected\. You can change to other supported regions by using the region selector on the right side of the application bar\.
+When you sign in to Amazon QuickSight using the default URL of aws\.amazon\.com/quicksight, the US East \(N\. Virginia\) \(us\-east\-1\) region is selected by default\. If you sign in using a URL that specifies a supported region, for example us\-west\-2\.quicksight\.aws\.amazon\.com, the region specified in the URL is selected\. You can change to other supported regions by using the region selector on the right side of the application bar\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/region-selector.png)
 

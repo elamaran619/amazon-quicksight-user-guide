@@ -8,7 +8,7 @@ You can prepare a data set when you create it, or by editing it later\. For more
 
 Use the following topics to learn more about data preparation\.
 
-
+**Topics**
 + [Preparing Data Sets](preparing-data-sets.md)
 + [Choosing File Upload Settings](choosing-file-upload-settings.md)
 + [Joining Tables](joining-tables.md)

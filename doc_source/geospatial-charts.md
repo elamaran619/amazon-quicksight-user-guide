@@ -8,6 +8,10 @@ Here is a sample of a map chart\. The latitude, longitude, country, state, and c
 
 For more information about setting up geospatial data types and hierarchies, see [Adding Geospatial Data](geospatial-data-prep.md)\.
 
+**Important**  
+Geospatial charts in Amazon QuickSight currently aren't supported in some geographies, including India and China\. We are working on adding support for more regions\.  
+For now, automatic geocoding works only for US locations\. You can add latitude and longitude coordinates to your data to make geospatial charts\. For help with geospatial issues, see [Geospatial Troubleshooting](geospatial-troubleshooting.md)\.
+
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/geo-mapchart-sample-1.png)
 
 Use the following table to understand the features supported by geospatial maps\.
@@ -20,3 +24,4 @@ Use the following table to understand the features supported by geospatial maps\
 | Legend display | Yes | Displays contents of the field in the Color well | [Displaying the Visual Legend](formatting-a-visual.md#displaying-the-visual-legend) | 
 | Changing the title display | Yes |  | [Displaying a Visual's Title](formatting-a-visual.md#displaying-visual-title) | 
 | Changing the visual colors | Partial | You can change the color of the circles on the map, but not for individual values\. | [Changing Visual Colors in Amazon QuickSight](changing-visual-colors.md) | 
+| Adding drill\-downs | Yes | You can add drill\-down levels to the Geospatial and Color field wells\. | [Adding Drill\-Downs to Visual Data in Amazon QuickSight](adding-drill-downs.md) | 

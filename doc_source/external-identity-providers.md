@@ -8,10 +8,7 @@ With identity federation, your users get one\-click access to their Amazon Quick
 
 In the following diagram, you can see a typical authentication flow between Amazon QuickSight and a third\-party identity provider\. In this example, the administrator has set up a sign\-in page to access Amazon QuickSight, called `applications.exampleco.com`\. The web page uses a federation service that complies with SAML 2\.0 to trigger a sign\-on request\. The administrator has also set up a user to allow access to Amazon QuickSight\.
 
-![\[Amazon QuickSight SAML Diagram. The diagram contains two boxes. The first one
-                    describes an authentication process inside the enterprise. The second one
-                    describes authentication inside AWS. The process is described in the text
-                    following the table. \]](http://docs.aws.amazon.com/quicksight/latest/user/images/SAML-Flow-Diagram.png)
+![\[Amazon QuickSight SAML Diagram. The diagram contains two boxes. The first one describes an authentication process inside the enterprise. The second one describes authentication inside AWS. The process is described in the text following the table.\]](http://docs.aws.amazon.com/quicksight/latest/user/images/SAML-Flow-Diagram.png)
 
 In this authentication flow, the following happens:
 

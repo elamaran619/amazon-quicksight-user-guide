@@ -83,9 +83,6 @@
    ```
 
 Please see the following for more detail on the solution in this example:
-
 + [SSL Support for MySQL DB Instances](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport.html)
-
 + [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html)
-
 + [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/secure-connections.html)

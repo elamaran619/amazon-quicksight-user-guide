@@ -4,7 +4,7 @@ You can change the format of a numeric or date field within the context of an an
 
 Use menu options in the **Field list** pane, visual field wells, or on\-visual editors to make simple format changes, or use the **Format Data** pane to make more extensive formatting changes\.
 
-
+**Topics**
 + [Format a Date Field](format-a-date-field.md)
 + [Format a Number Field](format-a-number-field.md)
 + [Format a Currency Field](format-a-currency-field.md)

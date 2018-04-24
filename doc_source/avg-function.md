@@ -1,4 +1,4 @@
-# avg Function<a name="avg-function"></a>
+# avg<a name="avg-function"></a>
 
 The `avg` function averages the set of numbers in the specified measure, grouped by the chosen dimension or dimensions\. For example, `avg(sales amount)` returns the average for that measure grouped by the \(optional\) chosen dimension\.
 

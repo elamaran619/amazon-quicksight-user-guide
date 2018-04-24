@@ -4,7 +4,7 @@ For Amazon QuickSight to access your AWS resources, you must create security gro
 
 Use the procedures in the following sections to enable Amazon QuickSight connections\.
 
-
+**Topics**
 + [Authorizing Connections from Amazon QuickSight to Amazon RDS DB Instances](enabling-access-rds.md)
 + [Authorizing Connections from Amazon QuickSight to Amazon Redshift Clusters](enabling-access-redshift.md)
 + [Authorizing Connections from Amazon QuickSight to Amazon EC2 Instances](enabling-access-ec2.md)

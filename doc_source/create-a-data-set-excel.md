@@ -1,6 +1,6 @@
 # Creating a Data Set Using a Microsoft Excel File<a name="create-a-data-set-excel"></a>
 
-To create a data set using a Microsoft Excel file data source, upload an \.xlsx file from a local or networked drive\. The data will be imported into SPICE\.
+To create a data set using a Microsoft Excel file data source, upload an \.xlsx file from a local or networked drive\. The data will be imported into [SPICE](welcome.md#spice)\.
 
  For more information about creating new Amazon S3 data sets using Amazon S3 data sources, see [Creating a Data Set Using an Existing Amazon S3 Data Source](create-a-data-set-existing.md#create-a-data-set-existing-s3) or [Creating a Data Set Using Amazon S3 Files](create-a-data-set-s3.md)\. 
 

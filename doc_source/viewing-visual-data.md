@@ -4,7 +4,7 @@ Amazon QuickSight offers a variety of ways to see the details of the data being 
 
 Use the following sections to learn more about viewing data in visuals\.
 
-
+**Topics**
 + [Viewing Visual Details](viewing-visual-details.md)
 + [Scrolling Through Visual Data](scrolling-through-visual-data.md)
 + [Focusing on Visual Elements](focusing-on-visual-elements.md)

@@ -45,9 +45,7 @@ Use the following procedure to create a clustered bar combo chart\.
 1. On the **Visual types** pane, choose the clustered bar combo chart icon\.
 
 1. From the **Fields list** pane, drag the fields you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\. You can create combo charts as follows:
-
    + To create a single\-measure clustered bar combo chart, drag a dimension to the **X axis** field well\. Then drag one measure to either the **Bars** or **Lines** field well\.
-
    + To create a multi\-measure clustered bar combo chart, drag a dimension or dimensions to the **X axis** field well\. Then drag two or more measures to the **Bars** or **Lines** field well\. 
 
      Optionally, add a dimension to the **Group/Color** field well\. If you have a field in **Group/Color**, you can't have more than one field under **Bars**\.  

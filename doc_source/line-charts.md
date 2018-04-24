@@ -1,11 +1,8 @@
 # Using Line Charts<a name="line-charts"></a>
 
 Use line charts to compare changes in measure values over period of time, for the following scenarios: 
-
 + One measure over a period of time, for example gross sales by month\. 
-
 + Multiple measures over a period of time, for example gross sales and net sales by month\. 
-
 + One measure for a dimension over a period of time, for example number of flight delays per day by airline\. 
 
 Line charts show the individual values of a set of measures or dimensions against the range displayed by the Y axis\. Area line charts differ from regular line charts in that each value is represented by a colored area of the chart instead of just a line, to make it easier to evaluate item values relative to each other\.
@@ -22,6 +19,6 @@ Each line on the chart represents a measure value across a period of time\. When
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/line-on-hover-legend.png)
 
-
+**Topics**
 + [Working with a Line Chart](line-chart.md)
 + [Working with an Area Line Chart](area-line-chart.md)

@@ -3,9 +3,7 @@
 Use the following procedure to prepare a database data set\. The data for this data set can be from an AWS database data source like Amazon Athena, Amazon RDS, or Amazon Redshift, or from an external database instance\. 
 
 1. Open a database data set for preparation by choosing one of the following options:
-
    + Create a new database data set and choose **Edit/Preview data**\. For more information about creating a new data set using a new database data source, see [Creating Data Sets from New Database Data Sources](creating-database-data-sets.md)\. For more information about creating a new data set using an existing database data source, see [Creating a Data Set Using an Existing Database Data Source](create-a-data-set-existing.md#create-a-data-set-existing-database)\.
-
    + Open an existing database data set for editing from either the analysis page or the **Your Data Sets** page\. For more information about opening an existing data set for data preparation, see [Editing a Data Set](edit-a-data-set.md)\.
 
 1. \(Optional\) On the data preparation page, type a name into the data set name box on the application bar\.
@@ -14,7 +12,6 @@ Use the following procedure to prepare a database data set\. The data for this d
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/data-set-name-db.png)
 
 1. Decide how your data is selected by choosing one of the following:
-
    + To use a single table to provide data, choose a table or change the table selection\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/database-tables.png)
 
@@ -22,9 +19,7 @@ Use the following procedure to prepare a database data set\. The data for this d
 
      Any table whose name contains the search term is shown\. Search is case\-insensitive and wildcards are not supported\. Choose the cancel icon \(**X**\) to the right of the search box to return to viewing all tables\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/data-prep-tables.png)
-
-   + To use two or more joined tables to provide data, choose two tables and join them using the join pane\. You must import data into SPICE if you choose to use joined tables\. For more information about joining tables using the Amazon QuickSight interface, see [Joining Tables](joining-tables.md)\.
-
+   + To use two or more joined tables to provide data, choose two tables and join them using the join pane\. You must import data into [SPICE](welcome.md#spice) if you choose to use joined tables\. For more information about joining tables using the Amazon QuickSight interface, see [Joining Tables](joining-tables.md)\.
    + To use a custom SQL query to provide data in a new data set, choose **Switch to Custom SQL** tool on the **Tables** pane\. For more information, see [Using a SQL Query](adding-a-SQL-query.md)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/choose-sql.png)
 
@@ -32,15 +27,10 @@ Use the following procedure to prepare a database data set\. The data for this d
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/edit-sql.png)
 
 1. Prepare the data by doing one or more of the following:
-
    + [Selecting Fields](selecting-fields.md)
-
    + [Changing a Field Name](changing-a-field-name.md)
-
    + [Changing a Field Data Type](changing-a-field-data-type.md)
-
    + [Adding a Calculated Field During Data Preparation](working-with-calculated-fields.md#adding-a-calculated-field)
-
    + [Adding a Filter](adding-a-filter.md)
 
 1. If you aren't joining tables, choose whether to query the database directly or to import the data into SPICE by selecting either the **Query** or **SPICE** radio button\. We recommend using SPICE for enhanced performance\.   

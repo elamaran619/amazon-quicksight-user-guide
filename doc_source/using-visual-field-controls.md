@@ -1,25 +1,18 @@
 # Using Visual Field Controls<a name="using-visual-field-controls"></a>
 
 You can edit the fields used by a visual by using the following user interface \(UI\) controls:
-
 + The **Fields list** pane\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/fields-list.png)
-
 + The field wells\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/field-wells2.png)
-
 + The on\-visual editors\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/on-visual-editor.png)
-
 + The drop targets on the visual\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drop-targets.png)
 
 You can use these controls as follows:
-
 + You can create a visual and assign fields to different elements on it by selecting fields in the **Fields list** pane, or dragging fields to field wells or drop targets\.
-
 + You can change the field associated with a visual element by dragging a field to a drop target or field well, or selecting a different field in a field well or on\-visual editor\.
-
 + You can change field aggregation or date granularity by using the field wells or the on\-visual editors\.
 
 The field wells, on\-visual editors, and drop targets available on a specific visual depends on the visual type selected\. 

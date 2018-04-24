@@ -2,6 +2,22 @@
 
 Amazon QuickSight offers a range of visual types that you can use to display your data\. Use the topics in this section to learn more about the capabilities of each visual type\.
 
+**Topics**
++ [Measures and Dimensions in Visuals](#measures-and-dimensions-in-visuals)
++ [Display Limits in Visuals](#display-limits)
++ [Using AutoGraph](autograph.md)
++ [Using Bar Charts](bar-charts.md)
++ [Using Combo Charts](combo-charts.md)
++ [Using Geospatial Charts \(Maps\)](geospatial-charts.md)
++ [Using Heat Maps](heat-map.md)
++ [Using KPIs](kpi.md)
++ [Using Line Charts](line-charts.md)
++ [Using Pie Charts](pie-chart.md)
++ [Using Pivot Table](pivot-table.md)
++ [Using Scatter Plots](scatter-plot.md)
++ [Using Tabular Reports](tabular.md)
++ [Using Tree Maps](tree-map.md)
+
 ## Measures and Dimensions in Visuals<a name="measures-and-dimensions-in-visuals"></a>
 
 When we describe how to use the different visual types, we use the term *measure* to refer to numeric values that you use for measurement, comparison, and aggregation in visuals\. A measure can be either a numeric field, like product cost, or a numeric aggregate on a field of any data type, like count of transaction IDs\.
@@ -40,3 +56,19 @@ Use the following procedure to hide or display the **other** category\.
 
 1. Choose the on\-visual menu at the upper\-right corner of the visual, and then choose **Hide "other" category** or **Show "other" category**, as appropriate\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/hide-other.png)
+
+**Topics**
++ [Measures and Dimensions in Visuals](#measures-and-dimensions-in-visuals)
++ [Display Limits in Visuals](#display-limits)
++ [Using AutoGraph](autograph.md)
++ [Using Bar Charts](bar-charts.md)
++ [Using Combo Charts](combo-charts.md)
++ [Using Geospatial Charts \(Maps\)](geospatial-charts.md)
++ [Using Heat Maps](heat-map.md)
++ [Using KPIs](kpi.md)
++ [Using Line Charts](line-charts.md)
++ [Using Pie Charts](pie-chart.md)
++ [Using Pivot Table](pivot-table.md)
++ [Using Scatter Plots](scatter-plot.md)
++ [Using Tabular Reports](tabular.md)
++ [Using Tree Maps](tree-map.md)

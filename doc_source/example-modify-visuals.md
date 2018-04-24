@@ -6,7 +6,7 @@ Use the following procedures to modify the visuals created using the procedures 
 
 Modify the line chart visual by making it show an additional measure by date, and also by changing the chart color\.
 
-1. In the **Marketing** analysis, select the line chart visual\.
+1. In the analysis, select the line chart visual\.
 
 1. Add another measure to the visual\.
 
@@ -25,7 +25,7 @@ Modify the line chart visual by making it show an additional measure by date, an
 
 Modify the scatter plot visual by changing the data granularity\.
 
-1. In the **Marketing** analysis, select the scatter plot visual\.
+1. In the analysis, select the scatter plot visual\.
 
 1. Expand the **Field wells** pane by choosing the expand icon\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/example-field-expand.png)  
@@ -45,7 +45,7 @@ Modify both visuals by changing visual size and location, and by adding a filter
 
 Modify both visuals by changing visual size and location\.
 
-1. In the **Marketing** analysis, select the line chart visual\.
+1. In the analysis, select the line chart visual\.
 
 1. Choose the resize handle in the lower right corner of the visual and drag up and to the left, until the visual is half its former size both horizontally and vertically\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/shrink-visual.png)
@@ -60,7 +60,7 @@ Modify both visuals by changing visual size and location\.
 
 Modify both visuals by adding a filter and applying it to both of them\.
 
-1. In the **Marketing** analysis, choose the scatter plot visual\.
+1. In the analysis, choose the scatter plot visual\.
 
 1. Choose **Filter** in the tool bar\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/pick-filter.png)
@@ -98,4 +98,4 @@ Modify both visuals by adding a filter and applying it to both of them\.
 
 ## Next Steps<a name="example-next-step-visuals"></a>
 
-Create a dashboard from the Marketing analysis by using the procedure in [Tutorial: Create a Dashboard](example-create-a-dashboard.md)\.
+Create a dashboard from the analysis by using the procedure in [Tutorial: Create a Dashboard](example-create-a-dashboard.md)\.

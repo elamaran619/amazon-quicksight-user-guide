@@ -33,7 +33,6 @@ Use the following procedure to create a new visual\.
    A new, blank visual is created and receives focus\.
 
 1. Choose one of the following options:
-
    + Create a visual by choosing fields and letting Amazon QuickSight determine the most appropriate visual type\.
 
      1. In the **Visual types** pane, choose the AutoGraph icon\.  
@@ -42,7 +41,6 @@ Use the following procedure to create a new visual\.
      1. In the **Fields list** pane, choose the fields you want to use\.
 
         Amazon QuickSight creates the visual, using the visual type it determines is most compatible with the data you selected\.
-
    + Create a visual by choosing a visual type and then choosing fields to populate it\.
 
      1. In the **Visual types** pane, choose the icon of the visual type you want to use\.  
@@ -54,7 +52,6 @@ Use the following procedure to create a new visual\.
      1. From the **Fields list** pane, drag the fields you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the color of the target field well\. If you choose to use a dimension field to populate a **Value** field well, the **Count** aggregate function is automatically applied to it to create a numeric value\.
 
         Amazon QuickSight creates the visual using the visual type you selected\.
-
    + Create a visual using a suggestion\.
 
      On the tool bar, choose **Suggested**, then choose a suggested visual\.  

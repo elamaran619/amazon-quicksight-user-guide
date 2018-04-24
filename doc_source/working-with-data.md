@@ -4,6 +4,6 @@ You can base your Amazon QuickSight analyses on a variety of data sources, inclu
 
 You can view your available data sets on the **Your Data Sets** page, which you reach by choosing **Manage data** on the Amazon QuickSight start page\. You can view available data sources and create a new data set on the **Create a Data Set** page, which you reach by choosing **New data set** on the **Your Data Sets** page\.
 
-
+**Topics**
 + [Working with Data Sources in Amazon QuickSight](working-with-data-sources.md)
 + [Working with Data Sets](working-with-data-sets.md)
