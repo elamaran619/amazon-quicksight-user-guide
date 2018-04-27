@@ -22,8 +22,9 @@ You should only edit Amazon QuickSight permissions to your AWS resources from wi
 
 1. If you have Amazon Athena databases, choose **Athena** to allow Amazon QuickSight to access them\.
 
-   If you choose to use Athena as a data source, make sure that in the previous step you have enabled Amazon QuickSight access to the Amazon S3 buckets in which your Athena data resides\.
-**Note**  
-The `QuickSightAthena` managed policy contains the necessary permissions for Amazon QuickSight to interact with Athena\. It doesn't have permissions for input buckets\. These can't be added because it is a managed policy and therefore static\. 
-
 1. Choose **Apply**\.
+
+**Note**  
+The `QuickSightAthena` managed policy contains the necessary permissions for Amazon QuickSight to interact with Athena\. However, it doesn't have permissions for input buckets\. Managed policies can't be changed\. So, even if you are using this policy you still need to enable access to the S3 buckets\.
+
+If you have difficulties accessing Athena, see [Troubleshooting Issues When Using Athena with Amazon QuickSight](troubleshoot-athena.md)\.

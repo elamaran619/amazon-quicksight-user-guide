@@ -35,16 +35,16 @@ You can view the Microsoft AD directory groups integrated with Amazon QuickSight
 
 ## Deactivating Enterprise User Accounts<a name="deactivate-user-groups-enterprise"></a>
 
-You can deactivate multiple user accounts at once by removing one or more Microsoft AD directory groups from integration with Amazon QuickSight\. 
+Deactivating a group or user account removes that group or user's access to Amazon QuickSight resources, like analyses or data sets\. However, it doesn't delete resources they own and it doesn't release their [SPICE](welcome.md#spice) capacity\. After deactivating a user, you can delete the user from your Amazon QuickSight account\. When you delete a user, QuickSight gives you the option to either delete the user's resources or transfer their resources to another user\.
 
 To deactivate a user account individually, remove that user from all Microsoft AD directory groups that are integrated with Amazon QuickSight\. To view the groups integrated with your Amazon QuickSight account, use the procedure in [Viewing User Account Details](#view-user-accounts-enterprise)\. 
 
-Deactivating a group or user account removes that group or user's access to Amazon QuickSight resources, like analyses or data sets\. However, it doesn't delete resources they own and it doesn't release their [SPICE](welcome.md#spice) capacity\. After deactivating a user, you can delete the user from your Amazon QuickSight account\. When you delete a user, QuickSight gives you the option to either delete the user's resources or transfer their resources to another user\.
+If you later need to reactivate a user account, put the user into a group with access to Amazon QuickSight\. This restores their access to Amazon QuickSight and to any existing resources that are still associated with that user account\. 
+
+You can activate or deactivate multiple user accounts at once by adding or removing one or more Microsoft AD directory groups from integration with Amazon QuickSight\. 
 
 **Important**  
 Removing all groups and users doesn't remove any resources and doesn't cancel your subscription to Amazon QuickSight\.
-
-If you later need to reactivate a user account, put the user into a group with access to Amazon QuickSight\. This restores their access to Amazon QuickSight and to any existing resources that are still associated with that user account\. 
 
 Use the following procedure to remove a Microsoft AD directory group from Amazon QuickSight\.
 
@@ -76,6 +76,4 @@ This action can't be undone\!
 
 ## Deleting Enterprise User Accounts<a name="delete-a-user-account-enterprise"></a>
 
-Deleting a user account works the same way in both the Standard and Enterprise editions of Amazon QuickSight\. However, for Enterprise edition you must first deactivate the user account\. For more information, see [Deactivating Enterprise User Accounts](#deactivate-user-groups-enterprise)\.
-
-User accounts can be deleted by a Amazon QuickSight administrator\. To delete a user account, use the procedure in [Deleting a User Account](managing-users.md#delete-a-user-account)\.
+Deleting a user account works the same way in both the Standard and Enterprise editions of Amazon QuickSight\. User accounts can be deleted by a Amazon QuickSight administrator\. To delete a user account, use the procedure in [Deleting a User Account](managing-users.md#delete-a-user-account)\.

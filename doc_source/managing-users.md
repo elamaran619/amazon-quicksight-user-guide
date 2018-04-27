@@ -75,7 +75,9 @@ You can view Amazon QuickSight user accounts on the **Manage Users** page\. Use 
 
 ## Deleting a User Account<a name="delete-a-user-account"></a>
 
-User accounts can be deleted by either an AWS administrator or an Amazon QuickSight administrator\. Deleting a user account works the same in both the Standard and Enterprise editions of Amazon QuickSight\. However, for Enterprise edition you must first deactivate the user account\. For more information about deactivating an Enterprise user account, see [Deactivating Enterprise User Accounts](managing-users-enterprise.md#deactivate-user-groups-enterprise)\.
+User accounts can be deleted by either an AWS administrator or an Amazon QuickSight administrator\. Deleting a user account works the same in both the Standard and Enterprise editions of Amazon QuickSight\. 
+
+Deleting a user account removes or transfers their resources\. In Enterprise edition, the network administrator can temporarily deactivate a user account by removing it from the network group that has access to Amazon QuickSight\. If a user is deleted, but not deactivated, that user can still access Amazon QuickSight as a new user\. For more information about deactivating an Enterprise user account, see [Deactivating Enterprise User Accounts](managing-users-enterprise.md#deactivate-user-groups-enterprise)\.
 
 Use the following procedure to delete a user account\. 
 
