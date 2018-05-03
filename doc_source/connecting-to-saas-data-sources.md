@@ -1,6 +1,6 @@
 # Creating a Data Source & Data Set from SaaS Sources<a name="connecting-to-saas-data-sources"></a>
 
-To analyze and report on data from software as a service \(SaaS\) applications, you can use SaaS connectors to access your data directly from Amazon QuickSight\. The SaaS connectors simplify accessing 3rd party application sources using OAuth, without any need to need to export the data to an intermediate data store\.
+To analyze and report on data from software as a service \(SaaS\) applications, you can use SaaS connectors to access your data directly from Amazon QuickSight\. The SaaS connectors simplify accessing 3rd party application sources using OAuth, without any need to export the data to an intermediate data store\.
 
 You can use either cloud\-based or server\-based instances of the SaaS\. To connect to an SaaS that is running on your corporate network, you need to make sure that the DNS name of your SaaS is accessible to Amazon QuickSight over the network\. If Amazon QuickSight can't access the SaaS, it generates an unknown host error\. 
 
@@ -37,7 +37,7 @@ Use the following procedure to create a data source and data set by connecting t
 Amazon QuickSight documentation is now available on GitHub\. If you'd like to make changes to this user guide, you can use GitHub to edit it directly\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/new-data-source-authorize-saas-github.png)
 
-   \(Optional\) If your SaaS account is part of an organizational account, you might be asked to request organization access as part of authorizing Amazon QuickSight\. If you want to do this, following the prompts on your SaaS screen, then choose to authorize Amazon QuickSight\.  
+   \(Optional\) If your SaaS account is part of an organizational account, you might be asked to request organization access as part of authorizing Amazon QuickSight\. If you want to do this, follow the prompts on your SaaS screen, then choose to authorize Amazon QuickSight\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/new-data-source-authorize-saas-github-request-org-access.png)
 
 1. After authorization is complete, choose a table or object to connect to\. Then choose **Select**\.  
@@ -45,12 +45,15 @@ Amazon QuickSight documentation is now available on GitHub\. If you'd like to ma
 
 1. On the following screen, choose one of these options:
    + To save the data source and data set, choose **Edit/Preview data**\. Then choose **Save** from the top menu bar\.
-
-     You can also choose **Edit/Preview data** to prepare the data before creating an analysis\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
    + To create a data set and an analysis using the data as\-is, choose **Visualize**\. This option automatically saves the data source and the data set\.
+
+     You can also choose **Edit/Preview data** to prepare the data before creating an analysis\. This opens the data preparation screen\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
+   + 
 **Note**  
-If you don't have enough [SPICE](welcome.md#spice) capacity, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size or apply a filter that reduces the number of rows returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
+If you don't have enough [SPICE](welcome.md#spice) capacity, choose **Edit/Preview data**\. In the data preparation screen, you can remove fields from the data set to decrease its size or apply a filter that reduces the number of rows returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/new-saas-data-source-finish.png)
 
 **Note**  
-If you are connecting to Twitter, which supports extracting seven days of data at a time, be aware that currently Amazon QuickSight retrieves only seven days prior to today\. 
+The Saas must support REST APIs for QuickSight to connect to it\.
+If you are connectng to Jira, the URL must be a public address\.
+If you are connecting to Twitter, which supports extracting seven days of data at a time, be aware that currently Amazon QuickSight retrieves only seven days prior to today\.

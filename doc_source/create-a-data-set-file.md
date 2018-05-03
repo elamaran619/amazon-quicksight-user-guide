@@ -6,7 +6,7 @@ Use the following procedure to create a data set based on a local text file\.
 
 1. Check [Data Source Limits](data-source-limits.md) to make sure that your target file doesn't exceed data source limits\.
 
-   Supported file types include \.csv, \.json, \.tsv, \.clf, or \.elf files\.
+   Supported file types include \.csv, \.tsv, \.json, \.clf, or \.elf files\.
 
 1. On the Amazon QuickSight start page, choose **Manage data**\.
 

@@ -1,10 +1,10 @@
 # Adding Drill\-Downs to Visual Data in Amazon QuickSight<a name="adding-drill-downs"></a>
 
-All visual types except pivot tables offer the ability to create a hierarchy of fields for a visual element, and then to drill down to see data at different levels of the hierarchy\. For example, you could associate the country, state, and city fields with the X axis on a bar chart, then drill down or up to see data at each of those levels\. As you drill down each level, the data displayed is refined by the value of the element you drill down on\. For example, if you drill down to city on the bar that represents California at the state level, you get data on all of the cities in California\.
+All visual types except pivot tables offer the ability to create a hierarchy of fields for a visual element\. The hierarchy lets you drill down to see data at different levels of the hierarchy\. For example, you could associate the country, state, and city fields with the X axis on a bar chart\. Then, you could drill down or up to see data at each of those levels\. As you drill down each level, the data displayed is refined by the value in the field you drill down on\. For example, if you drill down on the state of California, you see data on all of the cities in California\.
 
-The field wells you can use to create drill\-downs varies by visual type, so refer to the topic for a given visual type to learn more about its drill\-down support\. 
+The field wells you can use to create drill\-downs varies by visual type\. Refer to the topic on each visual type to learn more about its drill\-down support\. 
 
-Drill\-down functionality is added automatically when you associate a date field with the drill\-down field well of a visual\. In this case, you can always drill up and down through the levels of date granularity \(year, month, week, day, and hour\)\. 
+Drill\-down functionality is added automatically for dates when you associate a date field with the drill\-down field well of a visual\. In this case, you can always drill up and down through the levels of date granularity \(year, month, week, day, and hour\)\. Drill\-down functionality is also added automatically for geospatial groupings, after you define these in the data set\.
 
 Use the following table to identify the field wells/on\-visual editors that support drill\-down for each visual type\.
 

@@ -16,7 +16,7 @@ Before you try to read files from Amazon S3 buckets, make sure that you grant Am
 
 1. For **Data source name**, type a name for the data source\.
 
-1. Choose **Validate connection** to validate the connection\. If validation fails, make sure Amazon QuickSight has permission to access Athena resources\. Then, try validating again\. For more information on setting Amazon QuickSight permissions to AWS resources, see [Working with AWS Data Sources](working-with-aws-data-sources.md)
+1. Choose **Validate connection** to validate the connection\. If validation fails, make sure Amazon QuickSight has permission to access Athena resources\. Then, try validating again\. For more information on setting Amazon QuickSight permissions to AWS resources, see [Managing Amazon QuickSight Permissions to AWS Resources](managing-permissions.md)\.
 
 1. Choose **Create data source**\. 
 **Note**  

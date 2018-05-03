@@ -39,8 +39,8 @@ Before you begin, you must be able connect to an existing AWS account\. If your 
 
 1. For both Standard and Enterprise editions, make choices for the following items:
    + Type in a unique account name for Amazon QuickSight\. Your account name can only contain characters \(A–Z and a–z\), digits \(0–9\), and hyphens \(\-\)\. If you use AD, and it has a default alias, this alias is used for the account name\.
-   + Type in a notification email address for the Amazon QuickSight account owner or group\. This email receives service and usage notifications
-   + \(Optional\) Choose a capacity region for [SPICE](welcome.md#spice)\. Users can change their region anytime\. See [AWS Regions and IP Address Ranges](regions.md) for information on regions
+   + Type in a notification email address for the Amazon QuickSight account owner or group\. This email receives service and usage notifications\.
+   + \(Optional\) Choose the AWS region you want to utilize for your default [SPICE](welcome.md#spice) capacity\. This is where your account’s free SPICE capacity is allocated after signing up\. Note that you aren't able to change the default capacity region later, but you can always purchase additional SPICE capacity in different regions as needed\. See [AWS Regions and IP Address Ranges](regions.md) for information on regions\.
    + \(Optional\) Choose whether to allow autodiscovery of your AWS resources\. You can change these options later in **Manage Account**\. For more information, see [Allowing Autodiscovery of AWS Resources](autodiscover-aws-data-sources.md)\.
 
 1. 
