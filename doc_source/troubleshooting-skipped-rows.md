@@ -1,6 +1,6 @@
-# My rows were skipped during data preparation<a name="troubleshooting-skipped-rows"></a>
+# My Rows Were Skipped During Data Preparation<a name="troubleshooting-skipped-rows"></a>
 
-When you prepare data, Amazon QuickSight previews a portion of your data for you to work with\. If it can't interpret a row for any reason, it will skip this row\. Then it displays a message to say how many rows are skipped\.
+When you prepare data, Amazon QuickSight previews a portion of your data for you to work with\. If it can't interpret a row for any reason, it skips this row\. Then it displays a message to say how many rows are skipped\.
 
 Here is a list of things to check:
 + Inconsistency between the field data type and the field data, for example text data in a field with a numeric data type\.

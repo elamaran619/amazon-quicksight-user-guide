@@ -1,6 +1,6 @@
 # Preparing a Data Set Based on Database Data<a name="prepare-database-data"></a>
 
-Use the following procedure to prepare a database data set\. The data for this data set can be from an AWS database data source like Amazon Athena, Amazon RDS, or Amazon Redshift, or from an external database instance\. 
+Use the following procedure to prepare a data set based on a query to a database\. The data for this data set can be from an AWS database data source like Amazon Athena, Amazon RDS, or Amazon Redshift, or from an external database instance\. You can choose whether to import a copy of your data into [SPICE](welcome.md#spice), or to query the data directly\.
 
 1. Open a database data set for preparation by choosing one of the following options:
    + Create a new database data set and choose **Edit/Preview data**\. For more information about creating a new data set using a new database data source, see [Creating Data Sets from New Database Data Sources](creating-database-data-sets.md)\. For more information about creating a new data set using an existing database data source, see [Creating a Data Set Using an Existing Database Data Source](create-a-data-set-existing.md#create-a-data-set-existing-database)\.
@@ -20,11 +20,9 @@ Use the following procedure to prepare a database data set\. The data for this d
      Any table whose name contains the search term is shown\. Search is case\-insensitive and wildcards are not supported\. Choose the cancel icon \(**X**\) to the right of the search box to return to viewing all tables\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/data-prep-tables.png)
    + To use two or more joined tables to provide data, choose two tables and join them using the join pane\. You must import data into [SPICE](welcome.md#spice) if you choose to use joined tables\. For more information about joining tables using the Amazon QuickSight interface, see [Joining Tables](joining-tables.md)\.
-   + To use a custom SQL query to provide data in a new data set, choose **Switch to Custom SQL** tool on the **Tables** pane\. For more information, see [Using a SQL Query](adding-a-SQL-query.md)\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/choose-sql.png)
+   + To use a custom SQL query to provide data in a new data set, choose **Switch to Custom SQL** tool on the **Tables** pane\. For more information, see [Using a SQL Query](adding-a-SQL-query.md)\.
 
-     To change the SQL query in an existing data set, choose **Edit SQL** on the **Fields** pane to open the SQL pane and edit the query\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/edit-sql.png)
+     To change the SQL query in an existing data set, choose **Edit SQL** on the **Fields** pane to open the SQL pane and edit the query\.
 
 1. Prepare the data by doing one or more of the following:
    + [Selecting Fields](selecting-fields.md)

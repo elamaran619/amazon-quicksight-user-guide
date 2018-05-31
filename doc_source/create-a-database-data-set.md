@@ -1,4 +1,4 @@
-# Creating a Database Data Set<a name="create-a-database-data-set"></a>
+# Creating a Data Set from a Database<a name="create-a-database-data-set"></a>
 
 The following procedures walk you through connecting to database data sources and creating data sets\. Use [Creating a Data Set from an Autodiscovered Amazon Redshift Cluster or Amazon RDS Instance](#create-a-data-set-autodiscovered) to create data sets from AWS data sources that your Amazon QuickSight account autodiscovered, or use [Creating a Data Set Using a Database That's Not Autodiscovered](#create-a-data-set-database) to create data sets from any other database data sources\.
 
@@ -31,13 +31,17 @@ Use the following procedure to create a connection to an autodiscovered AWS data
 **Note**  
 Amazon QuickSight automatically secures connections to Amazon RDS instances and Amazon Redshift clusters by using Secure Sockets Layer \(SSL\)\. You don't need to do anything to enable this\.
 
-1. For **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen and the schema selection option isn't displayed\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-schema.png)
+1. Choose one of the following:
+   + **Custom SQL**
 
-1. Choose one of the following options:
-   + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Typically, you would choose to prepare data at this point if you are planning on writing a SQL query rather than selecting data from a single table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-   + Otherwise, choose a table and then choose **Select**\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-table.png)
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+   + **Choose tables**
+
+     If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen, and the schema selection option isn't displayed\.
+
+     To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Use this option if you want to join to more tables\.
+
+     Otherwise, after choosing a table, choose **Select**\.
 
 1. Choose one of the following options:
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation for the selected table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
@@ -53,7 +57,7 @@ If you want to use SPICE and you don't have enough space, choose **Edit/Preview 
 
 ## Creating a Data Set Using a Database That's Not Autodiscovered<a name="create-a-data-set-database"></a>
 
-Use the following procedure to create a connection to any database other than an autodiscovered Amazon Redshift cluster or Amazon RDS instance\. This includes Amazon Redshift clusters and Amazon RDS instances that are in a different AWS Region or are associated with a different AWS account, and MariaDB, Microsoft SQL Server, MySQL, and PostgreSQL instances that are on\-premise, in Amazon EC2, or in some other accessible environment\.
+Use the following procedure to create a connection to any database other than an autodiscovered Amazon Redshift cluster or Amazon RDS instance\. This includes Amazon Redshift clusters and Amazon RDS instances that are in a different AWS Region or are associated with a different AWS account, and MariaDB, Microsoft SQL Server, MySQL, and PostgreSQL instances that are on\-premises, in Amazon EC2, or in some other accessible environment\.
 
 1. Check [Data Source Limits](data-source-limits.md) to make sure that your target table or query doesn't exceed data source limits\.
 
@@ -90,15 +94,17 @@ Use the following procedure to create a connection to any database other than an
 
 1. If the connection validates, choose **Create data source**\. If not, correct the connection information and try validating again\.
 
-1. For **Schema: contain sets of tables**, choose **Select** and then choose a schema\. 
+1. Choose one of the following:
+   + **Custom SQL**
 
-   In some cases where there is only a single schema in the database, that schema is automatically chosen and the schema selection option isn't displayed\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-schema.png)
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+   + **Choose tables**
 
-1. Choose one of the following options:
-   + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Typically, you would choose to prepare data at this point if you are planning on writing a SQL query rather than selecting data from a single table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-   + Otherwise, choose a table and then choose **Select**\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-table.png)
+     If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen, and the schema selection option isn't displayed\.
+
+     To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Use this option if you want to join to more tables\.
+
+     Otherwise, after choosing a table, choose **Select**\.
 
 1. Choose one of the following options:
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation for the selected table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.

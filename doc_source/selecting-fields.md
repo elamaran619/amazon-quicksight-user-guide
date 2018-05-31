@@ -4,15 +4,15 @@ When you prepare data, only the fields you select on the data preparation page a
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-field.png)
 
-You can also toggle a field by choosing the ellipsis that appears next to each field on hover and then choosing either **Exclude field** or **Include field**\. 
+You can also toggle a field by hovering over the field menu, which appears next to each field on hover\. Then choose either **Exclude field** or **Include field**\. The same menu contains additional actions, such as **Rename field**, **Add calculation**, and **Change data type**\.
 
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/exclude-field.png)
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/field-menu.png)
 
 You can select or deselect all fields at once by choosing either **All** or **None** at the top of the **Fields** pane\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/exclude-all-field.png)
 
-If you edit a data set and exclude a field that is used in a visual, that visual breaks\. You then need to fix it the next time you open the relevant analysis\.
+If you edit a data set and exclude a field that is used in a visual, that visual breaks\. You can fix it the next time you open that analysis\.
 
 ## Searching for Fields<a name="searching-for-a-field-data-prep"></a>
 

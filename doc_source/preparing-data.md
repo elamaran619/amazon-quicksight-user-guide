@@ -1,6 +1,6 @@
 # Preparing Data<a name="preparing-data"></a>
 
-Data sets store any data preparation you have done on that data, so that you can reuse that prepared data in multiple analyses\. Data preparation provides options such as adding calculated fields, applying filters, and changing field names or data types\. If you are basing the data source on a SQL database, you can also use data preparation to join tables or enter a SQL query if you want to work with data from more than a single table\.
+Data sets store any data preparation you have done on that data, so that you can reuse that prepared data in multiple analyses\. Data preparation provides options such as adding calculated fields, applying filters, and changing field names or data types\. If you are basing the data source on a SQL database, you can also use data preparation to join tables\. Alternatively, you can enter a SQL query if you want to work with data from more than a single table\.
 
 If you want to transform the data from a data source before using it in Amazon QuickSight, you can prepare it to suit your needs and then save this preparation as part of the data set\. 
 

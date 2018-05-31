@@ -12,7 +12,7 @@ If you receive an "insufficient permissions" error, try these steps to resolve y
 
    1. If your bucket isn't listed under **S3 buckets linked to QuickSight account**, choose the **S3 buckets you can access across AWS** tab\. To add your bucket, type in your bucket's name and choose **Add S3 bucket**\.
 
-1. If you data file is encrypted with a KMS key, you need to grant permissions to the Amazon QuickSight IAM role to decrypt the key\. The easiest way to do this is to use the AWS CLI\. If you don’t have AWS CLI setup and configured, please refer to [https://docs\.aws\.amazon\.com/cli/latest/userguide/cli\-chap\-getting\-started\.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)\.
+1. If your data file is encrypted with an AWS KMS key, grant permissions to the Amazon QuickSight IAM role to decrypt the key\. The easiest way to do this is to use the AWS CLI\. If you don’t have the AWS CLI set up and configured, see [Configuring the AWS CLI](docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) in the *AWS Command Line Interface User Guide\.*
 
    You can run the [create\-grant](https://docs.aws.amazon.com/cli/latest/reference/kms/create-grant.html) command in AWS CLI to do this\. 
 
@@ -20,4 +20,4 @@ If you receive an "insufficient permissions" error, try these steps to resolve y
    aws kms create-grant --key-id <KMS key ARN> --grantee-principal <Your Amazon QuickSight Role ARN> --operations Decrypt
    ```
 
-   Amazon QuickSight role ARN is of the format `arn:aws:iam::<account id>:role/service-role/aws-quicksight-servicerole-v<version no.>` and can be accessed from IAM console\. To find your KMS key ARN, use the S3 console\. Go to the bucket that contains your data file\. Then click on the **Overview** tab\. The key is located near **KMS key ID**\.
+   The Amazon Resource Name \(ARN\) for the Amazon QuickSight role has the format `arn:aws:iam::<account id>:role/service-role/aws-quicksight-servicerole-v<version no.>` and can be accessed from the IAM console\. To find your KMS key ARN, use the S3 console\. Go to the bucket that contains your data file and choose the **Overview** tab\. The key is located near **KMS key ID**\.

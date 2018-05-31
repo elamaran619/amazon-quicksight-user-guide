@@ -34,11 +34,12 @@ Use the following procedure to invite a user to access Amazon QuickSight\.
 
 1. For **IAM User**, verify that it says **Yes** for accounts that are associated with IAM users, and **No** for those that are Amazon QuickSight\-only\.
 
-1. For **Role**, choose the role to assign to each person you are inviting\. A role determines the permission level to grant to that user account\.
+1. For **Role**, choose the role to assign to each person you are inviting\. A *role *determines the permission level to grant to that user account\.
+   + Choose **READER** if you want the user to be able to view and manipulate dashboards \(read\-only\) but not use Amazon QuickSight for authoring or performing administrative tasks\. 
    + Choose **USER** if you want the user to be able to use Amazon QuickSight but not perform any administrative tasks like managing users or purchasing [SPICE](welcome.md#spice) capacity\.
-   + Choose **ADMIN** if you want the user to be able to both use Amazon QuickSight and perform administrative tasks\.
+   + Choose **ADMIN** if you want the user to be able to both use Amazon QuickSight for authoring and perform administrative tasks\.
 
-     There are some differences in what administrative tasks IAM admin users and Amazon QuickSight admin users can perform, because some administrative tasks require permissions in AWS, which Amazon QuickSight\-only users lack\.
+     There are some differences in what administrative tasks that IAM admin users and that Amazon QuickSight admin users can perform, because some administrative tasks require permissions in AWS, which Amazon QuickSight–only users lack\.
      + Amazon QuickSight admin users can manage users, [SPICE](welcome.md#spice) capacity, and subscriptions\. 
      + IAM admin users can manage users, SPICE capacity, and subscriptions as well\. They can also manage Amazon QuickSight permissions to AWS resources, and unsubscribe from Amazon QuickSight\.
 
@@ -69,9 +70,9 @@ You can view Amazon QuickSight user accounts on the **Manage Users** page\. Use 
 
 1. Choose **Manage Users**\.
 
-1. To search for a specific user account, you can type a search term into **Search for a user**\. Any username or email address that starts with the search term is shown\. Search is case\-insensitive and wildcards aren't supported\. To clear the search results and view all user accounts, delete the search term\.
+1. Type a search term for **Search for a user** to search for a specific user account\. Any user name or email address that starts with the search term is shown\. Search is case\-insensitive and wildcards aren't supported\. To clear the search results and view all user accounts, delete the search term\.
 
-1. You can review the user name, email, assigned role, and status\. The status field shows either **ACTIVE** or **INACTIVE** to indicate whether or not the user has responded to the invitation email and activated an account\.
+1. Review the user name, email, assigned role, and status\. The status field shows either **ACTIVE** or **INACTIVE** to indicate whether or not the user has responded to the invitation email and activated an account\.
 
 ## Deleting a User Account<a name="delete-a-user-account"></a>
 

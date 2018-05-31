@@ -43,11 +43,7 @@ Before you begin, you must be able connect to an existing AWS account\. If your 
    + \(Optional\) Choose the AWS region you want to utilize for your default [SPICE](welcome.md#spice) capacity\. This is where your account’s free SPICE capacity is allocated after signing up\. Note that you aren't able to change the default capacity region later, but you can always purchase additional SPICE capacity in different regions as needed\. See [AWS Regions and IP Address Ranges](regions.md) for information on regions\.
    + \(Optional\) Choose whether to allow autodiscovery of your AWS resources\. You can change these options later in **Manage Account**\. For more information, see [Allowing Autodiscovery of AWS Resources](autodiscover-aws-data-sources.md)\.
 
-1. 
-**Warning**  
-Before you choose **Finish**, be sure you chose the correct edition \(Standard or Enterprise\)\. Currently, to change editions you must either to create a new Amazon QuickSight account or contact the product team for assistance\. 
-
-   Review the choices you made, then choose **Finish**\. 
+1. Review the choices you made, then choose **Finish**\. 
 
 1. \(Optional\) If you are using Standard edition, skip this step\. To open Amazon QuickSight, choose **Go to Amazon QuickSight**\. To manage user groups, choose **Manage access to QuickSight**\.
 
@@ -191,7 +187,7 @@ If you want to use IAM to manage your users, choose **Use Role Based Federation 
 
    Verify the choices you made, then choose **Finish**\. 
 
-1. \(Optional\) If you are using Standard edition, skip this step\. For Enterprise edition, to open Amazon QuickSight choose **Go to Amazon QuickSight**\. To manage Microsoft AD user groups, choose **Manage access to QuickSight**\.
+1. \(Optional\) If you are using Standard edition, skip this step\. For Enterprise edition, to open Amazon QuickSight choose **Go to Amazon QuickSight**\. To manage Microsoft Active Directory user groups, choose **Manage access to QuickSight**\.
 
    Otherwise, close the browser and notify your users how to connect\.
 

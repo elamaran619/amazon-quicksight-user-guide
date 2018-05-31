@@ -10,6 +10,8 @@ To edit a data set from the **Your Data Sets** page, choose the data set, and th
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/edit-data-set.png)
 
+If you want to create a copy of the data set, choose **Duplicate data set**, and type a name for the copy\. 
+
 ## Editing a Data Set from the Analysis Page<a name="edit-a-data-set-analysis"></a>
 
 Use the following procedure to edit a data set from the analysis page\.

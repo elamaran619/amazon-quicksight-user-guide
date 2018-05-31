@@ -103,9 +103,9 @@ OR
 ( activeFlag = 0 AND (statusCode= 99 OR statusCode= -1) )
 ```
 
-### Example: AND, OR, & NOT<a name="operator-example-and-or-not"></a>
+### Example: AND, OR, and NOT<a name="operator-example-and-or-not"></a>
 
-The following example uses AND, OR, & NOT to compare multiple expressions using conditional operators to tag top customers NOT in Washington or Oregon with a special promotion, who made more than 10 orders\. If no values are returned, the value 'n/a' is used\.
+The following example uses AND, OR, and NOT to compare multiple expressions using conditional operators to tag top customers NOT in Washington or Oregon with a special promotion, who made more than 10 orders\. If no values are returned, the value 'n/a' is used\.
 
 ```
 ifelse(( (NOT (State = 'WA' OR State = 'OR')) AND {Number of Orders} > 10), 'Special Promotion XYZ', 'n/a')

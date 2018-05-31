@@ -1,57 +1,53 @@
 # Sharing Dashboards<a name="sharing-a-dashboard"></a>
 
-After you create a dashboard, you can share it with other users or groups\. Once you share a dashboard, you can review the other users or groups that have access to it\. You can also revoke access to the dashboard\.
+After you publish a dashboard, you can share it with other users or groups, and choose the level of access to grant them\. In Enterprise edition, you can choose to share with all users in your Amazon QuickSight subscription who are part of the reader role\.
 
-**Note**  
-In some cases, for dashboards shared before Sept 25 2017, the user setting for **Can create analyses** can become locked in the off setting\. To fix this, enable the option, and reshare the dashboard with that user\. Refresh the screen to see the most current settings\.
+After you share a dashboard, you can review the other users or groups that have access to it\. You can also revoke access to the dashboard, or remove yourself from it\.
 
 **Topics**
-+ [View the Users a Dashboard is Shared With](#view-users-dashboard)
++ [View the Users Sharing the Dashboard](#view-users-dashboard)
 + [Share an Existing Dashboard](#share-a-dashboard)
-+ [Reshare a Dashboard with a User](#reshare-dashboard)
 + [Revoke Access to a Dashboard](#revoke-access-to-a-dashboard)
 
-## View the Users a Dashboard is Shared With<a name="view-users-dashboard"></a>
+## View the Users Sharing the Dashboard<a name="view-users-dashboard"></a>
 
 Use the following procedure to see which users or groups have access to the dashboard\.
 
-1. On the dashboard page, choose **Share** on the application bar\.
+1. Open the dashboard and choose **Share** from the application bar\. Then choose **Manage dashboard access**\.
 
 1. Review the users and groups, and their roles and settings\.
 
-   You can search to locate a specific user or group by typing in their name\. Any user or group that contains the search term is shown\. Searching is case\-sensitive, and wildcards are not supported\. Delete the search term to return view all user accounts\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/create-dashboard4.png)
+   You can search to locate a specific user or group by typing in their name, or any part of their name\. Searching is case\-sensitive, and wildcards are not supported\. Delete the search term to return view all user accounts\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/create-dashboard3.png)
 
 ## Share an Existing Dashboard<a name="share-a-dashboard"></a>
 
-Use the following procedure to share a dashboard\.
+Use the following procedure to share a dashboard\. You can use the same procedure to reshare a dashboard to send a new notification email\. Note that confirmation emails are not sent to groups\.
 
 1. On the dashboard page, choose **Share** on the application bar\.
 
-1. Choose **Invite user**\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/create-dashboard4.png)
+1. Do one of the following:
+   + Before adding any users, you can check what permissions already exist by choosing **Manage dashboard access**\. Then choose **Add users** to return to this screen\.
+   + In Enterprise edition, you have the option to share with all the users in the reader role on your QS; subscription\. To do this, enable the option for **Share with all users in this account**\. When you manage dashboard access through the **Managed dashboard sharing** screen, you see that the option for **Share with all users in this account** is enabled\. The individual users aren't listed in this screen\.
+   + To share with an individual user or group, type the user or group into the search box\. Then choose the user or group from the list that appears\. Only active users and groups appear in the list\.
+**Important**  
+Users who have access to the dashboard can also see the data used in the analysis\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/create-dashboard2.png)
 
-1. Type in the user name of a person you want to share this dashboard with\. Then choose **Share**\. You can only share with users and groups who belong to the same Amazon QuickSight account\. The users must also have used Amazon QuickSight at least once, to finish creating their account\.
+     To add more users, type in another user or group\. You can remove users or groups by choosing the delete icon near the user that you want to remove\.
 
-   Repeat this step until you have entered information for everyone you want to share the dashboard with\.  
+1. After you have entered everyone that you want to share with, choose **Share** to confirm your choices\. In the next screen, you can see the user name, email, permission level, user role, and privileges\. You can also remove a user by using the delete icon\.
+
+   Choose permissions for each user\. Users in the reader role don't have any options for permissions or **Save as** privileges\.
+   + **Viewer**
+
+     Viewers can view, filter, and sort the dashboard data\. They can also use any controls or custom URL actions that are on the dashboard\. Any changes they make to the dashboard exist only while they are viewing it, and aren't saved once they close the dashboard\. 
+   + **Co\-owner**
+
+     Co\-owners can edit and share the dashboard\. You have the option to provide them with the same permissions to the analysis\. If you want them to also edit and share the data set, you can set that up inside the analysis\. 
+
+   Choose whether to enable a user's privilege to **Save as** to create a new dashboard from a copy of this one\. This privilege grants read only access to the data sets, so the user or group can create new analyses from it\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/create-dashboard3.png)
-**Note**  
-Users who can access to the dashboard can also access the data used in the dashboard\.
-
-1. Choose **Share**\.
-
-   The users you have shared the dashboard with receive a notification email\. The email contains a link to the dashboard\.
-
-## Reshare a Dashboard with a User<a name="reshare-dashboard"></a>
-
-Use the following procedure if you need to resend a share email to someone\.
-
-1. On the dashboard page, choose **Share** on the application bar\.
-
-1. Under **Action**, locate the user account to reshare with and then choose the **Reshare** icon\. When you choose **Reshare**, Amazon QuickSight sends a new email to that user\. \(No confirmation message displays\.\)  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/reshare-dashboard.png)
-
-1. Choose **Confirm**\.
 
 ## Revoke Access to a Dashboard<a name="revoke-access-to-a-dashboard"></a>
 
@@ -59,5 +55,6 @@ Use the following procedure to revoke user access to a dashboard\.
 
 1. On the dashboard page, choose **Share** on the application bar\.
 
-1. Under **Action**, locate the user account whose access you want to revoke and then choose **X**\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/remove-dashboard-access.png)
+1. Choose **Manage dashboard sharing**\.
+
+1. Locate the user you want to remove\. Then, under **Action**, choose the delete icon\. 

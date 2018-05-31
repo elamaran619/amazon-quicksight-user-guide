@@ -69,7 +69,7 @@ Use the following procedure to refresh a [SPICE](welcome.md#spice) data set base
 
 ## Refreshing a Data Set on a Schedule<a name="schedule-data-refresh"></a>
 
-Use the following procedure to schedule refreshing the data\.
+Use the following procedure to schedule refreshing the data\. Note that if your data set is based on a direct query and not stored in [SPICE](welcome.md#spice), you can refresh your data by opening the data set or refreshing the page in an analysis or dashboard\.
 
 **To refresh [SPICE](welcome.md#spice) data on a schedule**
 
@@ -83,10 +83,14 @@ Use the following procedure to schedule refreshing the data\.
 
    1. **Time zone**: Choose the time zone that applies to the data refresh\.
 
-   1.  **Repeats**: Choose **Daily**, **Weekly**, or **Monthly**\. 
-      + **Daily**: Repeats every day
-      + **Weekly**: Repeats on the same day of each week
-      + **Monthly**: Repeats on the same day number of each month\. To refresh data on the 29th, 30th or 31st day of the month, choose **Last day of month** from the list\. 
+   1. For **Repeats**: Choose one of the following:
+      + For Standard or Enterprise editions, you can choose **Daily**, **Weekly**, or **Monthly**\. 
+        + **Daily**: Repeats every day
+        + **Weekly**: Repeats on the same day of each week 
+        + **Monthly**: Repeats on the same day number of each month\. To refresh data on the 29th, 30th or 31st day of the month, choose **Last day of month** from the list\. 
+      + For Enterprise edition only, you can choose **Hourly**\. This setting refreshes your data set every hour, beginning at the time you choose\. So, if you select 1:05 as the starting time, the data refreshes at five minutes after the hour, every hour\.
+
+        If you decide to use an hourly refresh, you can't also use additional refresh schedules\. To create an hourly schedule you must remove any other existing schedules for that data set; and you must remove any existing hourly schedule before you can create a daily, weekly, or monthly schedule\. 
 
    1. **Starting**: Choose a date for the refresh to start\.
 

@@ -8,7 +8,7 @@ However, we recommend that you protect your root credentials, and instead use IA
 Be aware of the following when working with Amazon QuickSight and IAM policies:  
 Avoid directly modifying a policy that was created by Amazon QuickSight\. When you modify it yourself, Amazon QuickSight can't edit it\. This inability can cause an issue with the policy\. To fix this issue, delete the previously modified policy\. 
 If you get an error on permissions when you try to create an Amazon QuickSight account, see [IAM Policy Actions for Creating Users in Amazon QuickSight](#iam-policy-actions-for-creating-users-inside-quicksight)\. 
-In some cases, you might have an Amazon QuickSight account that you can't access even from the root account \(for example, if you accidentally deleted its directory service\)\. In this case, you can delete your old Amazon QuickSight account, then recreate it\. For more information, see [Canceling your Amazon QuickSight Subscription and Closing the Account](closing-account.md)\.
+In some cases, you might have an Amazon QuickSight account that you can't access even from the root account \(for example, if you accidentally deleted its directory service\)\. In this case, you can delete your old Amazon QuickSight account, then recreate it\. For more information, see [Canceling Your Amazon QuickSight Subscription and Closing the Account](closing-account.md)\.
 
 ## IAM Policy Actions for Signing Up for Amazon QuickSight<a name="iam-policy-actions-for-signing-up-for-quicksight"></a>
 
@@ -58,7 +58,7 @@ For Enterprise edition only, to allow a user to manage directory group associati
 
 ## IAM Policy Actions for Unsubscribing from Amazon QuickSight<a name="iam-policy-actions-for-unsubscribing-from-quicksight"></a>
 
-To allow a user to unsubscribe from Amazon QuickSight, allow the following actions in an IAM policy\. Unsubscribing removes all users and data and can't be undone\. For more information, see [Canceling your Amazon QuickSight Subscription and Closing the Account](closing-account.md)\. 
+To allow a user to unsubscribe from Amazon QuickSight, allow the following actions in an IAM policy\. Unsubscribing removes all users and data and can't be undone\. For more information, see [Canceling Your Amazon QuickSight Subscription and Closing the Account](closing-account.md)\. 
 
 To prevent Amazon QuickSight administrators from unsubscribing from Amazon QuickSight and deleting all users and data, you can deny all users the `quicksight:Unsubscribe` action\. Then, if users try to unsubscribe, they get a message to contact their AWS administrator\.
 
@@ -93,7 +93,7 @@ The following example shows an IAM policy that enables Active Directory group ma
 }
 ```
 
-The following example shows a policy that enables creating Amazon QuickSight users only\. For `quicksight:CreateUser` and `quicksight:CreateAdmin`, you can limit the permissions to **"Resource": "arn:aws:quicksight::<**YOUR\_AWS\_ACCOUNTID**>:user/$\{aws:userid\}"**\. For all other permissions described in this guide, use **"Resource": "\*"**\. The resource represents the scope of the permissions\.
+The following example shows a policy that enables creating Amazon QuickSight users only\. For `quicksight:CreateReader`, `quicksight:CreateUser`, and `quicksight:CreateAdmin`, you can limit the permissions to **"Resource": "arn:aws:quicksight::<**YOUR\_AWS\_ACCOUNTID**>:user/$\{aws:userid\}"**\. For all other permissions described in this guide, use **"Resource": "\*"**\. The resource represents the scope of the permissions\.
 
 ```
 {
@@ -130,7 +130,6 @@ The following example for Amazon QuickSight Enterprise edition shows a policy th
                 "iam:CreatePolicy",
                 "iam:CreateRole",
                 "iam:ListAccountAliases",
-                "quicksight:CreateUser",
                 "quicksight:CreateAdmin",
                 "quicksight:Subscribe",
                 "quicksight:GetGroupMapping",
@@ -169,7 +168,7 @@ The following example for Amazon QuickSight Enterprise edition shows a policy th
 }
 ```
 
-The following example for Amazon QuickSight Standard Edition shows a policy that enables subscribing, creating users, and setting permissions to AWS resources\. This example explicitly denies permission to unsubscribe from Amazon QuickSight\.
+The following example for Amazon QuickSight Standard Edition shows a policy that enables subscribing, creating authors and readers, and setting permissions to AWS resources\. This example explicitly denies permission to unsubscribe from Amazon QuickSight\.
 
 ```
 {
@@ -190,7 +189,6 @@ The following example for Amazon QuickSight Standard Edition shows a policy that
                 "iam:CreateRole",
                 "iam:ListAccountAliases",
                 "quicksight:CreateUser",
-                "quicksight:CreateAdmin",
                 "quicksight:Subscribe"
             ],
             "Resource": "*"

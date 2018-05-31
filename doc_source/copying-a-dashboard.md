@@ -1,6 +1,6 @@
 # Copying a Dashboard<a name="copying-a-dashboard"></a>
 
-To create a new analysis or dashboard from an existing dashboard, choose **Save As** from the top menu\. Doing so creates a new analysis\. To create a new dashboard, share the new analysis as a dashboard\. 
+To create a new analysis or dashboard from an existing dashboard, choose **Save As** from the top menu\. Doing so creates a new analysis\. To create a new dashboard, share the new analysis as a dashboard\. You must have co\-owner access to the dashboard, or have **Save as** privileges on it\.
 
 After you have saved the original dashboard as a new analysis, you can collaborate on it by sharing the new analysis with other users\. You can use this workflow to preserve a production version of the dashboard, while also developing or testing a new version of it\.
 
@@ -14,10 +14,10 @@ Use the following procedure to copy a dashboard to a new one\.
 
    At this point, you can share the analysis with other users so you can collaborate on changes\. All users who have access can make changes to the new analysis\. 
 
-1. \(Optional\) To create a new dashboard with your changes to the new analysis, choose **Share**, and then **Create Dashboard**\.
+1. \(Optional\) To create a new dashboard with your changes to the new analysis, choose **Share**, and then **Publish Dashboard**\.
 
-1. \(Optional\) To save the new dashboard, close the **Share dashboard** screen, then close the **Dashboard sharing** screen\. 
+1. \(Optional\) To save the new dashboard without sharing it, close the **Share dashboard with users** screen\. Alternately, you can enter users to share with\. You can always share later by choosing **Share** from the application bar\.
 
-   If you want to share the dashboard with other users or groups, you can type their names or email addresses in these screens, rather than closing the screens\. Otherwise, you can share the dashboard later by choosing **Share** from the new saved dashboard\.
-
-For more information on sharing dashboards, see [Sharing Dashboards](sharing-a-dashboard.md)\. For more information on sharing analyses, see [Sharing Analyses](sharing-analyses.md)\.
+For more information, see: 
++ [Sharing Dashboards](sharing-a-dashboard.md)
++ [Sharing Analyses](sharing-analyses.md)

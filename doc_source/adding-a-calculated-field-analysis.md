@@ -35,6 +35,7 @@ For information on calculated fields in data sets, see [Working with Calculated 
 **Topics**
 + [Using Aggregate Functions in Calculated Fields](#calculated-field-aggregations)
 + [Adding a Calculated Field](#add-a-calculated-field-analysis)
++ [Parameters in a Calculated Field in an Analysis](#parameters-in-a-calculated-field-analysis)
 + [Editing a Calculated Field](#edit-a-calculated-field-analysis)
 + [Deleting a Calculated Field](#delete-a-calculated-field-analysis)
 
@@ -73,22 +74,24 @@ Use the following procedure to add a calculated field\.
 1. Choose **Add** on the application bar, and then choose **Add calculated field**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/add-calc-field.png)
 
-1. Choose a function from **Function list**\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/add-function.png)
+1. For **Calculated field name**, where it says **Enter a field name**, type a name for the calculated field\. This name will be the field label displayed in the analysis, so it should match the existing style of field names\. 
 
-1. Choose a field from **Field list**\. The field is entered into the formula where your cursor is\.  
+1. Choose a function from **Function list**, and choose the fields that you want to use from the **Field list**\. Each field is entered into the formula where your cursor is\. You can add user\-defined parameters from **Parameter list** in the same way\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/add-calc-field2.png)
 
-1. In **Formula**, type any parameters needed by the function \(help for the function displays below **Formula**\)\. As needed, choose additional fields from **Field list** and **Function list** to complete your formula\.
+1. In **Formula**, type any formula parameters needed by the function\. Choose any additional fields or parameters to complete your formula\.
 
-   If you use a field that has a space or a nonalphanumeric character other than an underscore in the name, you must enclose the field name in curly braces when referencing it, for example **\{ship charges amount\}**\. Curly braces are optional if the field name has no space and no nonalphanumeric character\.
-
-1. In the **Calculated field name** box, where it says **Enter a field name**, type a name for the calculated field\. This name will be the field label displayed in the analysis, so it should match the existing style of field names\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/function-field-name.png)
+   If you use a field that has a space or a nonalphanumeric character other than an underscore in the name, you must enclose the field name in curly braces when referencing it, for example **\{ship charges amount\}**\. Curly braces are optional if the field name has no space and no nonalphanumeric character\. 
 
 1. Choose **Create**\.
 
-   If there are no errors in the formula or name, the new calculated field is created\. It appears in the **Fields list** pane\. It displays in the top section if it is a dimension—that is, if it returns a text string or a date\. It displays in the bottom section if it is a measure—that is, if it returns a numeric value\.
+   If there are no errors in the formula or name, the new calculated field is created\. It appears in the **Fields list** pane\.
+
+## Parameters in a Calculated Field in an Analysis<a name="parameters-in-a-calculated-field-analysis"></a>
+
+You can reference parameters in calculated fields that are in an analysis\. When you create a calculation, you can choose existing parameters from the list of parameters under **Parameter list**\. 
+
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/add-calc-field3.png)
 
 ## Editing a Calculated Field<a name="edit-a-calculated-field-analysis"></a>
 
@@ -113,4 +116,4 @@ Use the following procedure to delete a calculated field\.
 1. In the **Field list** pane, hover over the calculated field you want to delete\.
 
 1. Choose the selector icon to the right of the field name, and then choose **Remove calculated field**\.   
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/analysis-calc-field2.png)
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/analysis-calc-field.png)

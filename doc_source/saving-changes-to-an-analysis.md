@@ -12,13 +12,13 @@ To change the Autosave mode for an analysis, choose the Autosave indicator next 
 
 ## When Autosave Can't Save Changes<a name="conflicting-changes"></a>
 
-If one of the following things occurs: 
-+ Autosave is on and another user makes a conflicting change to the analysis
-+ Autosave is on and there is a service failure, such that your most recent changes can't be saved
-+ Autosave is off, you turn it on, and one of the backlogged changes now being saved to the server conflicts with another user's changes
+Suppose that one of the following things occurs: 
++ Autosave is on and another user makes a conflicting change to the analysis\.
++ Autosave is on and there is a service failure, such that your most recent changes can't be saved\.
++ Autosave is off, you turn it on, and one of the backlogged changes now being saved to the server conflicts with another user's changes\.
 
-Then Amazon QuickSight gives you the option to do one of two things: either let Amazon QuickSight turn Autosave off and continue working in unsaved mode, or reload the analysis from the server and then redo your most recent changes\. 
+In this case, Amazon QuickSight gives you the option to do one of two things\. You can either let Amazon QuickSight turn Autosave off and continue working in unsaved mode, or reload the analysis from the server and then redo your most recent changes\. 
 
-If your client authentication expires while you are editing an analysis, you are directed to sign in again\. On successful sign in, you are directed back to the analysis where you can continue working normally\.
+If your client authentication expires while you are editing an analysis, you are directed to sign in again\. On successful sign\-in, you are directed back to the analysis where you can continue working normally\.
 
 If your permissions on the analysis are revoked while you are editing it, you can't make any further changes\.

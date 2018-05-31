@@ -2,11 +2,11 @@
 
 You can use a variety of database data sources to provide data to Amazon QuickSight\. This includes Amazon RDS instances and Amazon Redshift clusters\. It also includes MariaDB, Microsoft SQL Server, MySQL, and PostgreSQL instances in your organization, Amazon EC2, or similar environments\.
 
-When creating a new database data set, you can select one table, join several tables, or create a SQL query to retrieve the data that you want\. You can also change whether the data set uses a direct query or stores data in SPICE\.
+When creating a new database data set, you can select one table, join several tables, or create a SQL query to retrieve the data that you want\. You can also change whether the data set uses a direct query or instead stores data in [SPICE](welcome.md#spice)\.
 
-When you create a data set based on an AWS resource like Amazon RDS, Amazon Redshift, or Amazon EC2, data transfer charges might apply when consuming data from that source\. Those charges might also vary depending on whether that AWS resource is in the home AWS Region you chose for your Amazon QuickSight account\. Refer to the pricing page for the service in question for more details on applicable pricing\.
+When you create a data set based on an AWS resource like Amazon RDS, Amazon Redshift, or Amazon EC2, data transfer charges might apply when consuming data from that source\. Those charges might also vary depending on whether that AWS resource is in the home AWS Region you chose for your Amazon QuickSight account\. Refer to the pricing page for the service in question to see for more details on applicable pricing\.
 
 **Topics**
 + [Required Permissions for Database Credentials](required-permissions.md)
 + [Network and Database Configuration Requirements](configure-access.md)
-+ [Creating a Database Data Set](create-a-database-data-set.md)
++ [Creating a Data Set from a Database](create-a-database-data-set.md)

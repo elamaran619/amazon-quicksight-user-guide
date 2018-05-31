@@ -10,7 +10,7 @@ The icon for a table is as follows\.
 
 ## Tabular Report Features<a name="tabular-report-features"></a>
 
-Tabular reports don't display a legend\. You can hide or display the title on a tabular report\.
+Tabular reports don't display a legend\. You can hide or display the title on a tabular report\. You can also hide or display totals, and choose to show totals at the top or the bottom of the table\.
 
 Use the following table to understand the features supported by tabular reports\. 
 
@@ -22,8 +22,21 @@ Use the following table to understand the features supported by tabular reports\
 | Changing the legend display | No | [Displaying the Visual Legend](formatting-a-visual.md#displaying-the-visual-legend) | 
 | Changing the title display | Yes | [Displaying a Visual's Title](formatting-a-visual.md#displaying-visual-title) | 
 | Sorting | Yes | [Sorting Visual Data in Amazon QuickSight](sorting-visual-data.md) | 
-| Calculated Fields & Aggregations | Yes | [Changing Field Aggregation](changing-field-aggregation.md) | 
+| Calculated fields and aggregations | Yes | [Changing Field Aggregation](changing-field-aggregation.md) | 
 | Adding drill\-downs | No | [Adding Drill\-Downs to Visual Data in Amazon QuickSight](adding-drill-downs.md) | 
+| Show/hide total | Yes | [Use Totals on a Tabular Report](#tabular-totals) | 
+
+## Use Totals on a Tabular Report<a name="tabular-totals"></a>
+
+You can show or hide totals on a tabular report\. Use the on\-visual menu on the top right of the visual to access the option to **Show Totals** or **Hide Totals**\.
+
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/tabular-show-totals.png)
+
+You can show totals at the top or the bottom of the visual\. Use the on\-visual menu to access the option for **Format visual**\. If you enable **Show Totals**, you will see the options for **Top** and **Bottom** locations\.
+
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/format-visual-totals.png)
+
+Tabular reports can display up to 200 columns\.
 
 ## Creating a Tabular Report<a name="create-pivot-table"></a>
 

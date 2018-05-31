@@ -33,7 +33,7 @@ Use the following procedure to edit a database data source\.
 
 1. If the connection validates, choose **Update data source**\. If not, correct the connection information and try validating again\.
 
-1. If you want to create a new data set using the updated data source, proceed with the instructions at [Creating a Database Data Set](create-a-database-data-set.md)\. Otherwise, close the **Choose your table** dialog\.
+1. If you want to create a new data set using the updated data source, proceed with the instructions at [Creating a Data Set from a Database](create-a-database-data-set.md)\. Otherwise, close the **Choose your table** dialog\.
 
 ## Editing an Athena Data Source<a name="edit-an-athena-data-source"></a>
 

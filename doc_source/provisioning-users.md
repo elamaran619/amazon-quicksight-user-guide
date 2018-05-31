@@ -4,7 +4,7 @@
 
 Amazon QuickSight administrators are users who can also manage Amazon QuickSight features such as account settings and user accounts\. They can also purchase additional Amazon QuickSight user subscriptions, purchase [SPICE](welcome.md#spice) capacity, and cancel the subscription to Amazon QuickSight for your AWS account\.
 
-You can use an AWS user or group policy to give users the ability to add themselves as administrators of Amazon QuickSight\. Their accounts become active and billable the first time they open Amazon QuickSight\. To set up self\-provisioning, you need to give them permission to use the `quicksight:CreateAdmin` action\. For more information using using IAM, see [Working with AWS Identity and Access Management \(IAM\) Users, Roles, and Policies](working-with-iam.md)\. 
+You can use an AWS user or group policy to give users the ability to add themselves as administrators of Amazon QuickSight\. Their accounts become active and billable the first time they open Amazon QuickSight\. To set up self\-provisioning, you need to give them permission to use the `quicksight:CreateAdmin` action\. For more information about using IAM, see [Working with AWS Identity and Access Management \(IAM\) Users, Roles, and Policies](working-with-iam.md)\. 
 
 Alternately, you can use the following procedure to use the console set or create the administrator for Amazon QuickSight\. 
 
@@ -27,4 +27,12 @@ Alternately, you can use the following procedure to use the console set or creat
 
 Amazon QuickSight users can create data sources, data sets, analyses, and dashboards\. They can share analyses and dashboards with other Amazon QuickSight users in your Amazon QuickSight account\. However, they don't have access to the Manage QuickSight menu\. They can't change account settings, manage user accounts, purchase additional Amazon QuickSight user subscriptions or [SPICE](welcome.md#spice) capacity, or cancel the subscription to Amazon QuickSight for your AWS account\.
 
-You can use an AWS user or group policy to give users the ability to create a Amazon QuickSight user account for themselves\. Their accounts become active and billable the first time they open Amazon QuickSight\. To set up self\-provisioning, you need to give them permission to use the `quicksight:CreateUser` action\. For more information using using IAM, see [Working with AWS Identity and Access Management \(IAM\) Users, Roles, and Policies](working-with-iam.md)\. 
+You can use an AWS user or group policy to give users the ability to create a Amazon QuickSight user account for themselves\. Their accounts become active and billable the first time they open Amazon QuickSight\. To set up self\-provisioning, you need to give them permission to use the `quicksight:CreateUser` action\. For more information about using IAM, see [Working with AWS Identity and Access Management \(IAM\) Users, Roles, and Policies](working-with-iam.md)\. 
+
+## Self\-Provisioning an Amazon QuickSight Read\-Only User<a name="self-service-read-only-users"></a>
+
+Amazon QuickSight read\-only users can view and manipulate dashboards that are shared with them, but they can't make any changes or save a dashboard for further analysis\. Amazon QuickSight readers can't create data sources, data sets, analyses, or visuals\. They can't do any administrative tasks\. Choose this role for people who are consumers of the dashboards but don't do their own analysis, for example, executives\.
+
+If you are using AD, you can manage read\-only permissions by using a group\. Otherwise, you can bulk\-invite users to use Amazon QuickSight\. You can also use an AWS user or group policy to give users the ability to create a Amazon QuickSight user account for themselves\. 
+
+Their accounts become active and billable the first time they open Amazon QuickSight\. If you decide to upgrade or downgrade a user, billing for that user is pro\-rated for the month\.

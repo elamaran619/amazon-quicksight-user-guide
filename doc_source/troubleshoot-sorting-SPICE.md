@@ -1,3 +1,3 @@
-# My SPICE data won't sort alphabetically<a name="troubleshoot-sorting-SPICE"></a>
+# My SPICE Data Doesn't Sort Alphabetically<a name="troubleshoot-sorting-SPICE"></a>
 
-[SPICE](welcome.md#spice) does not yet support sorting text\. To work around this issue, use a direct query instead of SPICE\. If you are using text files, you will need to import them through another data source\.
+[SPICE](welcome.md#spice) doesn't yet support sorting text\. To work around this issue, use a direct query instead of SPICE\. If you are using text files, you need to import them through another data source\.

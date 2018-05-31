@@ -23,7 +23,7 @@ The automated sign up guides you through the following steps\. To begin, choose 
 
 The process works like this:
 + First, you create a free AWS account\. This step takes about ten minutes\. It asks for your name, email, address, and phone number\. You need to have a phone and a credit card to complete the process\. 
-+ Next, you create a free Amazon QuickSight account\. In this step, you can choose either Standard or Enterprise Edition\. You also set up a Amazon QuickSight account name\. 
++ Next, you create a free Amazon QuickSight account\. In this step, you can choose either Standard or Enterprise edition\. You also set up a Amazon QuickSight account name\. 
 + After that, you open Amazon QuickSight and get some sample data to explore\.
 
 If you signed up for Amazon QuickSight using this method, you are ready to explore what you can do with Amazon QuickSight\. See [Getting Started with Data Analysis in Amazon QuickSight](getting-started.md)

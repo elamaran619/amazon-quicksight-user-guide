@@ -37,7 +37,7 @@ Your SAML identity provider defines your organization's IdP to AWS\. It does so 
 
 Next, create an IAM role that establishes a trust relationship between IAM and your organization's IdP\. This role identifies your IdP as a principal \(trusted entity\) for the purposes of federation\. The role also defines which users authenticated by your organization's IdP are allowed to access Amazon QuickSight\. For more information about creating a role for a SAML IdP, review [Creating a Role for SAML 2\.0 Federation](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_saml.html) in the *IAM User Guide*\.
 
-After you have created the role, you can limit the role to have permissions only to Amazon QuickSight by attaching an inline policy to the role\. The following sample policy document provides access to Amazon QuickSight\. This policy allows the user access to Amazon QuickSight and allows them to create both administrator accounts and user accounts\.
+After you have created the role, you can limit the role to have permissions only to Amazon QuickSight by attaching an inline policy to the role\. The following sample policy document provides access to Amazon QuickSight\. This policy allows the user access to Amazon QuickSight and allows them to create both author accounts and user accounts\.
 
 **Note**  
 In the following example, replace *<YOUR\_AWS\_ACCOUNT\_ID>* with your 12 digit AWS account ID \(with no hyphens ‘‐’\)\.
@@ -59,14 +59,13 @@ In the following example, replace *<YOUR\_AWS\_ACCOUNT\_ID>* with your 12 digit 
 }
 ```
 
-If you want to provide access to Amazon QuickSight and also the ability to create Amazon QuickSight users and administrators, you can use the following policy example\.
+If you want to provide access to Amazon QuickSight and also the ability to create Amazon QuickSight admins, authors \(standard users\), and readers, you can use the following policy example\. 
 
 ```
 {
     "Statement": [
         {
             "Action": [
-                "quicksight:CreateUser",
                 "quicksight:CreateAdmin"
             ],
             "Effect": "Allow",

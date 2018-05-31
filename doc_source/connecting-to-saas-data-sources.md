@@ -1,4 +1,4 @@
-# Creating a Data Source & Data Set from SaaS Sources<a name="connecting-to-saas-data-sources"></a>
+# Creating a Data Source and Data Set from SaaS Sources<a name="connecting-to-saas-data-sources"></a>
 
 To analyze and report on data from software as a service \(SaaS\) applications, you can use SaaS connectors to access your data directly from Amazon QuickSight\. The SaaS connectors simplify accessing 3rd party application sources using OAuth, without any need to export the data to an intermediate data store\.
 
@@ -54,6 +54,6 @@ If you don't have enough [SPICE](welcome.md#spice) capacity, choose **Edit/Previ
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/new-saas-data-source-finish.png)
 
 **Note**  
-The Saas must support REST APIs for QuickSight to connect to it\.
+The SaaS must support REST API operations for QuickSight to connect to it\.
 If you are connectng to Jira, the URL must be a public address\.
-If you are connecting to Twitter, which supports extracting seven days of data at a time, be aware that currently Amazon QuickSight retrieves only seven days prior to today\.
+If you are connecting to Twitter, which supports extracting seven days of data at a time, be aware that currently Amazon QuickSight retrieves only seven days before today\.

@@ -7,7 +7,7 @@ Use the following section to learn about Amazon QuickSight administrative tasks\
 + [AWS Regions and IP Address Ranges](regions.md)
 + [Supported Browsers](supported-browsers.md)
 + [Signing Up for Amazon QuickSight](signing-up.md)
-+ [Access & Authentication in Amazon QuickSight](access-and-authentication.md)
++ [Access and Authentication in Amazon QuickSight](access-and-authentication.md)
 + [Managing User Access inside Amazon QuickSight](managing-quicksight-users.md)
 + [Managing Amazon QuickSight Usage](managing-service-usage.md)
 + [Working with AWS Services](working-with-aws.md)

@@ -88,7 +88,7 @@ Amazon QuickSight skips any data outside these ranges\. Out\-of\-range points ca
 
 You can use a calculated field with a formula to create a numeric latitude and longitude out of character strings\. Use this section to find different ways that you can create calculated fields in Amazon QuickSight, to parse GPS latitude and longitude into numeric latitude and longitude\. 
 
-The following sample converts latitude and longitude to numeric format from separate fields\. For example, if you parse **51° 30' 26\.4636'' N 0° 7' 39\.9288'' W** using space as a delimiter, you can use something like the following sample to convert the resulting fields to numeric latitude and longitude\. 
+The following sample converts latitude and longitude to numeric format from separate fields\. For example, suppose that you parse **51° 30' 26\.4636'' N 0° 7' 39\.9288'' W** using space as a delimiter\. In this case, you can use something like the following sample to convert the resulting fields to numeric latitude and longitude\. 
 
 In this example, the seconds are followed by two single quotation marks\. If your data has a double quotation mark instead, then you can use `strlen(LatSec)-1)` instead of `strlen(LatSec)-2)`\.
 

@@ -8,7 +8,7 @@ Following is a list of the non\-API events you can track\.
 + **BatchResendUserInvite** – Invite User
 + **UpdateGroups** – Update Groups
 
-  This event works with Enterprise Edition only\.
+  This event works with Enterprise edition only\.
 + **UpdateSpiceCapacity** – Update SPICE Capacity
 + **DeleteUser** – Delete User
 + **Unsubscribe** – Unsubscribe User

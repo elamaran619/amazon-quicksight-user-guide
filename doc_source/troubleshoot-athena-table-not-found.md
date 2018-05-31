@@ -6,13 +6,13 @@ In the Athena console, check for your table under the corresponding schema\. You
 
 If this error happened when you were editing a custom SQL query in preview, verify the name of the table in the query, and check for any other syntax errors\. Amazon QuickSight can't infer the schema from the query\. The schema must be specified in the query\. 
 
-For example, this statement works:
+For example, the following statement works\.
 
 ```
 select from my_schema.my_table
 ```
 
-And, this statement fails because it's missing the schema:
+The following statement fails because it's missing the schema\.
 
 ```
 select from my_table

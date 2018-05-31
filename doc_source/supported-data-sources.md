@@ -46,23 +46,23 @@ Amazon QuickSight natively supports JSON flat files and JSON semi structure data
 
 You can either upload a JSON file or connect to your Amazon S3 bucket that contains JSON data\. Amazon QuickSight automatically performs schema and type inference on JSON files and embedded JSON objects\. Then it flattens the JSON, so you can analyze and visualize application\-generated data\. 
 
-Basic support for JSON flat file data includes:
+Basic support for JSON flat file data includes the following:
 + Inferring the schema
 + Determining data types
 + Flattening the data
 + Parsing JSON \(JSON embedded objects\) from flat files
 
-Support for JSON file structures \(\.json\) includes:
-+ JSON records with structs
+Support for JSON file structures \(\.json\) includes the following:
++ JSON records with structures
 + JSON records with root elements as arrays
 
 You can also use the `parseJson` function to extract values from JSON objects in a text file\. For example, if your CSV file has a JSON object embedded in one of the fields, you can extract a value from a specified key value pair \(KVP\)\. For more information on how to do this, see [parseJson](parseJson-function.md)\.
 
 The following JSON features aren't supported:
-+ Reading JSON with a struct containing a list of records
++ Reading JSON with a structure containing a list of records
 + List attributes and list objects within a JSON record are skipped during import
 + Customizing upload or configuration settings
-+ parseJSON functions for SQL and Analyses
++ parseJSON functions for SQL and analyses
 + Error messaging for invalid JSON
 + Extracting a JSON object from a JSON structure
 + Reading delimited JSON records

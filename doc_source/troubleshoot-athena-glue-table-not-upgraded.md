@@ -1,8 +1,8 @@
-# Table Incompatible when using AWS Glue with Athena in Amazon QuickSight<a name="troubleshoot-athena-glue-table-not-upgraded"></a>
+# Table Incompatible When Using AWS Glue with Athena in Amazon QuickSight<a name="troubleshoot-athena-glue-table-not-upgraded"></a>
 
-If you are getting errors when using AWS Glue tables in Athena with Amazon QuickSight, it might be because you are missing some metadata\. Follow these steps to find out if your tables don't have the "TableType" attribute that Amazon QuickSight needs for the Athena connector to work\. Usually, the metadata for these tables wasn't migrated to the AWS Glue data catalog\. For more information, see [ Upgrading to the AWS Glue Data Catalog Step\-by\-Step](https://docs.aws.amazon.com/athena/latest/ug/glue-upgrade.html)
+If you are getting errors when using AWS Glue tables in Athena with Amazon QuickSight, it might be because you're missing some metadata\. Follow these steps to find out if your tables don't have the `TableType` attribute that Amazon QuickSight needs for the Athena connector to work\. Usually, the metadata for these tables wasn't migrated to the AWS Glue Data Catalog\. For more information, see [Upgrading to the AWS Glue Data Catalog Step\-by\-Step](https://docs.aws.amazon.com/athena/latest/ug/glue-upgrade.html) in the* AWS Glue Developer Guide\.*
 
-If you don't want to migrate to the AWS Glue data catalog at this time, you have two options\. You can recreate each Glue table through AWS Glue Console\. Alternately, you can use use the CLI scripts listed in the following procedure to identify and update tables with missing `TableType` attributes\.
+If you don't want to migrate to the AWS Glue data catalog at this time, you have two options\. You can recreate each AWS Glue table through the AWS Glue Management Console\. Alternatively, you can use the AWS CLI scripts listed in the following procedure to identify and update tables with missing `TableType` attributes\.
 
 If you prefer to use the CLI to do this, use the following procedure to help you design your scripts\.
 
@@ -12,13 +12,13 @@ If you prefer to use the CLI to do this, use the following procedure to help you
    aws glue get-tables --database-name <your_datebase_name>;
    ```
 
-   For example, you can run this in the CLI:
+   For example, you can run the following command in the CLI\.
 
    ```
    aws glue get-table --database-name "test_database" --name "table_missing_table_type"
    ```
 
-   Here is a sample of what the output looks like\. You can see that the table "table\_missing\_table\_type" doesn't have `TableType` attribute declared\.
+   Following is a sample of what the output looks like\. You can see that the table `"table_missing_table_type"` doesn't have the `TableType` attribute declared\.
 
    ```
    {
@@ -104,7 +104,7 @@ If you prefer to use the CLI to do this, use the following procedure to help you
    }
    ```
 
-1. Edit the table definition in your editor to add `"TableType": "EXTERNAL_TABLE"` to the table definition, as shown in the following example:
+1. Edit the table definition in your editor to add `"TableType": "EXTERNAL_TABLE"` to the table definition, as shown in the following example\.
 
    ```
    {
@@ -195,7 +195,7 @@ If you prefer to use the CLI to do this, use the following procedure to help you
    aws glue update-table --database-name <your_datebase_name> --table-input <updated_table_input>
    ```
 
-   For example: 
+   The following shows an example\. 
 
    ```
    aws glue update-table --database-name test_database --table-input '

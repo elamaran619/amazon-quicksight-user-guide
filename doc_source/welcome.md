@@ -1,8 +1,8 @@
-# Welcome to Amazon QuickSight\!<a name="welcome"></a>
+# What Is Amazon QuickSight?<a name="welcome"></a>
 
 Amazon QuickSight is a business analytics service you can use to build visualizations, perform ad hoc analysis, and get business insights from your data\. It can automatically discover AWS data sources and also works with your data sources\. Amazon QuickSight enables organizations to scale to hundreds of thousands of users, and delivers responsive performance by using a robust in\-memory engine \(SPICE\)\.
 
-With Amazon QuickSight, you can do the following:
+Using Amazon QuickSight, you can do the following:
 + **Get started quickly** – Sign in, choose a data source, and create your first visualization in minutes
 + **Access data from multiple sources ** – Upload files, connect to AWS data sources, or use your own external data sources
 + **Take advantage of dynamic visualizations ** – Smart visualizations are dynamically created based on the fields that you select
@@ -29,15 +29,16 @@ These data sets come in a variety of formats\. Some may require you to import th
 To learn more about the major components and processes of Amazon QuickSight and the typical workflow for creating data visualizations, see the following sections\.
 
 **Topics**
-+ [Data Sources & Data Preparation](#data)
++ [Data Sources and Data Preparation](#data)
 + [Data Analyses](#analyses)
 + [Dashboards](#dashboards)
 + [Typical Amazon QuickSight Workflow](#workflow)
 + [Next Steps](#next-steps-welcome)
++ [Compliance](#compliance)
 
-## Data Sources & Data Preparation<a name="data"></a>
+## Data Sources and Data Preparation<a name="data"></a>
 
-You can use a variety of sources for data analysis, including files, AWS services, and on\-premise databases\. To learn more about what data sources work with Amazon QuickSight, see [Supported Data Sources](supported-data-sources.md)\.
+You can use a variety of sources for data analysis, including files, AWS services, and on\-premises databases\. To learn more about what data sources work with Amazon QuickSight, see [Supported Data Sources](supported-data-sources.md)\.
 
 To get ready to create analyses, you create *data sets* based on your data sources\. A data set identifies the specific fields and rows that you want to use\. In addition to raw data, a data set stores any changes you make, so it's ready the next time you want to analyze the data\. For example, you can rename fields, change data types, and add calculated fields\.
 
@@ -70,7 +71,7 @@ To learn more about Amazon QuickSight analyses, see [Working with Analyses](work
 
 ### Visuals<a name="visuals"></a>
 
-A *visual*, also known as a data visualization, is a graphical representation of a data set using a type of diagram, chart, graph, or table\. All visuals begin in AutoGraph mode, which automatically selects a visualization based on the fields you select\. You can also take control and choose your own visuals\. Amazon QuickSight supports a variety of visuals including combo charts, heat and tree maps, pivot tables, and more\. Or, you can enhance the your visualizations by applying filters, changing colors, or by arranging several in the workspace, just to name a few options\. 
+A *visual*, also known as a data visualization, is a graphical representation of a data set using a type of diagram, chart, graph, or table\. All visuals begin in AutoGraph mode, which automatically selects a visualization based on the fields you select\. You can also take control and choose your own visuals\. Amazon QuickSight supports a variety of visuals including combo charts, heat and tree maps, pivot tables, and more\. Or you can enhance your visualizations by applying filters, changing colors, or by arranging several in the workspace, just to name a few options\. 
 
 To learn more about Amazon QuickSight visuals, see [Working with Amazon QuickSight Visuals](working-with-visuals.md)\.
 
@@ -96,7 +97,7 @@ The first time you create an analysis, the typical workflow looks like this:
 
 1. Visualize \(create\) a new analysis from the data set\.
 
-1. Choose some fields to create the first visual in the analysis\. You can let can Amazon QuickSight dynamically create a visual \(AutoGraph\) based on the number and type of fields you choose\. Alternatively, you can choose the visual type you want to use\. 
+1. Choose some fields to create the first visual in the analysis\. You can let Amazon QuickSight dynamically create a visual \(AutoGraph\) based on the number and type of fields you choose\. Alternatively, you can choose the visual type you want to use\. 
 
 1. \(Optional\) Make changes to the visual if you want to \(for example, by adding a filter or changing the visual type\)\.
 
@@ -115,3 +116,11 @@ After you connect to your data and create a data set, you can create an analysis
 If you are a new to Amazon QuickSight, see [Signing Up for Amazon QuickSight](signing-up.md) to learn more about subscribing\.
 
 If you are an administrator, see [Administration](qsysadmin.md)\.
+
+## Compliance<a name="compliance"></a>
+
+This is a HIPAA Eligible Service\. For more information about AWS, U\.S\. Health Insurance Portability and Accountability Act of 1996 \(HIPAA\), and using AWS services to process, store, and transmit protected health information \(PHI\), see [HIPAA Overview](https://aws.amazon.com/compliance/hipaa-compliance/)\.
+
+This service is compliant with ISO 27001, a security management standard that specifies security management best practices\. For more information, see [ISO 27001 Overview](https://aws.amazon.com/compliance/iso-27001-faqs/)\.
+
+Content delivered to Amazon S3 buckets might contain customer content\. For more information about removing sensitive data, see [How Do I Empty an S3 Bucket?](http://docs.aws.amazon.com/AmazonS3/latest/user-guide/empty-bucket.html) or [How Do I Delete an S3 Bucket?](http://docs.aws.amazon.com/AmazonS3/latest/user-guide/delete-bucket.html)\.

@@ -8,7 +8,7 @@ Once the SPICE import completes, the indicator displays the percentage of rows t
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/analysis-spice-check.png)
 
-If any rows were skipped, you can choose **View summary** in this message bar to see details about why those rows failed to import\. To edit the data set and resolve the issues that led to skipped rows, choose **Edit data set**\. For more information about common causes for skipped rows, see [My rows were skipped during data preparation](troubleshooting-skipped-rows.md)\.
+If any rows were skipped, you can choose **View summary** in this message bar to see details about why those rows failed to import\. To edit the data set and resolve the issues that led to skipped rows, choose **Edit data set**\. For more information about common causes for skipped rows, see [My Rows Were Skipped During Data Preparation](troubleshooting-skipped-rows.md)\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/skipped-rows.png)
 

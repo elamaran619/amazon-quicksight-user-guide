@@ -36,7 +36,12 @@ You can't add drill\-downs to pivot tables\.
 
 1. Expand the **Field wells** pane\.
 
-1. Drag a field that you want to use in the drill\-down hierarchy to an appropriate field well, depending on the visual type\. Make sure that the label for the dragged field says **Add drill\-down layer**\. Position it above or below the existing field based on where you want it to be based on the hierarchy you are creating\.   
+1. If your data set has a defined hierarchy, for example for geospatial or coordinate data, you can drag the entire hierarchy into the field well as one\. In this case, you don't need to follow the remaining steps\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/predefined-hierarchy.png)
+
+   If you don't have a predefined hierarchy, you can create one in your analysis, as described in the remaining steps\.
+
+1. Drag a field that you want to use in the drill\-down hierarchy to an appropriate field well, depending on the visual type\. Make sure that the label for the dragged field says **Add drill\-down layer**\. Position the dragged field above or below the existing field based on where you want it to be in the hierarchy you're creating\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down1.png)  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down2.png)  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down3.png)
@@ -44,8 +49,8 @@ You can't add drill\-downs to pivot tables\.
 1. Continue until you have added all of the levels of hierarchy you want\. To remove a field from the hierarchy, choose the field, and then choose **Remove**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down4.png)
 
-1. To drill down or up in order to see data at a different level of the hierarchy, choose an element on the visual \(like a line or bar\), and then choose **Drill down to <lower level>** or **Drill up to <higher level>**\. In this example, from the region level you can drill down to state or up to country to see data at those levels\. If you drill down to state from the **Northeast** region, you see only states in that region\.  
+1. To drill down or up to see data at a different level of the hierarchy, choose an element on the visual \(like a line or bar\), and then choose **Drill down to <lower level>** or **Drill up to <higher level>**\. In this example, from the `car-make` level you can drill down to `car-model` to see data at that level\. If you drill down to `car-model` from the **Ford** `car-make`, you see only `car-model`s in that car\-make\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down5.png)
 
-   After you drill down to see data at the state level, you can then drill down further to see city\-level data, or go back up to region\. If you drill down to city from the color block representing **NJ**, you see only cities in New Jersey\.  
+   After you drill down to the `car-model` level, you can then drill down further to see `make-year` data, or go back up to `car-make`\. If you drill down to `make-year` from the bar representing **Ranger**, you see only years for that model of car\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down6.png)

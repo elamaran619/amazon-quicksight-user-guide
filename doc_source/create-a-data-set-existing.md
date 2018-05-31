@@ -28,15 +28,17 @@ If you want to create a data set using an existing Amazon Athena data source, us
 
 1. Choose **Create data set**\.
 
-1. For **Database: contain sets of tables\.**, choose **Select**, and then choose your Athena database\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-select-dbschema.png)
-**Note**  
-If you want to create a custom SQL query, click **Edit/Preview data** to edit a query\. If you do this without selecting a table, you see an error in the data preview area\. You can safely ignore this\. The error is saying that there is no data to display until your query is created\. 
+1. Choose one of the following:
+   + **Custom SQL**
 
-1. Choose one of the following options:
-   + To prepare the data before creating an analysis, choose **Edit/Preview data** to begin data preparation\. Choose to prepare data at this point if you are planning on writing a SQL query, rather than selecting data from a single table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-   + Otherwise, choose a table, and then choose **Select** to confirm\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-select-table.png)
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+   + **Choose tables**
+
+     If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen, and the schema selection option isn't displayed\.
+
+     To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Use this option if you want to join to more tables\.
+
+     Otherwise, after choosing a table, choose **Select**\.
 
 1. If you didn't choose to prepare the data in the previous step, the following screen appears\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-finish-data-set.png)
@@ -61,15 +63,20 @@ Use the following procedure to create a data set using an existing Salesforce da
 
 1. Choose **Create Data Set**\.
 
-1. For **Data elements: contain your data**, choose **Select** and then choose either **REPORT** or **OBJECT**\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/salesforce2.png)
+1. Choose one of the following:
+   + **Custom SQL**
 
-1. Choose one of the following options:
-   + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-   + Otherwise, choose a report or object and then choose **Select**\.  
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SOQL\. For best results, compose the query in a text editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SOQL and make sure there are no errors\.
+   + **Choose tables**
+
+     If you prefer to connect to specific tables, for **Data elements: contain your data**, choose **Select** and then choose either **REPORT** or **OBJECT**\. 
+
+     To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Use this option if you want to join to more tables\.
+
+     Otherwise, after choosing a table, choose **Select**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/salesforce3.png)
 
-1. Choose one of the following options:
+1. On the next screen, choose one of the following options:
    + To create a data set and an analysis using the data as\-is, choose **Visualize**\.
 **Note**  
 If you don't have enough [SPICE](welcome.md#spice) capacity, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size or apply a filter that reduces the number of rows returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
@@ -86,15 +93,17 @@ Use the following procedure to create a data set using an existing database data
 
 1. In the **FROM EXISTING DATA SOURCES** section of the **Create a Data Set** page, choose the database data source to use, and then choose **Create Data Set**\.
 
-1. For **Schema: contain sets of tables**, choose **Select** and then choose a schema\. 
+1. Choose one of the following:
+   + **Custom SQL**
 
-   In some cases where there is only a single schema in the database, that schema is automatically chosen and the schema selection option isn't displayed\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-schema.png)
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+   + **Choose tables**
 
-1. Choose one of the following options:
-   + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Typically, you would choose to prepare data at this point if you are planning on writing a SQL query rather than selecting data from a single table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
-   + Otherwise, choose a table and then choose **Select**\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-table.png)
+     If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen, and the schema selection option isn't displayed\.
+
+     To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation\. Use this option if you want to join to more tables\.
+
+     Otherwise, after choosing a table, choose **Select**\.
 
 1. Choose one of the following options:
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to open data preparation for the selected table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.

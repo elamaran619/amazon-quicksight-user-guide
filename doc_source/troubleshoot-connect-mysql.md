@@ -1,16 +1,16 @@
-# I can't connect to MySQL \(SSL & Authorization\)<a name="troubleshoot-connect-mysql"></a>
+# I Can't Connect to MySQL \(Issues with SSL and Authorization\)<a name="troubleshoot-connect-mysql"></a>
 
- To check on some common connection issues in MySQL, follow the steps described here\. This procedure helps you find out if you have enabled SSL and granted usage rights\.
+To check on some common connection issues in MySQL, use the following steps\. This procedure helps you find out if you have enabled SSL and granted usage rights\.
 
-1. First, check /etc/my\.cnf to make sure SSL is enabled for MySQL\.
+1. Check /etc/my\.cnf to make sure SSL is enabled for MySQL\.
 
-   Then, go into MySQL and run:
+1. In MySQL, run the following command\.
 
    ```
    show status like 'Ssl%';
    ```
 
-   These results show that SSL is working:
+   If SSL is working, you see results like the following\.
 
    ```
    +--------------------------------+----------------------+
@@ -42,7 +42,7 @@
    +--------------------------------+----------------------+
    ```
 
-   If SSL is disabled, the result looks like this:
+   If SSL is disabled, you see results like the following\.
 
    ```
    +--------------------------------+-------+
@@ -74,7 +74,7 @@
    +--------------------------------+-------+
    ```
 
-1. Make sure you have installed a supported SSL certificate on the database server\. 
+1. Make sure that you have installed a supported SSL certificate on the database server\. 
 
 1. Grant usage for the specific user to connect using SSL\.
 
@@ -82,7 +82,7 @@
    GRANT USAGE ON *.* TO 'encrypted_user'@'%' REQUIRE SSL;                        
    ```
 
-Please see the following for more detail on the solution in this example:
-+ [SSL Support for MySQL DB Instances](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport.html)
-+ [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html)
+For more detail on the solution in this example, see the following:
++ [SSL Support for MySQL DB Instances](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport.html) in the *Amazon Relational Database Service User Guide*\.
++ [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html) in the *Amazon Relational Database Service User Guide*\.
 + [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/secure-connections.html)

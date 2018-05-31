@@ -17,5 +17,6 @@
 + [Adding a Data Set to an Analysis](adding-a-data-set-to-an-analysis.md)
 + [Modifying Data Set Fields in an Analysis](modifying-data-set-fields-in-an-analysis.md)
 + [Adding a Calculated Field to an Analysis](adding-a-calculated-field-analysis.md)
++ [Parameters in Amazon QuickSight](parameters-in-quicksight.md)
 + [SPICE Data in an Analysis](spice-in-an-analysis.md)
 + [Sharing Analyses](sharing-analyses.md)

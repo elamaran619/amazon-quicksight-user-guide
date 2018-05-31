@@ -6,7 +6,7 @@ A filter is associated with a single data set in an analysis\. It can be scoped 
 
 Each filter applies only to a single field\. You can apply filters to both regular and calculated fields\. 
 
-If you create multiple filters, all top level filters apply together using AND\. If you group filters by adding them inside a top level filter, the filters in the group apply using OR\. 
+If you create multiple filters, all top\-level filters apply together using AND\. If you group filters by adding them inside a top\-level filter, the filters in the group apply using OR\. 
 
 Amazon QuickSight applies all of the enabled filters to the field\. For example, if there is one filter of `state = WA` and another filter of `sales >= 500`, then the data set only contains records that meet both of those criteria\. If you disable one of these, only one filter applies\.
 
@@ -19,3 +19,4 @@ Amazon QuickSight uses filters to focus on or exclude a visual element represent
 + [Adding a Filter](add-a-filter.md)
 + [Editing a Filter](edit-a-filter.md)
 + [Deleting a Filter](delete-a-filter.md)
++ [Parameterize a Filter](parameterize-a-filter.md)

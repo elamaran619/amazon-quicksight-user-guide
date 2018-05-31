@@ -1,4 +1,4 @@
-# I need to validate the connection to my data source, or I need to change my data source settings\.<a name="troubleshoot-connect-validate"></a>
+# I Need to Validate the Connection to My Data Source, or Change Data Source Settings<a name="troubleshoot-connect-validate"></a>
 
 If you need to update your data source, or you got a connection error and need to check your settings, follow these steps and validate your connection to the data source\.
 

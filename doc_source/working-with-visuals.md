@@ -21,4 +21,5 @@ Use the following sections to learn how to create and modify visuals\.
 + [Sorting Visual Data in Amazon QuickSight](sorting-visual-data.md)
 + [Filtering Visual Data in Amazon QuickSight](filtering-visual-data.md)
 + [Adding Drill\-Downs to Visual Data in Amazon QuickSight](adding-drill-downs.md)
++ [Adding Custom URL Actions to Visuals in Amazon QuickSight](custom-url-actions.md)
 + [Working with Visual Types in Amazon QuickSight](working-with-visual-types.md)

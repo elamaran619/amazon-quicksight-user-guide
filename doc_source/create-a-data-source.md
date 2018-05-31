@@ -9,6 +9,6 @@ An associated data source is automatically created when you create an Amazon Ath
 When you create a Presto or Apache Spark data set, you must configure Presto or Apache Spark for Amazon QuickSight, as described following\.
 
 **Topics**
-+ [Creating a Data Source & Data Set from SaaS Sources](connecting-to-saas-data-sources.md)
++ [Creating a Data Source and Data Set from SaaS Sources](connecting-to-saas-data-sources.md)
 + [Creating a Data Source Using Presto](create-a-data-source-presto.md)
 + [Creating a Data Source Using Apache Spark](create-a-data-source-spark.md)

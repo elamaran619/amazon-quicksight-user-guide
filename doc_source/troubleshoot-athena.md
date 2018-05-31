@@ -9,4 +9,4 @@ This section covers troubleshooting various issues you might encounter when usin
 + [Staging Bucket No Longer Exists When Using Athena with Amazon QuickSight](troubleshoot-athena-missing-bucket.md)
 + [Query Timeout When Using Athena with Amazon QuickSight](troubleshoot-athena-query-timeout.md)
 + [Invalid Data When Using Athena with Amazon QuickSight](troubleshoot-athena-invalid-data.md)
-+ [Table Incompatible when using AWS Glue with Athena in Amazon QuickSight](troubleshoot-athena-glue-table-not-upgraded.md)
++ [Table Incompatible When Using AWS Glue with Athena in Amazon QuickSight](troubleshoot-athena-glue-table-not-upgraded.md)

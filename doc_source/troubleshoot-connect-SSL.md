@@ -1,28 +1,28 @@
-# I can't connect even though my data source connection options look right \(SSL\)<a name="troubleshoot-connect-SSL"></a>
+# I Can't Connect Although My Data Source Connection Options Look Right \(SSL\)<a name="troubleshoot-connect-SSL"></a>
 
-Problems connecting can occur when SSL is incorrectly configured\. The symptoms can include the following\.
-+ You can connect to your database in other ways or from other locations\.
+Problems connecting can occur when Secure Sockets Layer \(SSL\) is incorrectly configured\. The symptoms can include the following:
++ You can connect to your database in other ways or from other locations but not in this case\.
 + You can connect to a similar database but not this one\.
 
  Rule out the following circumstances: 
 + Permissions issues
 + Availability issues
-+ Expired or invalid certificate
-+ Self\-signed certificate
++ An expired or invalid certificate
++ A self\-signed certificate
 + Certificate chain in the wrong order
 + Ports not enabled
-+ Firewall blocking IP
-+ VPC or security group not configured correctly\.
++ Firewall blocking an IP address
++ A VPC or security group not configured correctly\.
 
- To help find issues with SSL, you can use an online SSL checker, or a tool like OpenSSL\. 
+To help find issues with SSL, you can use an online SSL checker, or a tool like OpenSSL\. 
 
- The following example walks through troubleshooting a connection where SSL is suspect\. The administrator in this example has already installed OpenSSL\.
+ The following steps walk through troubleshooting a connection where SSL is suspect\. The administrator in this example has already installed OpenSSL\.
 
 **Example**  
 
-1. The user finds an issue connecting to his database\. He verifies that he can connect a different database in another region\. He checks other versions of the same database and he can connect easily\. 
+1. The user finds an issue connecting to the database\. The user verifies that he can connect a different database in another AWS Region\. He checks other versions of the same database and he can connect easily\. 
 
-1. The administrator reviews the issue and decides to verify that the certificates are working correctly\. She searches online for an article on using OpenSSL to troubleshoot or debug SSL connections
+1. The administrator reviews the issue and decides to verify that the certificates are working correctly\. She searches online for an article on using OpenSSL to troubleshoot or debug SSL connections\.
 
 1. Using OpenSSL, the administrator verifies the SSL configuration in the terminal\.
 
@@ -65,5 +65,4 @@ Problems connecting can occur when SSL is incorrectly configured\. The symptoms 
 
 1. The administrator corrects the problem by installing the SSL certificate on the user's database server\. 
 
-Please see the following for more detail on the solution in this example:
-+ [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html)
+For more detail on the solution in this example, see [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html) in the* Amazon Relational Database Service User Guide\.*

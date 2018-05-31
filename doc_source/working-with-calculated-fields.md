@@ -54,7 +54,7 @@ Use the following procedure to add a calculated field\.
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/new-field.png)
    + Create a calculated field and have the formula populated with a specified field\.
 
-     On the data preparation page, expand the **Fields** pane, hover over the field that you want to use as the basis for the calculated field, choose the ellipsis that appears to the right of it, and then choose **Add calculation based on <field name>**\.  
+     On the data preparation page, expand the **Fields** pane\. Hover over the field that you want to use as the basis for the calculated field, choose the ellipsis at its right, and then choose **Add calculation based on <field name>**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/function-field.png)
 
 1. In the **Calculated field** pane, highlight the value in **Calculated field name**, and then type a name for the calculated field\.  
@@ -68,7 +68,7 @@ Use the following procedure to add a calculated field\.
 
 1. In **Formula**, type any parameters needed by the function \(help for the function displays below **Formula**\)\. As needed, choose fields from **Field list** and then choose **Add** to add them to the formula\. You can also choose additional functions from the **Function list** to complete the formula\.
 
-   If you are using a field that has a space or a nonalphanumeric character other than an underscore in the name, you must enclose the field name in curly braces when referencing it, for example **\{customer id\}**\. Curly braces are optional if the fieldname has no space or a nonalphanumeric character\.  
+   If you use a field name that has a space or a nonalphanumeric character other than an underscore, enclose the field name in curly braces when referencing it, for example **\{customer id\}**\. Curly braces are optional if the field name has no space or a nonalphanumeric character\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/ifelse-function.png)
 
 1. Choose **Create**\.

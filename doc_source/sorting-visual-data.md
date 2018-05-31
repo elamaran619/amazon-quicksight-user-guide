@@ -31,6 +31,16 @@ For most visual types, you can use either a field well or an on\-visual editor t
 
 Use the procedures below to sort any non\-pivot table visual type by using either a field well or an on\-visual editor\.
 
+### Quick Sorting on a Visual Axis<a name="sorting-quicksort"></a>
+
+To quickly sort dimensions and measures on bar, stacked, combo charts, hover over the field name on either axis, and choose the sort icon that appears\. 
+
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/quicksort1.png)
+
+This shortcut to sorting is available for any data type in direct queries\. In SPICE, it is available only for datetime, numeric, and decimal data types\.
+
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/quicksort2.png)
+
 ### Sorting by Using an On\-Visual Editor<a name="sorting-element-control"></a>
 
 1. On the visual, choose an on\-visual editor that supports sorting\.

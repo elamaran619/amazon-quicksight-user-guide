@@ -4,13 +4,17 @@ Data sources that you use with Amazon QuickSight must conform to the following l
 
 ## File Limits<a name="file-limits"></a>
 
-If you are retrieving multiple files from Amazon S3, the total size of the files specified in the manifest file cannot exceed 10 GB\. The total number of files specified in the manifest file cannot exceed 1000\. 
+The total size of the files specified in the manifest file can't exceed 25 GB when imported into SPICE\. This limit isn't based on the actual size of the files\. Instead, the limit is based on the space that the files occupy after they are imported into SPICE\. The SPICE capacity is calculated using the formula described in [Capacity Planning for SPICE](managing-spice-capacity.md#capacity-planning-for-spice)\. 
+
+The total number of files specified in the manifest file can't exceed 1000\. 
 
 Files can have up to 1000 columns\. Each column name can have up to 127 characters\. 
 
 ## Table and Query Limits<a name="table-limits"></a>
 
-Any table or query result set you import into [SPICE](welcome.md#spice) must be 10 GB or smaller\. If you want to retrieve data from a larger table, there are several methods you can use to reduce the size of the data\. You can unselect columns, or apply filters\. In a SQL query, you can also use predicates, such as `WHERE`, `HAVING`\.
+Any table or query result set you want to import into [SPICE](welcome.md#spice) must use 25 GB or less of space in SPICE\. The size limit is calculated based on the capacity the data occupies after imported into SPICE\. The SPICE capacity is calculated using the formula described in [Capacity Planning for SPICE](managing-spice-capacity.md#capacity-planning-for-spice)\.
+
+If you want to retrieve data from a larger table, you can use one of several methods to reduce the size of the data\. You can deselect columns, or apply filters\. In a SQL query, you can also use predicates, such as `WHERE`, `HAVING`\.
 
 Tables can have up to 1000 columns\. Each column name can have up to 127 characters\. 
 
