@@ -168,7 +168,7 @@ The following example uses the Amazon Redshift format to identify two JSON files
         }
     ],
     "globalUploadSettings": {
-        “format": “JSON""
+        "format": "JSON"
     }
 }
 ```
