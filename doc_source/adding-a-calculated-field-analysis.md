@@ -89,7 +89,7 @@ Use the following procedure to add a calculated field\.
 
 ## Parameters in a Calculated Field in an Analysis<a name="parameters-in-a-calculated-field-analysis"></a>
 
-You can reference parameters in calculated fields that are in an analysis\. When you create a calculation, you can choose existing parameters from the list of parameters under **Parameter list**\. 
+You can reference parameters in calculated fields that are in an analysis\. When you create a calculation, you can choose existing parameters from the list of parameters under **Parameter list**\. Alternatively, you can type in the parameter name, preceded with a `$` and enclosed in curly braces `{}`, for example `${parameterName}`\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/add-calc-field3.png)
 

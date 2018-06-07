@@ -25,7 +25,7 @@ Amazon QuickSight automatically secures connections to Athena instances by using
 1. For **Database: contain sets of tables\.**, choose **Select**, and then choose your Athena database\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/athena-select-dbschema.png)
 **Note**  
-If you want to create a custom SQL query, click **Edit/Preview data** to edit a query\. If you do this without selecting a table, you will see an error in the data preview area\. You can safely ignore this\. The error is saying that there is no data to display until your query is created\. 
+If you want to create a custom SQL query, choose **Edit/Preview data** to edit a query\. If you do this without selecting a table, an error appears in the data preview area\. You can safely ignore this\. The error is saying that there is no data to display until your query is created\. 
 
 1. Choose one of the following options:
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to begin data preparation\. Choose to prepare data at this point if you are planning on writing a SQL query, rather than selecting data from a single table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
@@ -37,7 +37,7 @@ If you want to create a custom SQL query, click **Edit/Preview data** to edit a 
 
    To load your data into [SPICE](welcome.md#spice), choose **Import to SPICE**\. The green indicator shows whether or not you have space available\. 
 
-   Alternately, you can choose to query your data without using SPICE\. To do this, choose **Directly query your data**\.
+   Alternatively, you can choose to query your data without using SPICE\. To do this, choose **Directly query your data**\.
 
 1. After choosing how to query your data, choose one of the following options:
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to begin data preparation for the selected table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.

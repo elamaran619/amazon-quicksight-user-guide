@@ -1,6 +1,6 @@
 # Adding Custom URL Actions to Visuals in Amazon QuickSight<a name="custom-url-actions"></a>
 
-You can use URL schemes to perform an action, based on a URL, from within your dashboard\. In some cases, you might want to create a link to another URL from your visual, or you might want to create an email directly from a visual\. A URL action can send data points in parameter values to other URLs by using the data point context menu\. Use the **\+** button to add fields and parameters from the visual\.
+You can use URL schemes to perform an action, based on a URL, from within your dashboard\. In some cases, you might want to create a link to another URL from your visual, or you might want to create an email directly from a visual\. A URL action can send data points in parameter values to other URLs by using the data point context menu\. Use the **\+** button to add fields and parameters from the visual\. For more information on using parameters, see [Parameters in Amazon QuickSight](parameters-in-quicksight.md)\.
 
 To use an existing URL action, choose a data point on a visual\. When you hover over the data point, a notification appears regarding that data point\. To get the URL action menu, choose the data point to bring up the context menu\. You can find URL actions listed in the middle of the context menu, just above **Color** options\.
 
@@ -23,7 +23,7 @@ Create or edit a URL action by using the following procedure\.
      + `https://`
      + `http://`
      + `mailto:`
-   + You can also parameterize the URL\. The parameters on both the sending and the receiving end should match in name and data type\. To use a parameter in a custom URL action, use the name of the parameter enclosed in curly braces, for example `{Region}`, or `{StartDate}`\. Select a value from the current visual by choosing **\+**\.   
+   + You can also parameterize the URL\. The parameters on both the sending and the receiving end should match in name and data type\. To use a parameter in a custom URL action, use the name of the parameter enclosed in curly braces `{ }`, and preceded by a `$`, for example `${parameterName}`\. Select a value from the current visual by choosing **\+**\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/url-action-1.png)
 
 1. Edit the action name and URL by choosing the pencil icon near the name of the URL action\.  

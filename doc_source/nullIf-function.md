@@ -13,7 +13,7 @@ nullIf(expression, expression)
 `nullIf` takes two expressions as arguments\. 
 
  *expression*   
-The expression must be a string\. It can be a field name like **address1**, a literal value like **'Unknown'**, or a call to another function that outputs a string\. 
+The expression can be numeric, datetime, or string\. It can be a field name, a literal value, or another function\. 
 
 ### Return Type<a name="nullIf-function-return-type"></a>
 

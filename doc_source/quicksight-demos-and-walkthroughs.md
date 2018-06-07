@@ -29,6 +29,7 @@ Following, you can find a list of walkthrough and deep\-dive videos demonstratin
 
 Following is a list of blog posts and quick start articles, most of which discuss how to accomplish a specific complex task using Amazon QuickSight:
 +  [ List of all the official Amazon QuickSight blog posts](https://aws.amazon.com/search/?searchQuery=%22Amazon+QuickSight%22#facet_type=blogs) 
++ [Build a social media dashboard using machine learning and BI services](https://aws.amazon.com/blogs/machine-learning/build-a-social-media-dashboard-using-machine-learning-and-bi-services/), January 2018
 +  [ Visualize AWS CloudTrail Logs Using AWS Glue and Amazon QuickSight](https://aws.amazon.com/blogs/big-data/streamline-aws-cloudtrail-log-visualization-using-aws-glue-and-amazon-quicksight/), November 2017 
 +  [ Query and Visualize AWS Cost and Usage Data Using Amazon Athena and Amazon QuickSight](https://aws.amazon.com/blogs/big-data/query-and-visualize-aws-cost-and-usage-data-using-amazon-athena-and-amazon-quicksight/), September 2017 
 +  [ Quick Start: Build a Data Lake Foundation on the AWS Cloud with AWS Services](https://aws.amazon.com/quickstart/architecture/data-lake-foundation-with-aws-services/), September 2017 

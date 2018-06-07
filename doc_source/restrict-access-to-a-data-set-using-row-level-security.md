@@ -35,7 +35,7 @@ Use the following procedure to create a permissions files or query to use as dat
    The structure should look similar to the following\.     
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/restrict-access-to-a-data-set-using-row-level-security.html)
 
-   Alternately, if you prefer to use a \.csv file, the structure should look similar to the following\.
+   Alternatively, if you prefer to use a \.csv file, the structure should look similar to the following\.
 
    ```
    UserName,Region,Segment

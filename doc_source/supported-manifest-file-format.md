@@ -8,8 +8,6 @@ If you use an Amazon Redshift manifest file, Amazon QuickSight processes the opt
 
 Files you select for import must be delimited\-text \(for example, \.csv or \.tsv\), log \(\.clf\), or extended log \(\.elf\) format, or JSON \(\.json\)\. All files identified in one manifest file must use the same file format\. Plus, they must have the same number and type of columns\. If you are importing JSON files, then for `globalUploadSettings` you need to specify `format`, but not `delimiter`, `textqualifier`, and `containsHeader`\.
 
-The total size of the all the files specified can't exceed 10 GB, and the total number of files specified can't exceed 1000\.
-
 Any files you specify must be in Amazon S3 buckets that you have granted Amazon QuickSight access to\. For information about granting Amazon QuickSight access to AWS resources, see [Managing Amazon QuickSight Permissions to AWS Resources](managing-permissions.md)\.
 
 ## Manifest File Format for Amazon QuickSight<a name="quicksight-manifest-file-format"></a>
@@ -63,8 +61,8 @@ The manifest file elements are described following\.
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/supported-manifest-file-format.html)
 + **globalUploadSettings** — \(Optional\) Use this element to specify import settings for the Amazon S3 files, such as field delimiters\. If this element is not specified, Amazon QuickSight uses the default values for the fields in this section\.
 **Important**  
- For log \(\.clf\) and extended log \(\.elf\) files, only the **format** field in this section is applicable, so you can skip the other fields\. If you choose to include them, their values are ignored\. 
-  + **format** — \(Optional\) Specify the format of the files to be imported\. Valid formats are **CSV**, **TSV**, **CLF**, and **ELF**\. The default value is **CSV**\.
+For log \(\.clf\) and extended log \(\.elf\) files, only the **format** field in this section is applicable, so you can skip the other fields\. If you choose to include them, their values are ignored\. 
+  + **format** — \(Optional\) Specify the format of the files to be imported\. Valid formats are **CSV**, **TSV**, **CLF**, **ELF**, and **JSON**\. The default value is **CSV**\.
   + **delimiter** — \(Optional\) Specify the file field delimiter\. This must map to the file type specified in the `format` field\. Valid formats are commas \(**,**\) for \.csv files and tabs \(**\\t**\) for \.tsv files\. The default value is comma \(**,**\)\.
   + **textqualifier** — \(Optional\) Specify the file text qualifier\. Valid formats are single quote \(**'**\), double quotes \(**\\"**\), or no value if no qualifier is used\. The leading backslash is a required escape character for a double quote in JSON\. The default value is double quotes \(**\\"**\)\.
   + **containsHeader** — \(Optional\) Specify whether the file has a header row\. Valid formats are **true** or **false**\. The default value is **true**\.
@@ -168,7 +166,7 @@ The following example uses the Amazon Redshift format to identify two JSON files
         }
     ],
     "globalUploadSettings": {
-        “format": “JSON""
+        "format": "JSON"
     }
 }
 ```

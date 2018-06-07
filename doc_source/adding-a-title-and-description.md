@@ -22,10 +22,10 @@ Use the following procedure to add a title and description to an analysis\.
 
 ## Delete a Title or Description<a name="delete-a-title-or-description"></a>
 
-To remove a title, choose **Add** in the application bar and then choose **Remove title**\. Alternately, to remove the title, you can select the title and then choose the delete icon\.
+To remove a title, choose **Add** in the application bar and then choose **Remove title**\. Alternatively, to remove the title, you can select the title and then choose the delete icon\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/remove-title.png)
 
-To remove a description, choose **Add** in the application bar and then choose **Remove description**\. Alternately, to remove the description, you can select the description and then choose the delete icon\.
+To remove a description, choose **Add** in the application bar and then choose **Remove description**\. Alternatively, to remove the description, you can select the description and then choose the delete icon\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/remove-description.png)

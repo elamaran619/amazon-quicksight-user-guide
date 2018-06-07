@@ -17,9 +17,9 @@ Use this section to learn how to set permissions in Amazon S3 files so they can 
 
 For information on accessing another account's Amazon S3 files from your Amazon QuickSight account, see [Setting Up Amazon QuickSight to Access Amazon S3 Files in Another AWS Account](#setup-quicksight-to-access-S3-in-a-different-account)\. For more information about S3 permissions, see [Managing Access Permissions to Your Amazon S3 Resources](http://docs.aws.amazon.com/AmazonS3/latest/dev/s3-access-control.html) and [How Do I Set Permissions on an Object?](http://docs.aws.amazon.com/AmazonS3/latest/user-guide/set-object-permissions.html)
 
-You can use the following procedure to set this access from the S3 console\. Alternately, you can grant permissions by using the AWS CLI or by writing a script\. If you have a lot of files to share, you can instead create an S3 bucket policy on the `s3:GetObject` action\. To use a bucket policy, add it to the bucket permissions, not to the file permissions\. For information on bucket policies, see [Bucket Policy Examples](http://docs.aws.amazon.com/AmazonS3/latest/dev/example-bucket-policies.html) in the *Amazon S3 Developer Guide\. *
+You can use the following procedure to set this access from the S3 console\. Alternatively, you can grant permissions by using the AWS CLI or by writing a script\. If you have a lot of files to share, you can instead create an S3 bucket policy on the `s3:GetObject` action\. To use a bucket policy, add it to the bucket permissions, not to the file permissions\. For information on bucket policies, see [Bucket Policy Examples](http://docs.aws.amazon.com/AmazonS3/latest/dev/example-bucket-policies.html) in the *Amazon S3 Developer Guide\. *
 
-1. Get the email address of the AWS account email you want to share with\. Alternately, you can get and use the canonical user ID\. For more information on canonical user IDs, see [AWS Account Identifiers](http://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html) in the *AWS General Reference\.*
+1. Get the email address of the AWS account email you want to share with\. Alternatively, you can get and use the canonical user ID\. For more information on canonical user IDs, see [AWS Account Identifiers](http://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html) in the *AWS General Reference\.*
 
 1. Sign in to the AWS Management Console and open the Amazon S3 console at [https://console\.aws\.amazon\.com/s3/](https://console.aws.amazon.com/s3/)\.
 
@@ -61,7 +61,7 @@ Use the following procedure to access another account's Amazon S3 files from Ama
 
 1. If you want to add all the buckets you have permission to use, choose **Choose accessible buckets from other AWS accounts**\. Otherwise, type the name of the Amazon S3 bucket that you want to add\. It must exactly match the unique name of the Amazon S3 bucket\.
 
-   If you don't have the appropriate permissions, you see the error message "We can't connect to this S3 bucket\. Make sure any S3 buckets you specify are associated with the AWS account used to create this QuickSight account\." This error message appears if you don't have either account permissions or Amazon QuickSight permissions\.
+   If you don't have the appropriate permissions, you see the error message "We can't connect to this S3 bucket\. Make sure that any S3 buckets you specify are associated with the AWS account used to create this QuickSight account\." This error message appears if you don't have either account permissions or Amazon QuickSight permissions\.
 **Note**  
 To use Amazon Athena, Amazon QuickSight needs to access the Amazon S3 buckets that Athena uses\. You can add them here one by one, or use the **Choose accessible buckets from other AWS accounts** option\.
 

@@ -31,7 +31,7 @@ If you want to create a data set using an existing Amazon Athena data source, us
 1. Choose one of the following:
    + **Custom SQL**
 
-     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. Doing this opens a screen named **Enter custom SQL query**, where you can type a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you name and enter the query, you can choose **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure that there are no errors\.
    + **Choose tables**
 
      If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen, and the schema selection option isn't displayed\.
@@ -45,7 +45,7 @@ If you want to create a data set using an existing Amazon Athena data source, us
 
    To load your data into [SPICE](welcome.md#spice), choose **Import to SPICE**\. The green indicator shows whether or not you have space available\. 
 
-   Alternately, you can choose to query your data without using SPICE\. To do this, choose **Directly query your data**\.
+   Alternatively, you can choose to query your data without using SPICE\. To do this, choose **Directly query your data**\.
 
 1. After choosing how to query your data, choose one of the following options:
    + To prepare the data before creating an analysis, choose **Edit/Preview data** to begin data preparation for the selected table\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.
@@ -66,7 +66,7 @@ Use the following procedure to create a data set using an existing Salesforce da
 1. Choose one of the following:
    + **Custom SQL**
 
-     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SOQL\. For best results, compose the query in a text editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SOQL and make sure there are no errors\.
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. Doing this opens a screen named **Enter custom SQL query**, where you can type a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you name and enter the query, you can choose **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure that there are no errors\.
    + **Choose tables**
 
      If you prefer to connect to specific tables, for **Data elements: contain your data**, choose **Select** and then choose either **REPORT** or **OBJECT**\. 
@@ -96,7 +96,7 @@ Use the following procedure to create a data set using an existing database data
 1. Choose one of the following:
    + **Custom SQL**
 
-     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. Doing this opens a screen named **Enter custom SQL query**, where you can type a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you name and enter the query, you can choose **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure that there are no errors\.
    + **Choose tables**
 
      If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen, and the schema selection option isn't displayed\.
@@ -110,9 +110,9 @@ Use the following procedure to create a data set using an existing database data
    + To create a data set and an analysis using the table data as\-is, and to import the data set data into [SPICE](welcome.md#spice) for improved performance \(recommended\), check the SPICE indicator to see if you have enough space\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-meter.png)
 
-     If you have enough SPICE capacity, choose the **Import to SPICE for quicker analytics** radio button and then create an analysis by choosing **Visualize**\.
+     If you have enough SPICE capacity, choose **Import to SPICE for quicker analytics**, and then create an analysis by choosing **Visualize**\.
 **Note**  
 If you want to use SPICE and you don't have enough space, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size, apply a filter, or write a SQL query that reduces the number of rows or columns returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-or-query2.png)
-   + To create a data set and an analysis using the table data as\-is, and to have the data queried directly from the database, choose the **Directly query your data** radio button and then create an analysis by choosing **Visualize**\.  
+   + To create a data set and an analysis using the table data as\-is, and to have the data queried directly from the database, choose the **Directly query your data** option, and then create an analysis by choosing **Visualize**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-or-query3.png)

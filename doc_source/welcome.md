@@ -91,13 +91,13 @@ To learn more about Amazon QuickSight dashboards, see [Working with Dashboards](
 
 The first time you create an analysis, the typical workflow looks like this:
 
-1. Add or upload a data source, and use it create a new data set\.
+1. Add or upload a data source, and use it to create a new data set\.
 
 1. \(Optional\) Prepare the data – get it ready for reports by standardizing field names, or adding calculations, for example\.
 
 1. Visualize \(create\) a new analysis from the data set\.
 
-1. Choose some fields to create the first visual in the analysis\. You can let Amazon QuickSight dynamically create a visual \(AutoGraph\) based on the number and type of fields you choose\. Alternatively, you can choose the visual type you want to use\. 
+1. Choose some fields to create the first visual in the analysis\. You can use AutoGraph to dynamically create a visual based on the number and type of fields you choose\. Alternatively, you can choose the visual type you want to use\. 
 
 1. \(Optional\) Make changes to the visual if you want to \(for example, by adding a filter or changing the visual type\)\.
 

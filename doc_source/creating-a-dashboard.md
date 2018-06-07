@@ -16,4 +16,4 @@ Use the following procedure to publish and optionally share a dashboard\.
    + To publish a dashboard without sharing, choose **x** on top right of the **Share dashboard with users** screen\. You can always share the dashboard later by choosing **Share** from the application bar\. 
    + To share the dashboard, follow the procedure in [Sharing Dashboards](sharing-a-dashboard.md)\.
 
-   After you've completed these steps, you've completed creating and sharing the dashboard\. The new dashboard users now receive email with a link to the dashboard\. Groups don't receive invitation emails\.
+   After you complete these steps, you complete creating and sharing the dashboard\. The new dashboard users now receive email with a link to the dashboard\. Groups don't receive invitation emails\.

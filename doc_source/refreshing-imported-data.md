@@ -69,7 +69,7 @@ Use the following procedure to refresh a [SPICE](welcome.md#spice) data set base
 
 ## Refreshing a Data Set on a Schedule<a name="schedule-data-refresh"></a>
 
-Use the following procedure to schedule refreshing the data\. Note that if your data set is based on a direct query and not stored in [SPICE](welcome.md#spice), you can refresh your data by opening the data set or refreshing the page in an analysis or dashboard\.
+Use the following procedure to schedule refreshing the data\. If your data set is based on a direct query and not stored in [SPICE](welcome.md#spice), you can refresh your data by opening the data set or refreshing the page in an analysis or dashboard\.
 
 **To refresh [SPICE](welcome.md#spice) data on a schedule**
 

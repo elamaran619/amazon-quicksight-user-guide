@@ -44,7 +44,7 @@ In Standard edition, you can invite an AWS Identity and Access Management \(IAM\
 
 When you create a user account, you also choose to assign it either an administrative or a user role\. This role assignment determines the user's permissions in Amazon QuickSight\. You perform all management of users by adding, changing, and deleting user accounts in Amazon QuickSight\. 
 
-For more information about managing Standard edition user accounts, see [Managing User Access inside Amazon QuickSight](managing-quicksight-users.md)\.
+For more information about managing Standard edition user accounts, see [Managing User Access Inside Amazon QuickSight](managing-quicksight-users.md)\.
 
 ### User Management for Enterprise Edition<a name="edition-user-management-enterprise"></a>
 
@@ -68,7 +68,7 @@ In Standard edition, all Amazon QuickSight administrators can manage subscriptio
 Additional AWS permissions are required to manage Amazon QuickSight permissions to AWS resources and to unsubscribe from Amazon QuickSight\. These tasks can only be performed by an IAM user who also has administrative permissions in Amazon QuickSight, or by the IAM user or AWS account that created the Amazon QuickSight account\.
 
 To manage access to AWS resources from Amazon QuickSight, you must be logged in as one of the following:
-+ Any IAM user who is a Amazon QuickSight adminstrator
++ Any IAM user who is an Amazon QuickSight adminstrator
 + The IAM user or AWS root account that created the Amazon QuickSight account
 
 In Enterprise edition, you must add AD users or groups to an IAM role that has QuickSight permissions, rather than adding IAM users individually\. All Microsoft Active Directory users that are Amazon QuickSight administrators can to manage subscriptions and SPICE capacity\. 

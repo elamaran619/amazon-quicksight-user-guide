@@ -58,7 +58,7 @@ For Enterprise edition only, to allow a user to manage directory group associati
 
 ## IAM Policy Actions for Unsubscribing from Amazon QuickSight<a name="iam-policy-actions-for-unsubscribing-from-quicksight"></a>
 
-To allow a user to unsubscribe from Amazon QuickSight, allow the following actions in an IAM policy\. Unsubscribing removes all users and data and can't be undone\. For more information, see [Canceling Your Amazon QuickSight Subscription and Closing the Account](closing-account.md)\. 
+To allow a user to unsubscribe from Amazon QuickSight, allow the following actions in an IAM policy\. Unsubscribing removes all users and data, and you can't undo this operation\. For more information, see [Canceling Your Amazon QuickSight Subscription and Closing the Account](closing-account.md)\. 
 
 To prevent Amazon QuickSight administrators from unsubscribing from Amazon QuickSight and deleting all users and data, you can deny all users the `quicksight:Unsubscribe` action\. Then, if users try to unsubscribe, they get a message to contact their AWS administrator\.
 

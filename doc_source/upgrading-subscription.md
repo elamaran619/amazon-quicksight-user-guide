@@ -16,9 +16,9 @@ Users who are in the reader role can view and manipulate shared dashboards, and 
 
 **Warning**  
 Downgrading from Enterprise edition to Standard edition isn't currently possible due to the enhanced feature set available in Enterprise edition\. To perform this downgrade, unsubscribe from Amazon QuickSight, and then start a new subscription\. It isn't possible to transfer users or assets between subscriptions\.   
-Upgrading to Enterprise edition with Active Directory connectivity isn't supported due to differences in the user identity mechanisms between Amazon QuickSight password\-based users and existing Active Directory users\.  
+Upgrading to Enterprise edition to use Active Directory connectivity isn't supported due to differences in the user identity mechanisms between Amazon QuickSight password\-based users and existing Active Directory users\.  However, you can upgrade to Enterprise, and still use password\-based users\. If you want to upgrade, and change how users sign in, you can unsubscribe and start a new subscription\.
 
-Use the following procedure to upgrade to Enterprise edition\. To perform the upgrade, you need administrative access to Amazon QuickSight, with security permissions to subscribe\. The person performing the upgrade is usually an AWS administrator who is also a Amazon QuickSight administrator\. 
+Use the following procedure to upgrade to Enterprise edition\. To perform the upgrade, you need administrative access to Amazon QuickSight, with security permissions to subscribe\. The person performing the upgrade is usually an AWS administrator who is also an Amazon QuickSight administrator\. 
 
 1. Open the administrative settings page by clicking on your profile icon at top right\.
 
@@ -35,3 +35,5 @@ You can't undo this action\.
    Choose **Upgrade** to upgrade\. The upgrade is instantaneous\.
 
    Billing for the upgrade to your subscription is pro\-rated for the month of upgrade\. Upgrades to Amazon QuickSight users are also pro\-rated\.
+
+1. When you upgrade to Enterprise edition, your admin and author users retain their roles\. You can downgrade users to readers\. First make sure to transfer any assets they own that you want to keep\. Then, delete them and add them back to your subscription as readers\. If you are using Active Directory, delete the authors, move them to the new reader group, then recreate them as readers in Amazon QuickSight\. 

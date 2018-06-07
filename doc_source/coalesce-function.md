@@ -13,7 +13,7 @@ coalesce(expression, expression [, expression, ...])
 `coalesce` takes two or more expressions as arguments\. All of the expressions must have the same data type or be able to be implicitly cast to the same data type\.
 
  *expression*   
-The expression must be a string\. It can be a field name like **address1**, a literal value like **'Unknown'**, or another function like `toString({Sales Amount})`\. 
+The expression can be numeric, datetime, or string\. It can be a field name, a literal value, or another function\. 
 
 ### Return Type<a name="coalesce-function-return-type"></a>
 

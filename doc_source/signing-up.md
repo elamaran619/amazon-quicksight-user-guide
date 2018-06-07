@@ -197,4 +197,4 @@ To enable self\-provisioning for Amazon QuickSight by setting an IAM policy on a
 
 To set up data sources for your users, see [Working with Data Sources in Amazon QuickSight](working-with-data-sources.md)\.
 
-For more information about managing users for Amazon QuickSight administrators, see [Managing User Access inside Amazon QuickSight](managing-quicksight-users.md)\. 
+For more information about managing users for Amazon QuickSight administrators, see [Managing User Access Inside Amazon QuickSight](managing-quicksight-users.md)\. 

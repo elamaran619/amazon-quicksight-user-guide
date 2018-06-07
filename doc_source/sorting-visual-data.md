@@ -3,14 +3,14 @@
 Most visual types offer the ability to change data sort order\. Whether sorting is supported and what visual element you can sort by depends on the visual type\. 
 
 **Important**  
-Sorting by text fields \(those with a string data type\) isn't supported for visuals based on [SPICE](welcome.md#spice) data sets\.
+Sorting by text fields \(those with a string data type\) isn't supported for visuals based on [SPICE](welcome.md#spice) data sets\. In this case, sorting options don't appear for those fields\.
 
-Use the following table to identify the field wells/on\-visual editors that support sorting for each visual type\.
+Use the following table to identify the field wells or on\-visual editors that support sorting for each visual type\.
 
 
 ****  
 
-| Visual type | Field well or on\-visual editor | 
+| Visual Type | Field Well or On\-Visual Editor | 
 | --- | --- | 
 | Bar charts \(all Horizontal\) | Y axis and Value | 
 | Bar charts \(all Vertical\) | X axis and Value | 

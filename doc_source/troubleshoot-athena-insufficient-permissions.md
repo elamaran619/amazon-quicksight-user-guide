@@ -12,7 +12,7 @@ If you receive an "insufficient permissions" error, try these steps to resolve y
 
    1. If your bucket isn't listed under **S3 buckets linked to QuickSight account**, choose the **S3 buckets you can access across AWS** tab\. To add your bucket, type in your bucket's name and choose **Add S3 bucket**\.
 
-1. If your data file is encrypted with an AWS KMS key, grant permissions to the Amazon QuickSight IAM role to decrypt the key\. The easiest way to do this is to use the AWS CLI\. If you don’t have the AWS CLI set up and configured, see [Configuring the AWS CLI](docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) in the *AWS Command Line Interface User Guide\.*
+1. If your data file is encrypted with an AWS KMS key, grant permissions to the Amazon QuickSight IAM role to decrypt the key\. The easiest way to do this is to use the AWS CLI\. If you don’t have the AWS CLI set up and configured, see [Configuring the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) in the *AWS Command Line Interface User Guide\.*
 
    You can run the [create\-grant](https://docs.aws.amazon.com/cli/latest/reference/kms/create-grant.html) command in AWS CLI to do this\. 
 

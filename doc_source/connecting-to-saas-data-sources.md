@@ -7,7 +7,7 @@ You can use either cloud\-based or server\-based instances of the SaaS\. To conn
 Here are examples of some ways you can use SaaS data:
 + Engineering teams who use JIRA to track issues and bugs can report on developer efficiency and bug burndown\. 
 + Marketing organizations can integrate Amazon QuickSight with Adobe Analytics to build consolidated dashboards to visualize their online and web marketing data\.
-+ Teams using social media can access Twitter data to analyze and understand their customers’ sentiment\. 
++ Teams using social media can access Twitter data to analyze and understand their customers' sentiment\. 
 
 Use the following procedure to create a data source and data set by connecting to sources available through Software\-as\-a\-Service \(SaaS\)\. In this procedure, we use a connection to GitHub as an example\. Other SaaS data sources follow the same process, although the screens – especially the SaaS screens – might look different\.
 
@@ -15,7 +15,7 @@ Use the following procedure to create a data source and data set by connecting t
 
 1. On the **Your Data Sets** page, choose **New data set**\.
 
-1. In the **FROM NEW DATA SOURCES** section of the **Create a Data Set** page, choose the icon that represents the SaaS you want to use\. For example, Adobe Analytics or GitHub\.
+1. In the **FROM NEW DATA SOURCES** section of the **Create a Data Set** page, choose the icon that represents the SaaS you want to use\. For example, you might choose Adobe Analytics or GitHub\.
 
    For sources using OAuth, the connector takes you to the SaaS site to authorize the connection before letting you create the data source\. A screen similar to one of the following appears:  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/new-saas-data-source-name-only.png)

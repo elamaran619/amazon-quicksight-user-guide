@@ -26,10 +26,10 @@ ifelse(month = 5 OR (month < 3 AND year = 2000), 'yes', 'no')
 ```
 
  *then*   
-The expression to be returned if its *if* argument is evaluated as true\. It can be a field name like **address1**, a literal value like **'Unknown'**, or a call to another function\. The expression must have the same data type as the `else` argument\. 
+The expression to be returned if its *if* argument is evaluated as true\. It can be a field name like **address1**, a literal value like **'Unknown'**, or a call to another function\. The expression must have the same data type as the other `then` arguments and the `else` argument\. 
 
  *else*   
-The expression to be returned if none of the *if* arguments evaluate as true\. It can be a field name like **address1**, a literal value like **'Unknown'**, or another function like `toString({Sales Amount})`\. The expression must have the same data type as the `then` argument\. 
+The expression to be returned if none of the *if* arguments evaluate as true\. It can be a field name like **address1**, a literal value like **'Unknown'**, or another function like `toString({Sales Amount})`\. The expression must have the same data type as all of the `then` arguments\. 
 
 ### Return Type<a name="ifelse-function-return-type"></a>
 

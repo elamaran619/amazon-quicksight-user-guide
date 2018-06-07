@@ -10,7 +10,7 @@ Use the following procedure to create a connection to an autodiscovered AWS data
 
 1. Confirm that the database credentials you plan to use have appropriate permissions as described in [Required Permissions for Database Credentials](required-permissions.md)\. 
 
-1. Make sure you have configured the cluster or instance for Amazon QuickSight access by following the instructions in [Network and Database Configuration Requirements](configure-access.md)\.
+1. Make sure that you have configured the cluster or instance for Amazon QuickSight access by following the instructions in [Network and Database Configuration Requirements](configure-access.md)\.
 
 1. On the Amazon QuickSight start page, choose **Manage data**\.
 
@@ -34,7 +34,7 @@ Amazon QuickSight automatically secures connections to Amazon RDS instances and 
 1. Choose one of the following:
    + **Custom SQL**
 
-     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. Doing this opens a screen named **Enter custom SQL query**, where you can type a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you name and enter the query, you can choose **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure that there are no errors\.
    + **Choose tables**
 
      If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen, and the schema selection option isn't displayed\.
@@ -48,22 +48,22 @@ Amazon QuickSight automatically secures connections to Amazon RDS instances and 
    + To create a data set and analysis using the table data as\-is, and to import the data set data into SPICE for improved performance \(recommended\), check the table size and the SPICE indicator to see if you have enough capacity\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-meter.png)
 
-     If you have enough SPICE capacity, choose the **Import to SPICE for quicker analytics** radio button and then create an analysis by choosing **Visualize**\.
+     If you have enough SPICE capacity, choose **Import to SPICE for quicker analytics**, and then create an analysis by choosing **Visualize**\.
 **Note**  
 If you want to use SPICE and you don't have enough space, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size, apply a filter, or write a SQL query that reduces the number of rows or columns returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-or-query2.png)
-   + To create a data set and an analysis using the table data as\-is, and to have the data queried directly from the database, choose the **Directly query your data** radio button and then create an analysis by choosing **Visualize**\.  
+   + To create a data set and an analysis using the table data as\-is, and to have the data queried directly from the database, choose the **Directly query your data** option, and then create an analysis by choosing **Visualize**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-or-query3.png)
 
 ## Creating a Data Set Using a Database That's Not Autodiscovered<a name="create-a-data-set-database"></a>
 
-Use the following procedure to create a connection to any database other than an autodiscovered Amazon Redshift cluster or Amazon RDS instance\. This includes Amazon Redshift clusters and Amazon RDS instances that are in a different AWS Region or are associated with a different AWS account, and MariaDB, Microsoft SQL Server, MySQL, and PostgreSQL instances that are on\-premises, in Amazon EC2, or in some other accessible environment\.
+Use the following procedure to create a connection to any database other than an autodiscovered Amazon Redshift cluster or Amazon RDS instance\. Such databases include Amazon Redshift clusters and Amazon RDS instances that are in a different AWS Region or are associated with a different AWS account\. They also include MariaDB, Microsoft SQL Server, MySQL, and PostgreSQL instances that are on\-premises, in Amazon EC2, or in some other accessible environment\.
 
 1. Check [Data Source Limits](data-source-limits.md) to make sure that your target table or query doesn't exceed data source limits\.
 
-1. Confirm that the database credentials you plan to use have appropriate permissions as described in [Required Permissions for Database Credentials](required-permissions.md)\. 
+1. Confirm that the database credentials that you plan to use have appropriate permissions as described in [Required Permissions for Database Credentials](required-permissions.md)\. 
 
-1. Make sure you have configured the cluster or instance for Amazon QuickSight access by following the instructions in [Network and Database Configuration Requirements](configure-access.md)\.
+1. Make sure that you have configured the cluster or instance for Amazon QuickSight access by following the instructions in [Network and Database Configuration Requirements](configure-access.md)\.
 
 1. On the Amazon QuickSight start page, choose **Manage data**\.
 
@@ -97,7 +97,7 @@ Use the following procedure to create a connection to any database other than an
 1. Choose one of the following:
    + **Custom SQL**
 
-     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. Doing this opens a screen named **Enter custom SQL query**, where you can type a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you name and enter the query, you can choose **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure that there are no errors\.
    + **Choose tables**
 
      If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. In some cases where there is only a single schema in the database, that schema is automatically chosen, and the schema selection option isn't displayed\.
@@ -111,9 +111,9 @@ Use the following procedure to create a connection to any database other than an
    + To create a data set and an analysis using the table data as\-is, and to import the data set data into SPICE for improved performance \(recommended\), check the table size and the SPICE indicator to see if you have enough space\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-meter.png)
 
-     If you have enough SPICE capacity, choose the **Import to SPICE for quicker analytics** radio button and then create an analysis by choosing **Visualize**\.
+     If you have enough SPICE capacity, choose **Import to SPICE for quicker analytics**, and then create an analysis by choosing **Visualize**\.
 **Note**  
 If you want to use SPICE and you don't have enough space, choose **Edit/Preview data**\. In data preparation, you can remove fields from the data set to decrease its size, apply a filter, or write a SQL query that reduces the number of rows or columns returned\. For more information about data preparation, see [Preparing Data Sets](preparing-data-sets.md)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-or-query2.png)
-   + To create a data set and an analysis using the table data as\-is, and to have the data queried directly from the database, choose the **Directly query your data** radio button and then create an analysis by choosing **Visualize**\.  
+   + To create a data set and an analysis using the table data as\-is, and to have the data queried directly from the database, choose the **Directly query your data** option, and then create an analysis by choosing **Visualize**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/spice-or-query3.png)

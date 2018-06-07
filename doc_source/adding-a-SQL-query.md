@@ -16,7 +16,7 @@ Use the following procedure to create a custom SQL query for a data set\.
 1. Choose one of the following:
    + **Custom SQL**
 
-     On the next screen, you can choose to write a query with the **Use custom SQL** option\. This opens a screen named **Enter custom SQL query**, where you can type in a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you've named and entered the query, you can choose to **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure there are no errors\.
+     On the next screen, you can choose to write a query with the **Use custom SQL** option\. Doing this opens a screen named **Enter custom SQL query**, where you can type a name for your query, and then enter the SQL\. For best results, compose the query in a SQL editor, and then paste it into this window\. After you name and enter the query, you can choose **Edit/Preview data** or **Confirm query**\. Choose **Edit/Preview data** to immediately go to data preparation\. Choose **Confirm query** to validate the SQL and make sure that there are no errors\.
    + **Choose tables**
 
      If you prefer to connect to specific tables, for **Schema: contain sets of tables**, choose **Select** and then choose a schema\. 
@@ -30,7 +30,7 @@ Use the following procedure to create a custom SQL query for a data set\.
 **Note**  
 You can explore the fields in your tables by using the **Tables** pane\. After you select a table, its structure displays in the viewer\. This view can be useful if you are unfamiliar with the field names, and want to write SQL\.  
 In some cases, Amazon QuickSight can't change a table data source into a query\. In this case, the screen doesn't display the option to switch to a custom SQL query\. To use a query instead, create a new data set that is based on the query you want to use\.   
-If your newly created data set doesn't appear on **Your Data Sets** screen, refresh your page\. Likewise, if you choose your new data set, and its dialog box has no options except **Create analysis**, close this dialog box and reopen it\. 
+If your newly created data set doesn't appear on **Your Data Sets** screen, refresh your page\. Likewise, if you choose your new data set and its dialog box has no options except **Create analysis**, close this dialog box and reopen it\. 
 
 1. Enter information for a new SQL query:
    + In the **Custom SQL** pane, choose **Use SQL**\.

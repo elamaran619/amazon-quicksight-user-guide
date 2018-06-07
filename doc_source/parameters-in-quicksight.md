@@ -27,11 +27,22 @@ Use the following procedure to create or edit a basic parameter\.
 
 1. Add a new parameter by choosing the add icon \(**\+**\) near the top of the pane\. Edit an existing parameter by choosing the `v`\-shaped icon near the parameter name and then choosing **Edit parameter**\. 
 
-1. Give the parameter an alphanumeric name and choose its data type\. 
+1. The following screen appears\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/parameter-create-or-edit.png)
+
+   A parameter consists of the following parts, which you enter on this screen:  
+Name  
+Type in an alphanumeric value for the parameter **Name**\. This name is used as a reference in the consumers of the parameters \(for example, calculated field, filter, custom URL action, and so on\)\. For ease of use, you can choose a name that reflects the data type and purpose of the parameter\.  
+Data type  
+Choose a value for **Data type**\. This data type can't be altered after you create the parameter\.   
+Default value  
+Type in a value for **Default value** for the parameter\. This value is used during the first page load, if a dynamic default value or URL parameter isn't provided\.  
+Dynamic default value  
+Choose **Set a dynamic default** to create such a default\. A *dynamic default *is a per\-user default value for the first page load of the dashboard\. Calculated fields can't be used as dynamic defaults\. Dynamic defaults don't prevent a user from selecting a different value\. If you want to also secure the data, you can also add row\-level locking\. For more information, see [Restricting Access to a Data Set by Using Row\-Level Security](restrict-access-to-a-data-set-using-row-level-security.md)\.
 
 1. Choose **Create** or **Update** to complete creating or updating the parameter\.
 
-After you create a parameter, you can use it in a variety of ways\. You can create a control \(such as a button\) so that you can choose a value for your parameter\. You can also create defaults for each user for your parameter by using the **Set a dynamic default** option\. For more information, see the following sections\.
+After you create a parameter, you can use it in a variety of ways\. You can create a control \(such as a button\) so that you can choose a value for your parameter\. For more information, see the following sections\.
 
 ### Using a Control with a Parameter in Amazon QuickSight<a name="parameters-controls"></a>
 
@@ -66,7 +77,7 @@ Use the following procedure to create or edit a control for an existing paramete
      In the control, the values display in the order you typed them, not alphabetically\.
    + **Link to a data set field**
 
-     To link to a field, choose the data set that contains your field, then choose the field from the list\. The values display alphabetically in the control\.
+     To link to a field, choose the data set that contains your field, then choose the field from the list\. It can't be a calculated field\. The values display alphabetically in the control\. Using more than 10,000 distinct values for linked data isn't supported\. If you need more than 10,000 values, you can enter them in **Specific values**\.
 
      If you change the default values in the parameter, choose **Reset** on the control to show the new values\.
 
@@ -88,7 +99,7 @@ Use the following procedure to create or edit a static \(unchanging\) default va
 
 1. Choose the context menu \(`v`\) by the parameter you want to edit, or create a new parameter by following the steps in [Creating or Editing Parameters in Amazon QuickSight](#parameters-basic-create-or-edit)\. 
 
-1. To set a static default, type one in the **Default value** field\. Otherwise, leave this blank\. The value you set for a static default can't be changed by the dashboard user\. 
+1. To set a static default, type a value in the **Default value** field\. Otherwise, leave this blank\. The value you set for a static default can't be changed by the dashboard user\. 
 
 To create or edit an optional dynamic default value for a parameter, use the following procedure\. The data set for dynamic defaults can use a database query or an uploaded file\. 
 
@@ -111,14 +122,13 @@ To create or edit an optional dynamic default value for a parameter, use the fol
 
    If a dynamic default can't be resolved to a single value, Amazon QuickSight uses the static default value\. If a user has no dynamic default value, or the user ID doesn't exist in the data set, then the static default value is used\. If there is no static default either, then the user can still choose values from the controls\.
 
-**Note**  
-If you are trying to use a parameter with dynamic values by linking to a data set \(rather than trying to create dynamic defaults\), don't use the **Set a dynamic default** option\. Instead, use a control to offer dynamic values in a list, as explained in [Using a Control with a Parameter in Amazon QuickSight](#parameters-controls)\.
-
 ## Connecting to Parameters in Amazon QuickSight<a name="parameters-connections"></a>
 
 Use this section after you have a parameter set up, to connect it and make it work\. 
 
-After you create a parameter, the following screen appears\. You can choose your next step from this screen\.
+After you create a parameter, you can create consumers of the parameters\. *Parameter consumers* are components that consume the value of a parameter, such as filters, controls, calculated fields, or URL actions\. 
+
+You can choose your next step from the shortcuts on this screen\. Alternatively, you can navigate to each of these in another way\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/parameters-connect.png)
 
@@ -142,13 +152,15 @@ Use this section to filter the data in an analysis or dashboard by a parameter v
 
 1. Choose **Apply** to save your changes\.
 
-Test your new filter by choosing the control in the workspace\. In this example, we use a basic parameter that has no defaults, and a dynamic control that is linked to the **Region** field in the sample data set named **Sales Pipeline**\. The control queries the data, returning all values\. 
+Test your new filter by choosing the control near the top of the analysis\. In this example, we use a basic parameter that has no defaults, and a dynamic control that is linked to the **Region** field in the sample data set named **Sales Pipeline**\. The control queries the data, returning all values\. 
 
 Two context menus appear in the following screenshot\. The menu that is highlighted in the screenshot manages the parameter\. The menu that is not highlighted manages the control settings\. Using the control's menu, you can reset the control by choosing **Reset**, or refresh your data by choosing **Refresh list**\. 
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/parameters-using-in-a-control.png)
 
-If you delete or rename a parameter that you are using in a filter, you can update the filter with the new parameter\. Open the filter, choose the new parameter that you want to use, and then choose **Apply**\.
+If you delete or recreate a parameter that you are using in a filter, you can update the filter with the new parameter\. To do this, open the filter, choose the new parameter that you want to use, and then choose **Apply**\.
+
+If you rename a parameter, you don't need to update the filter or any other consumers\.
 
 ### Using Calculated Fields with Parameters in Amazon QuickSight<a name="parameters-calculated-fields"></a>
 
@@ -160,4 +172,4 @@ You can pass the value of a parameter to a calculated field in an analysis\. Whe
 
 You can pass or send parameters to custom URL actions\. For example, you could add a parameter to a custom URL action so you can send it to another URL\. The parameters on both the sending and the receiving end should match in name and data type\.
 
-To use a parameter in a custom URL action, select it from the list\. Parameters are enclosed in curly braces, for example: `{Region}`, or `{StartDate}`\.
+To use a parameter in a custom URL action, select it from the list\. Parameters are enclosed in curly braces `{ }`, and preceded by a `$`, for example: `${parameterName}`\.
