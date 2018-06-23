@@ -19,9 +19,9 @@ Use the following table to understand the features supported by vertical bar cha
 
 | Feature | Supported? | Comments | For More Information | 
 | --- | --- | --- | --- | 
-| Changing the legend display | Yes, with exceptions | Multi\-measure vertical bar charts and clustered vertical bar charts display a legend, while single\-measure vertical bar charts do not\. | [Displaying the Visual Legend](formatting-a-visual.md#displaying-the-visual-legend) | 
-| Changing the title display | Yes |  | [Displaying a Visual's Title](formatting-a-visual.md#displaying-visual-title) | 
-| Changing the axis range | Yes | You can set the range for the Y axis\. | [Changing the Axis Range](formatting-a-visual.md#changing-axis-range) | 
+| Changing the legend display | Yes, with exceptions | Multi\-measure vertical bar charts and clustered vertical bar charts display a legend, while single\-measure vertical bar charts do not\. | [Customizing the Visual Legend](formatting-a-visual.md#customizing-visual-legend) | 
+| Changing the title display | Yes |  | [Customizing a Visual Title](formatting-a-visual.md#displaying-visual-title) | 
+| Changing the axis range | Yes | You can set the range for the Y axis\. | [Changing the Visual Scale with the Axis Range](formatting-a-visual.md#changing-visual-scale-axis-range) | 
 | Changing the visual colors | Yes |  | [Changing Visual Colors in Amazon QuickSight](changing-visual-colors.md) | 
 | Focusing on or excluding elements | Yes, with exceptions | You can focus on or exclude any bar on the chart, except when you are using a date field as the dimension for the X axis\. In that case, you can only focus on a bar, not exclude it\. |  [Focusing on Visual Elements](focusing-on-visual-elements.md) [Excluding Visual Elements](excluding-visual-elements.md) | 
 | Sorting | Yes | You can sort on the fields you choose for the X axis and the values\. | [Sorting Visual Data in Amazon QuickSight](sorting-visual-data.md) | 
@@ -38,7 +38,7 @@ Use the following procedure to create a vertical bar chart\.
 
 1. On the **Visual types** pane, choose the vertical bar chart icon\.
 
-1. From the **Fields list** pane, drag the fields you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\.
+1. From the **Fields list** pane, drag the fields that you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\.
    + To create a single\-measure vertical bar chart, drag a dimension to the **X axis** field well and one measure to the **Value** field well\.
    + To create a multi\-measure vertical bar chart, drag a dimension to the **X axis** field well and two or more measures to the **Value** field well\. Leave the **Group/Color** field well empty\.
    + To create a clustered vertical bar chart, drag a dimension to the **X axis** field well, one measure to the **Value** field well, and one dimension to the **Group/Color** field well\.

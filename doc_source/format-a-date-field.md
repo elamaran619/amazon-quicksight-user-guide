@@ -1,10 +1,10 @@
 # Format a Date Field<a name="format-a-date-field"></a>
 
-When you format a date field, you can either choose a format from a list of common options or you can open the **Format Data** pane and manually format the field\. Manually formatting the field allows you to choose from a list of common date and time formats to use, or alternatively specify custom formats for the date and time values\.
+When you format a date field, you can choose a list of common formatting options\. Alternatively, you can open the **Format Data** pane choose from a list of common formats, or specify custom formatting for the date and time values\.
 
 Changing a field format changes it for all visuals in the analysis that use that data set, but does not change it in the data set itself\.
 
-## Format a Date Field Using List Options<a name="format-a-date-field-list"></a>
+### Format a Date Field Using List Options<a name="format-a-date-field-list"></a>
 
 If you want to format a date field by choosing from a list of common options, you can access such a list from the **Field list** pane, a visual on\-visual editor, or a visual field well\.
 
@@ -21,7 +21,7 @@ Use the following procedure to change a date field's format by choosing a list o
    + Show the month and year\.
    + Show the year\.
 
-## Format a Date Field Manually<a name="format-a-date-field-manual"></a>
+### Format a Date Field Manually<a name="format-a-date-field-manual"></a>
 
 Manually formatting the field allows you to choose from a more extensive list of date and time formats to use, or alternatively to specify custom formats for the date and time values\.
 

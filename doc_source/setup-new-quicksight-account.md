@@ -40,10 +40,24 @@ If you don't already have an AWS account, see [Setup a Free Standalone User Acco
 
 If you're a student or educator, new to AWS, see [Sign Up for AWS and a Free Amazon QuickSight Account as an Educator or Student](#setup-aws-educator-or-student) instead\.
 
-This process guides you through the following steps:
-+ Create a free Amazon QuickSight account\. You can choose either Standard or Enterprise Edition\. You also set up an Amazon QuickSight account name\. 
-+ Open Amazon QuickSight and get some sample data to explore\.
+This process helps an individual user to start up a free Amazon QuickSight Standard account\. If you want to use Enterprise edition, or if you are an administrator trying to configure Amazon QuickSight for your company, see [Subscribe to Amazon QuickSight](signing-up.md#how-to-add-quicksight-to-your-aws-account) instead\.
 
-To start the signup process, navigate to Amazon QuickSight in the AWS console\. 
+Before you begin, you must be able connect to an existing AWS account\. If your company already has an AWS account, contact your AWS account administrator for assistance\. 
 
-If you successfully completed signup, you are ready to explore what you can do with Amazon QuickSight\. 
+**To subscribe to Amazon QuickSight**
+
+1. Sign in to your AWS account and open Amazon QuickSight from the AWS Management Console\. It is located under Analytics, and you can find it by searching for "QuickSight"\.
+
+1. Your AWS account number is displayed for verification purposes\. Choose **Sign up for QuickSight**\.
+
+1. Choose **Standard**\. To confirm, choose **Continue**\. A screen titled **Create your QuickSight account** appears\. 
+
+1. Make choices for the following items:
+   + Type in a unique name for your Amazon QuickSight subscription account\. Your account name can only contain characters \(A–Z and a–z\), digits \(0–9\), and hyphens \(\-\)\. 
+   + Type in a your email address to receive Amazon QuickSight service and usage notifications\.
+   + \(Optional\) Choose the AWS region you want to utilize for your default [SPICE](welcome.md#spice) capacity\. This is where your account’s free SPICE capacity is allocated after signing up\. Note that you aren't able to change the default capacity region later, but you can always purchase additional SPICE capacity in different regions as needed\. See [AWS Regions and IP Address Ranges](regions.md) for information on regions\.
+   + \(Optional\) Choose whether to allow autodiscovery of your AWS resources\. You can change these options later in **Manage Account**\. For more information, see [Allowing Autodiscovery of AWS Resources](autodiscover-aws-data-sources.md)\.
+
+1. Review the choices you made, then choose **Finish**\. 
+
+After you successfully complete signup, you are ready to explore what you can do with Amazon QuickSight\. 

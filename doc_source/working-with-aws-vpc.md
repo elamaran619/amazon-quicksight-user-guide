@@ -2,24 +2,24 @@
 
 Amazon QuickSight is fully integrated with the Amazon Virtual Private Cloud \(Amazon VPC\) service\. Use this section to find how to configure Amazon QuickSight to access data in your VPC\.
 
-In Amazon QuickSight Enterprise edition, you can create connections to your VPCs from your AWS account's Amazon QuickSight subscription\. Each connection creates an elastic network interface in your VPC for Amazon QuickSight to send traffic to instances in your VPC\. When creating a data set, an Amazon QuickSight user uses a VPC connection using only private IP addresses to connect to an instance that is not reachable from the public internet\.
+In Amazon QuickSight Enterprise edition, you can create connections to your VPCs from your AWS account's Amazon QuickSight subscription\. Each connection creates an elastic network interface in your VPC for Amazon QuickSight to send traffic to instances in your VPC\. When creating a data set, Amazon QuickSight accesses a VPC connection using only private IP addresses to connect to an instance that is not reachable from the public internet\. You can access VPCs that are located in the same AWS Region where you are using Amazon QuickSight to create analyses\. 
 
 ## Create a Private Connection to Amazon VPC Using Amazon QuickSight<a name="private-connection-to-vpc-using-quicksight"></a>
 
-Use the following procedure to create a connection to a VPC\.
+Use the following procedure to create a connection to a VPC\. Before you begin, you should understand your deployment of Amazon VPC in the AWS Region you are using: its subnets, and security groups, in relation to the destinations \(databases\) you want to reach from Amazon QuickSight\. 
 
 1. In Amazon QuickSight, choose your profile icon at the top right of the screen, then choose **Manage QuickSight**\. From the menu at left, choose **Manage VPC connections**\.
 
    The **Account Settings** page appears\. Any existing private connections to VPCs display on this page\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/vpc-connections-managing.png)
 
-1. Choose **Add VPC connection** to add a new VPC connection\.
+1. Choose **Add VPC connection** to add a new VPC connection\. 
 
    On this page, you can also delete a VPC connection by using the delete icon\. You can change a VPC connection on this page by creating a new VPC connection and deleting the old one\.
 
 1. For **VPC connection name**, type a unique descriptive name\. This name doesn't need to be an actual VPC ID or name\. 
 
-1. Type the subnet ID for **Subnet ID**, and type the group ID for **Security group ID**\. Make sure that the subnet and the security group are in the same VPC\.   
+1. Type the subnet ID for **Subnet ID**, and type the group ID for **Security group ID**\. Make sure that the subnet and the security group are in the same VPC\. Also, make sure you are accessing a VPC that is in the same AWS Region where you are creating Amazon QuickSight analyses\. You can't use Amazon QuickSight in one AWS Region to connect to a subnet and security group that are in a different AWS Region\. More detailed requirements are provided in the following steps, and in [How Amazon QuickSight Connects to Your VPC](#vpc-how-does-quicksight-connect)\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/vpc-connections-adding.png)
 
    If you need to locate information about the subnet and security group, do the following:
@@ -27,14 +27,20 @@ Use the following procedure to create a connection to a VPC\.
    1. On the Amazon VPC console, find the **VPC ID** that you want to use\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/vpc-console.png)
 
-   1. On the Amazon VPC subnet console page, see which subnets are in that VPC by locating the VPC ID\. Choose a subnet, and copy its **Subnet ID** value\.   
+   1. On the Amazon VPC subnet console page, see which subnets are in that VPC by locating the VPC ID\. Choose a subnet, and copy its **Subnet ID** value\. The subnet you choose is the one where you plan to create an elastic network interface\. It must be possible to route from this subnet to any destinations you want to reach\. For more information, see [VPCs and Subnets](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Subnets.html)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/vpc-subnet-console.png)
 
    1. On the **Adding VPC connection** screen, enter the **Subnet ID** value that you copied in the previous step for **Subnet ID**\.
 
    1. On the Amazon VPC security group console page, see which security groups are in that VPC by locating the VPC ID\. Choose a group, and copy its **Group ID** value\. 
 
-      The group you choose must allow inbound traffic from the database server's security group on all ports\. The group must also allow outbound traffic to the database server's security group on the port that the database is listening on\. 
+      Create a new security group for use only with the elastic network interface created by Amazon QuickSight\.The group must allow inbound traffic on all ports from the security groups of the destinations you want to reach\.  
+
+      The group must also allow outbound traffic to the database on the port that the database is listening on\. 
+
+      Additionally, you must update your database's security group to allow inbound traffic from your new security group\.
+
+      For more information, see [Security Group Rules for Amazon QuickSight's Elastic Network Interface](#vpc-security-groups-for-eni)\.
 **Note**  
 The database server's security group must allow inbound traffic from the security group you choose\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/vpc-security-group-console.png)
@@ -52,9 +58,9 @@ You can't change the settings for a VPC connection\.
 Creating a VPC connection requires permission for the `quicksight:CreateVPCConnection` and `ec2:CreateNetworkInterface` actions\.
 
 For best practices when using Amazon VPC, see the following:
-+ [AWS Single VPC Design](aws.amazon.com/answers/networking/aws-single-vpc-design/) on the AWS website
-+ [Recommended Network ACL Rules for Your VPC](docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_NACLs.html) in the *Amazon VPC User Guide*
-+ [VPC Scenarios and Examples](docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Scenarios.html) in the *Amazon VPC User Guide*
++ [AWS Single VPC Design](https://aws.amazon.com/answers/networking/aws-single-vpc-design/) on the AWS website
++ [Recommended Network ACL Rules for Your VPC](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Appendix_NACLs.html) in the *Amazon VPC User Guide*
++ [VPC Scenarios and Examples](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Scenarios.html) in the *Amazon VPC User Guide*
 
 ## What Is Amazon VPC?<a name="vpc-intro"></a>
 
@@ -62,7 +68,9 @@ Amazon Virtual Private Cloud \(Amazon VPC\) enables you to define a virtual netw
 
 ## How Amazon QuickSight Connects to Your VPC<a name="vpc-how-does-quicksight-connect"></a>
 
-When you create a VPC connection from Amazon QuickSight to your VPC, Amazon QuickSight creates an elastic network interface in a subnet that you choose\. Network traffic from Amazon QuickSight then originates from this network interface when Amazon QuickSight connects to a database or other instance within your VPC using a VPC connection\. Because this network interface exists inside your VPC, traffic originating from it can reach destinations within your VPC using their private IP addresses\.
+When you create a VPC connection from Amazon QuickSight to your VPC, Amazon QuickSight creates an elastic network interface in the subnet that you choose\. It must be possible to route from this subnet to any destinations you want to reach\.
+
+Network traffic from Amazon QuickSight then originates from this network interface when Amazon QuickSight connects to a database or other instance within your VPC using a VPC connection\. Because this network interface exists inside your VPC, traffic originating from it can reach destinations within your VPC using their private IP addresses\.
 
 ## Controlling the Resources That Amazon QuickSight Can Reach in Your VPC<a name="vpc-quicksight-control"></a>
 
@@ -74,11 +82,17 @@ For Amazon QuickSight to successfully connect to an instance in your VPC, you mu
 
 #### Security Group Rules for the Instance in Your VPC<a name="vpc-security-groups-for-instance"></a>
 
-The security group attached to your instance must allow inbound traffic from the Amazon QuickSight on the port that Amazon QuickSight is connecting to\. You can do this by adding a rule to your security group that allows traffic from the security group ID that is associated with the Amazon QuickSight \(recommended\)\. Alternatively, you can use a rule that allows traffic from the private IP address of Amazon QuickSight\.
+The security group attached to your data source's instance must allow inbound traffic from Amazon QuickSight on the port that Amazon QuickSight is connecting to\. 
 
-#### Security Group Rules for the Amazon QuickSight Network Interface<a name="vpc-security-groups-for-eni"></a>
+You can do this by adding a rule to your security group that allows traffic from the security group ID that is associated with the Amazon QuickSight \(recommended\)\. Alternatively, you can use a rule that allows traffic from the private IP address assigned to Amazon QuickSight\.
 
-The security group attached to the Amazon QuickSight elastic network interface should have outbound rules allowing traffic to all of the instances in your VPC that you want Amazon QuickSight to connect to\. If you don't want to restrict which instances Amazon QuickSight can connect to, you can configure your security group with an outbound rule to allow traffic to 0\.0\.0\.0/0 on all ports\. If you want to restrict Amazon QuickSight to connect only to certain instances, you can specify the security group ID \(recommended\) or private IP address of the instances you want to allow\. You specify these, along with the appropriate port numbers for your instances, in your outbound security group rule\.
+For more information, see [Security Groups for Your VPC](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html) and [VPCs and Subnets](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Subnets.html)\.
+
+#### Security Group Rules for Amazon QuickSight's Elastic Network Interface<a name="vpc-security-groups-for-eni"></a>
+
+When using a VPC Connection, traffic comes from the elastic network interface that we create in your VPC\. Each elastic network inteface gets its own private IP address that’s chosen from the subnet you configure\. The private IP address is unique for each AWS account, unlike the public IP range\. 
+
+The security group attached to the Amazon QuickSight elastic network interface should have outbound rules allowing traffic to all of the data source instances in your VPC that you want Amazon QuickSight to connect to\. If you don't want to restrict which instances Amazon QuickSight can connect to, you can configure your security group with an outbound rule to allow traffic to 0\.0\.0\.0/0 on all ports\. If you want to restrict Amazon QuickSight to connect only to certain instances, you can specify the security group ID \(recommended\) or private IP address of the instances you want to allow\. You specify these, along with the appropriate port numbers for your instances, in your outbound security group rule\.
 
 The security group attached to the Amazon QuickSight elastic network interface behaves differently than most security groups\. Security groups are usually stateful, meaning that when an outbound connection is established the return traffic from the destination host is automatically allowed\. However, the security group attached to the Amazon QuickSight network interface isn't stateful\. This means that your return traffic from the destination host isn't automatically allowed\. In this case, adding an egress rule to the network interface security group doesn't work\. Therefore, you must add inbound rules to your security group to explicitly authorize it\. 
 

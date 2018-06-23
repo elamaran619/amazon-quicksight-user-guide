@@ -21,7 +21,7 @@ Use the following table to understand the features supported by geospatial maps\
 
 | Feature | Supported? | Comments | For More Information | 
 | --- | --- | --- | --- | 
-| Legend display | Yes | Displays contents of the field in the Color well | [Displaying the Visual Legend](formatting-a-visual.md#displaying-the-visual-legend) | 
-| Changing the title display | Yes |  | [Displaying a Visual's Title](formatting-a-visual.md#displaying-visual-title) | 
+| Legend display | Yes | Displays contents of the field in the Color well | [Customizing the Visual Legend](formatting-a-visual.md#customizing-visual-legend) | 
+| Changing the title display | Yes |  | [Customizing a Visual Title](formatting-a-visual.md#displaying-visual-title) | 
 | Changing the visual colors | Partial | You can change the color of the circles on the map, but not for individual values\. | [Changing Visual Colors in Amazon QuickSight](changing-visual-colors.md) | 
 | Adding drill\-downs | Yes | You can add drill\-down levels to the Geospatial and Color field wells\. | [Adding Drill\-Downs to Visual Data in Amazon QuickSight](adding-drill-downs.md) | 

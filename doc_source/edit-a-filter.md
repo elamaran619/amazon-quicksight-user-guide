@@ -22,7 +22,7 @@ Use the following procedure to modify a filter\.
 
 1. On the analysis page, choose **Filter** on the tool bar\.
 
-1. On the **Applied filters** pane, choose the filter you want to modify to see the filter details\.
+1. On the **Applied filters** pane, choose the filter that you want to modify to see the filter details\.
 
 1. Change the comparison type or values\.
 

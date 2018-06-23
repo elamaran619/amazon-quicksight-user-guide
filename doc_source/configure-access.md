@@ -37,7 +37,7 @@ For more information about configuring a VPC in the Amazon VPC service, see [Net
 
 ### Network Configuration for an AWS Instance in a Private VPC<a name="network-configuration-aws-private-vpc"></a>
 
-If your database is on an AWS cluster or instance that you created in a private VPC, you can use it with Amazon QuickSight\. To sign up for our private VPC public preview, see [Amazon QuickSight Private VPC Public Preview](https://pages.awscloud.com/quicksightprivatevpcpreview.html)\. 
+If your database is on an AWS cluster or instance that you created in a private VPC, you can use it with Amazon QuickSight\. For more information, see [Working with Amazon VPC](working-with-aws-vpc.md)\. 
 
 For more information on Amazon Virtual Private Cloud, see [Amazon VPC](https://aws.amazon.com/vpc/) and [Amazon VPC Documentation](https://aws.amazon.com/documentation/vpc/)\.
 

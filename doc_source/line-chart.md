@@ -17,9 +17,9 @@ Use the following table to understand the features supported by line charts\.
 
 | Feature | Supported? | Comments | For More Information | 
 | --- | --- | --- | --- | 
-| Changing the legend display | Yes |  | [Displaying the Visual Legend](formatting-a-visual.md#displaying-the-visual-legend) | 
-| Changing the title display | Yes |  | [Displaying a Visual's Title](formatting-a-visual.md#displaying-visual-title) | 
-| Changing the axis range | Yes | You can set the range for the Y axis\. | [Changing the Axis Range](formatting-a-visual.md#changing-axis-range) | 
+| Changing the legend display | Yes |  | [Customizing the Visual Legend](formatting-a-visual.md#customizing-visual-legend) | 
+| Changing the title display | Yes |  | [Customizing a Visual Title](formatting-a-visual.md#displaying-visual-title) | 
+| Changing the axis range | Yes | You can set the range for the Y axis\. | [Changing the Visual Scale with the Axis Range](formatting-a-visual.md#changing-visual-scale-axis-range) | 
 | Changing the visual colors | Yes |  | [Changing Visual Colors in Amazon QuickSight](changing-visual-colors.md) | 
 | Focusing on or excluding elements | Yes, with exceptions | You can focus on or exclude any line on the chart, except in the following cases: [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/line-chart.html) In these cases, you can only focus on a line, not exclude it\. |  [Focusing on Visual Elements](focusing-on-visual-elements.md) [Excluding Visual Elements](excluding-visual-elements.md) | 
 | Sorting | Yes, with exceptions | You can sort data for numeric measures in the X axis and Value field wells\. Other data is automatically sorted in ascending order\. | [Sorting Visual Data in Amazon QuickSight](sorting-visual-data.md) | 
@@ -36,7 +36,7 @@ Use the following procedure to create a line chart\.
 
 1. On the **Visual types** pane, choose the line chart icon\.
 
-1. From the **Fields list** pane, drag the fields you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\.
+1. From the **Fields list** pane, drag the fields that you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\.
    + To create a single\-measure line chart, drag a dimension to the **X axis** field well and one measure to the **Value** field well\.
    + To create a multi\-measure line chart, drag a dimension to the **X axis** field well and two or more measures to the **Value** field well\. Leave the **Color** field well empty\.
    + To create a multi\-dimension line chart, drag a dimension to the **X axis** field well, one measure to the **Value** field well, and one dimension to the **Color** field well\.

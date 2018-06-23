@@ -4,9 +4,9 @@ If you are using grouped columns or rows in a pivot table, you can expand or col
 
 Use the following procedure to expand or collapse a pivot table group\.
 
-1. On the analysis page, choose the pivot table visual you want to edit\.
+1. On the analysis page, choose the pivot table visual that you want to edit\.
 
-1. On the group you want to collapse, choose the collapse icon, as shown following:  
+1. On the group that you want to collapse, choose the collapse icon, as shown following:  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/pivot-table-collapse.png)
 
    The group collapses and the data for the related group is summarized in the row or column, as shown following:  

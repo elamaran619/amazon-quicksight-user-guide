@@ -20,7 +20,7 @@ It is modified in all of the clusters:
 
 Use the following procedure to change the colors for a visual\.
 
-1. On the analysis page, select the visual you want to modify\.
+1. On the analysis page, select the visual that you want to modify\.
 
 1. To change the chart color, choose any element on the visual, and then choose **Chart Color**\.
 
@@ -29,22 +29,22 @@ Use the following procedure to change the colors for a visual\.
    +  On a line chart, choose the end of a line\. 
    +  On a scatter plot, choose an element\. The field must be in the **Group/Color** section of **Field wells**\. 
 
-1. Choose the color you want\. All elements on the visual are changed to use this color, except for any that have previously had their color individually set\. In that case, the element color overrides the chart color\.  
+1. Choose the color that you want\. All elements on the visual are changed to use this color, except for any that have previously had their color individually set\. In that case, the element color overrides the chart color\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/color-selection1.png)  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/color-selection2.png)
 
-1. To change the color for a single element on the visual, choose that element, choose **Color <fieldname>**, and then choose the color you want\.  
+1. To change the color for a single element on the visual, choose that element, choose **Color <fieldname>**, and then choose the color that you want\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/color-selection3.png)  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/color-selection4.png)
 
-   Repeat this step until you have set the color on all elements you want to modify\.  
+   Repeat this step until you have set the color on all elements that you want to modify\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/color-selection5.png)
 
 ## Setting Visual Colors Back to Defaults<a name="reset-visual-color"></a>
 
 Use the following procedure to return to using the default colors on a visual\.
 
-1. On the analysis page, select the visual you want to modify\.
+1. On the analysis page, select the visual that you want to modify\.
 
 1. To change the chart color back to the default color for that visual type, choose any element on the visual, choose **Chart Color**, and then choose **Reset to Default**\. All elements on the visual are changed to the default color for the visual type, except for any that have previously had their color individually set\. In that case, the element color setting overrides the chart color setting\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/color-reset1.png)  

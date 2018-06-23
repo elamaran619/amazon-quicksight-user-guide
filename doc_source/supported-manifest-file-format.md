@@ -71,8 +71,6 @@ For log \(\.clf\) and extended log \(\.elf\) files, only the **format** field in
 
 The following are some examples of completed Amazon QuickSight manifest files\.
 
-*Example 1*
-
 The following example shows a manifest file that identifies two specific \.csv files for import\. These files use double quotes for text qualifiers\. The `format`, `delimiter`, and `containsHeader` fields are skipped because the default values are acceptable\.
 
 ```
@@ -90,8 +88,6 @@ The following example shows a manifest file that identifies two specific \.csv f
     }
 }
 ```
-
-*Example 2*
 
 The following example shows a manifest file that identifies one specific \.tsv file for import, and also a bucket in another AWS Region that contains additional \.tsv files for import\. The `textqualifier` and `containsHeader` fields are skipped because the default values are acceptable\.
 
@@ -116,8 +112,6 @@ The following example shows a manifest file that identifies one specific \.tsv f
 }
 ```
 
-*Example 3*
-
 The following example identifies two buckets that contain \.clf files for import\. One is in the same AWS Region as the Amazon QuickSight account, and one in a different AWS Region\. The `delimiter`, `textqualifier`, and `containsHeader` fields are skipped because they are not applicable to log files\.
 
 ```
@@ -136,8 +130,6 @@ The following example identifies two buckets that contain \.clf files for import
 }
 ```
 
-*Example 4*
-
 The following example uses the Amazon Redshift format to identify a \.csv file for import\.
 
 ```
@@ -150,8 +142,6 @@ The following example uses the Amazon Redshift format to identify a \.csv file f
     ]
 }
 ```
-
-*Example 5*
 
 The following example uses the Amazon Redshift format to identify two JSON files for import\.
 

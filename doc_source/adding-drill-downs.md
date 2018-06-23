@@ -30,7 +30,7 @@ Use the following table to identify the field wells/on\-visual editors that supp
 
 Use the following procedure to add drill\-down levels to a visual\.
 
-1. On the analysis page, choose the visual you want to add drill\-downs to\.
+1. On the analysis page, choose the visual that you want to add drill\-downs to\.
 **Note**  
 You can't add drill\-downs to pivot tables\.
 
@@ -46,7 +46,7 @@ You can't add drill\-downs to pivot tables\.
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down2.png)  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down3.png)
 
-1. Continue until you have added all of the levels of hierarchy you want\. To remove a field from the hierarchy, choose the field, and then choose **Remove**\.  
+1. Continue until you have added all of the levels of hierarchy that you want\. To remove a field from the hierarchy, choose the field, and then choose **Remove**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drill-down4.png)
 
 1. To drill down or up to see data at a different level of the hierarchy, choose an element on the visual \(like a line or bar\), and then choose **Drill down to <lower level>** or **Drill up to <higher level>**\. In this example, from the `car-make` level you can drill down to `car-model` to see data at that level\. If you drill down to `car-model` from the **Ford** `car-make`, you see only `car-model`s in that car\-make\.  

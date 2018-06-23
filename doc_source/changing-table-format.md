@@ -4,7 +4,7 @@ You can choose to display a pivot table in a columnar or row\-based format\. Col
 
 Use the following procedure to change a pivot table format\.
 
-1. On the analysis page, choose the pivot table visual you want to edit\.
+1. On the analysis page, choose the pivot table visual that you want to edit\.
 
 1. Expand the **Field wells** pane by choosing the expand icon\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/expand-field-wells.png)

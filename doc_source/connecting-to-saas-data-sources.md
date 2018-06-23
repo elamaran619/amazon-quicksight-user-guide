@@ -54,6 +54,7 @@ If you don't have enough [SPICE](welcome.md#spice) capacity, choose **Edit/Previ
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/new-saas-data-source-finish.png)
 
 **Note**  
-The SaaS must support REST API operations for QuickSight to connect to it\.
-If you are connectng to Jira, the URL must be a public address\.
+The following constraints apply:  
+The SaaS must support REST API operations for Amazon QuickSight to connect to it\.
+If you are connecting to Jira, the URL must be a public address\.
 If you are connecting to Twitter, which supports extracting seven days of data at a time, be aware that currently Amazon QuickSight retrieves only seven days before today\.

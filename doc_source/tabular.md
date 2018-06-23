@@ -19,8 +19,8 @@ Use the following table to understand the features supported by tabular reports\
 
 | Feature | Supported? | For More Information | 
 | --- | --- | --- | 
-| Changing the legend display | No | [Displaying the Visual Legend](formatting-a-visual.md#displaying-the-visual-legend) | 
-| Changing the title display | Yes | [Displaying a Visual's Title](formatting-a-visual.md#displaying-visual-title) | 
+| Changing the legend display | No | [Customizing the Visual Legend](formatting-a-visual.md#customizing-visual-legend) | 
+| Changing the title display | Yes | [Customizing a Visual Title](formatting-a-visual.md#displaying-visual-title) | 
 | Sorting | Yes | [Sorting Visual Data in Amazon QuickSight](sorting-visual-data.md) | 
 | Calculated fields and aggregations | Yes | [Changing Field Aggregation](changing-field-aggregation.md) | 
 | Adding drill\-downs | No | [Adding Drill\-Downs to Visual Data in Amazon QuickSight](adding-drill-downs.md) | 
@@ -48,8 +48,8 @@ Use the following procedure to create a tabular report \(a table visual\)\.
 
 1. On the **Visual types** pane, choose the table icon\.
 
-1. From the **Fields list** pane, choose the fields you want to use\. If you want to add a calculated field, choose **Add** on the application bar, and then choose **Add calculated field**\.
+1. From the **Fields list** pane, choose the fields that you want to use\. If you want to add a calculated field, choose **Add** on the application bar, and then choose **Add calculated field**\.
 
    To create a non\-aggregated view of the data, add fields only to the **Value** field well\. This shows data without any aggregations\.
 
-   To create an aggregated view of the data, choose the fields you want to aggregate by, and then add them to the **Group by** field well\.
+   To create an aggregated view of the data, choose the fields that you want to aggregate by, and then add them to the **Group by** field well\.

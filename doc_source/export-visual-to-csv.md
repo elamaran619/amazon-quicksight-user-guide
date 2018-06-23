@@ -4,7 +4,7 @@ Use the following procedure to export data from a visual to a file with the comm
 
 1. Choose or create an analysis or dashboard that contains one or more visuals\. 
 
-1. Choose the visual you want to export\. 
+1. Choose the visual that you want to export\. 
 
 1.  Choose the on\-visual menu, at the upper right of the visual\. Then choose **Export to CSV**\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/export-visual-to-csv.png)

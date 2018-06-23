@@ -21,5 +21,5 @@ To add a field to a visual by using a field well, choose a field in the **Fields
 1. Expand the **Field wells** pane by choosing the expand icon\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/expand-field-wells.png)
 
-1. Drag the field you want to add from the **Fields list** pane to the appropriate field well\.  
+1. Drag the field that you want to add from the **Fields list** pane to the appropriate field well\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drag-field-well2.png)

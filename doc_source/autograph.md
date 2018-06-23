@@ -16,4 +16,4 @@ Use the following procedure to create a visual using AutoGraph\.
 
 1. On the **Visual types** pane, choose the AutoGraph icon\.
 
-1. On the **Fields list** pane, choose the fields you want to use\.
+1. On the **Fields list** pane, choose the fields that you want to use\.

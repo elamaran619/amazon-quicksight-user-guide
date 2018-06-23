@@ -14,7 +14,7 @@ Use the following procedure to change date field granularity by using an on\-vis
 1. On the visual, choose the field well for the date field whose granularity you want to change\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/date-field-well.png)
 
-1. On the field well menu, choose **Aggregate**, then choose the time interval you want to apply, as shown following:  
+1. On the field well menu, choose **Aggregate**, then choose the time interval that you want to apply, as shown following:  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/date-scope.png)
 
 ## Changing Date Field Granularity by Using a Field Well<a name="change-date-granularity-field-wells"></a>
@@ -27,5 +27,5 @@ Use the following procedure to change date field granularity by using a field we
 1. Choose the field well containing the date field\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/field-well-date.png)
 
-1. On the field well menu, choose **Aggregate**, then choose the date granularity you want to use\.  
+1. On the field well menu, choose **Aggregate**, then choose the date granularity that you want to use\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/aggregates.png)

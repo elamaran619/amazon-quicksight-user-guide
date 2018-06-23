@@ -83,6 +83,6 @@ To check on some common connection issues in MySQL, use the following steps\. Th
    ```
 
 For more detail on the solution in this example, see the following:
-+ [SSL Support for MySQL DB Instances](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport.html) in the *Amazon Relational Database Service User Guide*\.
-+ [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html) in the *Amazon Relational Database Service User Guide*\.
++ [SSL Support for MySQL DB Instances](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport.html) in the *Amazon RDS User Guide*\.
++ [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com//AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html) in the *Amazon RDS User Guide*\.
 + [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/secure-connections.html)

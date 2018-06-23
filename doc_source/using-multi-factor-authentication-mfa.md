@@ -4,4 +4,4 @@ You can use multi\-factor authentication \(MFA\) with Amazon QuickSight by using
 
 For more information on how to set this up, see [How to Enable Multi\-Factor Authentication for AWS Services by Using AWS Microsoft Active Directory and On\-Premises Credentials](https://aws.amazon.com/blogs/security/how-to-enable-multi-factor-authentication-for-amazon-workspaces-and-amazon-quicksight-by-using-microsoft-ad-and-on-premises-credentials/)
 
-For more information on multi\-factor authentication, see [Multi\-Factor Authentication](http://docs.aws.amazon.com/en_us/directoryservice/latest/admin-guide/mfa_ad.html) in the AWS Directory Service Administration Guide\. 
+For more information on multi\-factor authentication, see [Multi\-Factor Authentication](http://docs.aws.amazon.com//directoryservice/latest/admin-guide/mfa_ad.html) in the AWS Directory Service Administration Guide\. 

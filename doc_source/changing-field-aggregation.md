@@ -16,10 +16,10 @@ The visual elements that support aggregated fields varies by visual type\.
 
 Use the following procedure to change or add aggregation on a field\.
 
-1. On the visual, choose the on\-visual editor for the field you want to apply aggregation to\.  
+1. On the visual, choose the on\-visual editor for the field that you want to apply aggregation to\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/editor-aggregate.png)
 
-1. On the on\-visual editor menu, choose **Aggregate**, then choose the aggregate function you want to apply\.  
+1. On the on\-visual editor menu, choose **Aggregate**, then choose the aggregate function that you want to apply\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/editor-aggregate2.png)
 
 ## Changing or Adding Aggregation to a Field by Using a Field Well<a name="change-field-aggregation-field-wells"></a>
@@ -29,7 +29,7 @@ Use the following procedure to add aggregation to a field for a pivot table visu
 1. Expand the **Field wells** pane by choosing the expand icon\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/expand-field-wells.png)
 
-1. Choose the field well containing the field you want to apply an aggregate function to\.
+1. Choose the field well containing the field that you want to apply an aggregate function to\.
 
-1. On the field well menu, choose **Aggregate**, then choose the aggregate function you want to apply\.  
+1. On the field well menu, choose **Aggregate**, then choose the aggregate function that you want to apply\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/field-well-aggregates.png)

@@ -1,8 +1,8 @@
 # Changing a Field Format<a name="changing-a-field-format"></a>
 
-You can change the format of a numeric or date field within the context of an analysis\. The formatting options available for numeric fields vary based whether you are using a number, currency, or percent data type for the field\.
+You can change the format of a field within the context of an analysis\. The formatting options available for fields vary based on the field's data type\.
 
-Use menu options in the **Field list** pane, visual field wells, or on\-visual editors to make simple format changes, or use the **Format Data** pane to make more extensive formatting changes\.
+Use menu options in the **Field list** pane or the visual field wells to make simple format changes, or use the **Format Data** pane to make more extensive formatting changes\.
 
 **Topics**
 + [Format a Date Field](format-a-date-field.md)

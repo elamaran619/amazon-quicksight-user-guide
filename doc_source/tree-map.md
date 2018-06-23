@@ -19,9 +19,9 @@ Use the following table to understand the features supported by tree maps\.
 
 | Feature | Supported? | Comments | For More Information | 
 | --- | --- | --- | --- | 
-| Changing the legend display | Yes |  | [Displaying the Visual Legend](formatting-a-visual.md#displaying-the-visual-legend) | 
-| Changing the title display | Yes |  | [Displaying a Visual's Title](formatting-a-visual.md#displaying-visual-title) | 
-| Changing the axis range | Not applicable |  | [Changing the Axis Range](formatting-a-visual.md#changing-axis-range) | 
+| Changing the legend display | Yes |  | [Customizing the Visual Legend](formatting-a-visual.md#customizing-visual-legend) | 
+| Changing the title display | Yes |  | [Customizing a Visual Title](formatting-a-visual.md#displaying-visual-title) | 
+| Changing the axis range | Not applicable |  | [Changing the Visual Scale with the Axis Range](formatting-a-visual.md#changing-visual-scale-axis-range) | 
 | Changing the visual colors | No |  | [Changing Visual Colors in Amazon QuickSight](changing-visual-colors.md) | 
 | Focusing on or excluding elements | Yes, with exceptions | You can focus on or exclude a rectangle from a tree map, except when you are using a date field as the dimension\. In that case, you can only focus on a rectangle, not exclude it\.  |  [Focusing on Visual Elements](focusing-on-visual-elements.md) [Excluding Visual Elements](excluding-visual-elements.md) | 
 | Sorting | Yes | You can sort on the fields you choose for size, color, or to group by\. | [Sorting Visual Data in Amazon QuickSight](sorting-visual-data.md) | 
@@ -38,7 +38,7 @@ Use the following procedure to create a tree map\.
 
 1. On the **Visual types** pane, choose the tree map icon\.
 
-1. From the **Fields list** pane, drag the fields you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\.
+1. From the **Fields list** pane, drag the fields that you want to use to the appropriate field wells\. Typically, you want to use dimension or measure fields as indicated by the target field well\. If you choose to use a dimension field as a measure, the **Count** aggregate function is automatically applied to it to create a numeric value\.
 
    To create a tree map, drag a measure to the **Size** field well and a dimension to the **Group by** field well\. Optionally, drag another measure to the **Color** field well\.
 

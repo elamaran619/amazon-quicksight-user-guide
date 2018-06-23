@@ -4,7 +4,7 @@ When you format a currency field, you can either choose the currency symbol from
 
 Changing a field format changes it for all visuals in the analysis, but does not change it in the underlying data set\.
 
-## Format a Currency Field Using List Options<a name="format-a-currency-field-list"></a>
+### Format a Currency Field Using List Options<a name="format-a-currency-field-list"></a>
 
 If you want to choose the symbol for a currency field from a list of common options, you can access such a list from the **Field list** pane, an on\-visual editor, or a visual field well\.
 
@@ -21,7 +21,7 @@ Use the following procedure to select a currency field's symbol by choosing a li
    + Display in euros \(€\)\.
    + Display in yen \(¥\)\.
 
-## Format a Currency Field Manually<a name="format-a-currency-field-manual"></a>
+### Format a Currency Field Manually<a name="format-a-currency-field-manual"></a>
 
  Manually formatting the field allows you to choose what symbol to use, what separators to use, the number of decimal places to show, what units to use, and how to display negative numbers\.
 

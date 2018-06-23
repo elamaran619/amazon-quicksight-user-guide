@@ -1,6 +1,6 @@
 # Changing Visual Layout in Amazon QuickSight<a name="changing-visual-layout"></a>
 
-You can change visual layout by modifying where a visual appears in the analysis, and also what size it is\. You can use this functionality to rearrange visual order, place visuals side by side, and have visuals of varying sizes within the analysis\.
+When you create an analysis, you see a workspace that contains one full\-sized visual\. You can add more visuals to the workspace by choosing **Add**, then **Add visual**\. Visuals created after May 2018 are smaller in size, fitting two on each row\. You can resize the visuals and drag them to rearrange them\. 
 
 If you change a visual to make it considerably smaller, the on\-visual editors are hidden so that the chart elements have more room to display\. Bar chart visuals can also display fewer data points\. To see a resized visual in full pane mode so that on\-visual editors and all data points are displayed, use the **Maximize** option on the on\-visual menu\. Choose **Minimize** to return the visual to its original size when you are done\.
 
@@ -8,9 +8,11 @@ If you resize a visual that uses a legend so that it is taller than it is wide, 
 
 If you reduce the size of the browser window, Amazon QuickSight resizes and if necessary reorders visuals for optimal display\. For example, smaller visuals that were side by side might be displayed sequentially\. The original layout is restored when the size of the browser window is increased again\.
 
+Note: 
+
 ## Changing Visual Location<a name="change-visual-location"></a>
 
-On the analysis page, choose the move handle on the visual you want to relocate\. Drag the visual to where you want it\.
+On the analysis page, choose the move handle on the visual that you want to relocate\. Drag the visual to where you want it\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/visual-handle.png)
 
@@ -18,7 +20,7 @@ On the analysis page, choose the move handle on the visual you want to relocate\
 
 ## Changing Visual Size<a name="change-visual-size"></a>
 
-To change visual size, on the analysis page choose the resize handle on the visual you want to resize\. Drag to change the visual's dimensions\.
+To change visual size, on the analysis page choose the resize handle on the visual that you want to resize\. Drag to change the visual's dimensions\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/visual-resize.png)
 
@@ -28,7 +30,7 @@ To change visual size, on the analysis page choose the resize handle on the visu
 
 Use the following procedure to open a resized visual in full pane mode for editing\.
 
-1. On the analysis page, choose the visual you want to edit\.
+1. On the analysis page, choose the visual that you want to edit\.
 
 1. Choose the on\-visual menu at the upper\-right corner of the visual, and then choose **Maximize**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/maximize.png)

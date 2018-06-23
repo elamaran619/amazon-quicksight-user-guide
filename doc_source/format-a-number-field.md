@@ -4,7 +4,7 @@ When you format a number field, you can either choose the decimal place and thou
 
 Changing a field format changes it for all visuals in the analysis, but does not change it in the underlying data set\.
 
-## Format a Number Field Using List Options<a name="format-a-number-field-list"></a>
+### Format a Number Field Using List Options<a name="format-a-number-field-list"></a>
 
 If you want to format a number field by choosing from a list of common options, you can access such a list from the **Field list** pane, an on\-visual editor, or a visual field well\.
 
@@ -21,7 +21,7 @@ Use the following procedure to change a number field's format by choosing a list
    + Show the number as an integer and use commas to separate groups of thousands, for example 1,234\.
    + Show the number as an integer, for example 1234\.
 
-## Format a Number Field Manually<a name="format-a-number-field-manual"></a>
+### Format a Number Field Manually<a name="format-a-number-field-manual"></a>
 
 Manually formatting the field allows you to choose what separators to use, the number of decimal places to show, what units to use, and how to display negative numbers\.
 

@@ -52,7 +52,7 @@ The following image shows the **other** category on a pivot table\.
 
 Use the following procedure to hide or display the **other** category\.
 
-1. On the analysis page, select the visual you want to modify\.
+1. On the analysis page, select the visual that you want to modify\.
 
 1. Choose the on\-visual menu at the upper\-right corner of the visual, and then choose **Hide "other" category** or **Show "other" category**, as appropriate\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/hide-other.png)

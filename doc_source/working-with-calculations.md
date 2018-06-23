@@ -27,7 +27,7 @@ Use the following procedure to change the way a table calculation is applied to 
 1. Expand the **Field wells** pane by choosing the expand icon\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/expand-field-wells.png)
 
-1. Choose the field in the **Values** well that has the table calculation you want to change, choose **Calculate as**, and then choose the way you want the calculation applied\.  
+1. Choose the field in the **Values** well that has the table calculation that you want to change, choose **Calculate as**, and then choose the way that you want the calculation applied\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/calculate-as.png)
 
 ### Removing a Calculation<a name="remove-a-calculation"></a>

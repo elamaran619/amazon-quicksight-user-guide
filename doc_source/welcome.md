@@ -75,6 +75,10 @@ A *visual*, also known as a data visualization, is a graphical representation of
 
 To learn more about Amazon QuickSight visuals, see [Working with Amazon QuickSight Visuals](working-with-visuals.md)\.
 
+### Sheets<a name="sheets"></a>
+
+A *sheet* is a set of visuals that are all based on the same data source and are all viewed together\. When you create an analysis, you place visuals in the workspace\. After you publish the analysis as a dashboard, the workspace becomes a sheet\. You can imagine this a sheet from a newspaper, except that it is filled with data visualizations\. 
+
 ### Stories<a name="stories"></a>
 
 A *story* is a set of one or more *scenes* \(captured visuals\) that you can play like a slideshow\. You can use these to step through different iterations of an analysis\. A scene is a representation of an analysis at a given point in time, or with specific settings\. It shows the visuals that are on the analysis at that time, but the data in those visuals continues to update\. It is not a static snapshot\. You *capture* a scene for use in a story\. 
@@ -121,6 +125,6 @@ If you are an administrator, see [Administration](qsysadmin.md)\.
 
 This is a HIPAA Eligible Service\. For more information about AWS, U\.S\. Health Insurance Portability and Accountability Act of 1996 \(HIPAA\), and using AWS services to process, store, and transmit protected health information \(PHI\), see [HIPAA Overview](https://aws.amazon.com/compliance/hipaa-compliance/)\.
 
-This service is compliant with ISO 27001, a security management standard that specifies security management best practices\. For more information, see [ISO 27001 Overview](https://aws.amazon.com/compliance/iso-27001-faqs/)\.
+For information about this service and ISO 27001, a security management standard that specifies security management best practices, see [ISO 27001 Overview](https://aws.amazon.com/compliance/iso-27001-faqs/)\.
 
 Content delivered to Amazon S3 buckets might contain customer content\. For more information about removing sensitive data, see [How Do I Empty an S3 Bucket?](http://docs.aws.amazon.com/AmazonS3/latest/user-guide/empty-bucket.html) or [How Do I Delete an S3 Bucket?](http://docs.aws.amazon.com/AmazonS3/latest/user-guide/delete-bucket.html)\.

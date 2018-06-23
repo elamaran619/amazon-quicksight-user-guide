@@ -4,7 +4,7 @@ When you format a percent field, you can either choose the number of decimal pla
 
 Changing a field format changes it for all visuals in the analysis, but does not change it in the underlying data set\.
 
-## Format a Percent Field Using List Options<a name="format-a-percent-field-list"></a>
+### Format a Percent Field Using List Options<a name="format-a-percent-field-list"></a>
 
 If you want to choose the number of decimal places for a percent field from a list of common options, you can access such a list from the **Field list** pane, an on\-visual editor, or a visual field well\.
 
@@ -20,7 +20,7 @@ Use the following procedure to change a percent field's number of decimal places
    + Display the value with one decimal place\.
    + Display the value with no decimal places\.
 
-## Format a Percent Field Manually<a name="format-a-percent-field-manual"></a>
+### Format a Percent Field Manually<a name="format-a-percent-field-manual"></a>
 
 Manually formatting the field allows you to choose what separators to use, the number of decimal places to show, and how to display negative numbers\.
 

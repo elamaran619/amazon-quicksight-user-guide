@@ -1,6 +1,6 @@
 # Sharing Data Sets<a name="sharing-data-sets"></a>
 
-You can give other Amazon QuickSight users and groups access to a data set by sharing it with them\. Then they can create analyses from it\. If you make them coowners, they can also refresh, edit, delete, or re\-share the data set\. 
+You can give other Amazon QuickSight users and groups access to a data set by sharing it with them\. Then they can create analyses from it\. If you make them co\-owners, they can also refresh, edit, delete, or reshare the data set\. 
 
 ## Sharing a Data Set<a name="share-a-data-set"></a>
 

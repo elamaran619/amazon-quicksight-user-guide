@@ -9,7 +9,7 @@ Use the following procedure to modify the mapping of a field to a visual element
 1. On the visual, choose the on\-visual editor for the visual element for which you want to change the field\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/choose-element.png)
 
-1. On the on\-visual editor menu, choose the field you want to associate with that visual element\.  
+1. On the on\-visual editor menu, choose the field that you want to associate with that visual element\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/choose-field.png)
 
 ## Changing a Field Mapping by Using a Drop Target<a name="change-field-mappings-drop-target"></a>
@@ -25,5 +25,5 @@ Use the following procedure to modify the mapping of a field to a visual element
 1. Expand the **Field wells** pane by choosing the expand icon\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/expand-field-wells.png)
 
-1. Choose the field well that represents the element you want to remap, and then choose a new field from the menu that displays\.  
+1. Choose the field well that represents the element that you want to remap, and then choose a new field from the menu that displays\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/select-field-well.png)

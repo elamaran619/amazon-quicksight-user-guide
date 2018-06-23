@@ -2,7 +2,7 @@
 
 You can filter text fields by either choosing field values from a list or by specifying field values\.
 
-Use the **Filter list** filter type to filter by choosing field values\. Using this filter type, Amazon QuickSight retrieves a list of the field values for the selected field\. You choose the values you want to filter on, and whether you want to include or exclude records with those values\.
+Use the **Filter list** filter type to filter by choosing field values\. Using this filter type, Amazon QuickSight retrieves a list of the field values for the selected field\. You choose the values that you want to filter on, and whether you want to include or exclude records with those values\.
 
 **Important**  
 You are only offered this option in cases where Amazon QuickSight can quickly retrieve the full set of field values\. In cases where the data set is very large or there's a very high number of unique values, this is not possible, and you must filter by specifying field values instead\.
@@ -42,7 +42,7 @@ You can only filter by choosing field values in cases where Amazon QuickSight ca
 1. Choose whether to include or exclude records that contain the field values you will select in the next step\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/pick-fields-include.png)
 
-1. Select the field values you want to filter on\.
+1. Select the field values that you want to filter on\.
 
    Scroll through the checklist and select or clear values, or toggle the **ALL** check box to select or deselect all of the values at once\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/filter-text-select.png)
@@ -83,7 +83,7 @@ Use the following procedure to create a text field filter by specifying exact fi
    To remove a field value from the criteria, choose its delete icon\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/delete-icon.png)
 
-1. \(Optional\) Repeat Step 5 until you have added all of the field values you want to filter on\.
+1. \(Optional\) Repeat Step 5 until you have added all of the field values that you want to filter on\.
 
 1. Choose whether to include or exclude records that contain the field values you selected\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/custom-filter-list-include.png)

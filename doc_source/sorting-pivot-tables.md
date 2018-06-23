@@ -2,7 +2,7 @@
 
 In a pivot table, you can change the sort order on any column to sort all rows in the table according to the values in that column\. You can only sort by one column at a time\. 
 
-On the visual, choose the sort icon on the subheader of the column you want to sort by and choose either **Sort ascending** or **Sort descending**:
+On the visual, choose the sort icon on the subheader of the column that you want to sort by and choose either **Sort ascending** or **Sort descending**:
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/pivot-table-sort.png)
 
