@@ -2,8 +2,8 @@
 
 Most visual types offer the ability to change data sort order\. Whether sorting is supported and what visual element you can sort by depends on the visual type\. 
 
-**Important**  
-Sorting by text fields \(those with a string data type\) isn't supported for visuals based on [SPICE](welcome.md#spice) data sets\. In this case, sorting options don't appear for those fields\.
+**Note**  
+For SPICE data sets, sorting by text fields \(those with a string data type\) is supported for fields that contain no more than 256,000 unique values\. When this limit is exceeded, a notification appears at the upper right of the visual\.
 
 Use the following table to identify the field wells or on\-visual editors that support sorting for each visual type\.
 

@@ -22,21 +22,21 @@ Boolean
 The following example evaluates the sales\_amount field for null values\.
 
 ```
-isNull(sales_amount)
+isNull(salesAmount)
 ```
 
 The following are the given field values\.
 
 ```
 20.13
-        (null)
-        57.54
+(null)
+57.54
 ```
 
 For these field values, the following values are returned\.
 
 ```
 false
-        true
-        false
+true
+false
 ```

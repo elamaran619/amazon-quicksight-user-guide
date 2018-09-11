@@ -27,21 +27,21 @@ Decimal
 The following example rounds a decimal field to the closest second decimal place\.
 
 ```
-round(sales_amount, 2)
+round(salesAmount, 2)
 ```
 
 The following are the given field values\.
 
 ```
 20.1307
-        892.0388
-        57.5447
+892.0388
+57.5447
 ```
 
 For these field values, the following values are returned\.
 
 ```
 20.13
-        892.04
-        58.54
+892.04
+58.54
 ```

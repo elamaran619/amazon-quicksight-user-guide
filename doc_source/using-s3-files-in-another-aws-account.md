@@ -27,7 +27,7 @@ You can use the following procedure to set this access from the S3 console\. Alt
 
 1. Choose **Add Account**, and then type in an email address, or paste in a canonical user ID, for the AWS account that you want to share with\. This email address should be the primary one associated with the AWS account\. 
 
-1. Choose **Yes** for **Read bucket permissions**\.
+1. Choose **Yes** for both **Read bucket permissions** and **List objects**\.
 
    Choose **Save** to confirm\.
 

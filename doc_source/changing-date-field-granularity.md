@@ -5,7 +5,10 @@ You can change the granularity for a date field on a visual to determine the int
 + Month
 + Week
 + Day
-+ Hour\. This is only supported when the date data includes time information\.
++ Hour
++ Minute
+
+Hour and minute are only available if the field contains time data\.
 
 ## Changing Date Field Granularity by Using an On\-Visual Editor<a name="change-date-granularity-element-controls"></a>
 
@@ -24,8 +27,5 @@ Use the following procedure to change date field granularity by using a field we
 1. Expand the **Field wells** pane by choosing the expand icon\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/expand-field-wells.png)
 
-1. Choose the field well containing the date field\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/field-well-date.png)
-
-1. On the field well menu, choose **Aggregate**, then choose the date granularity that you want to use\.  
+1. Choose the field well containing the date field, and then choose **Aggregate**\. Choose the date granularity that you want to use\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/aggregates.png)

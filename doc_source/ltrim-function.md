@@ -22,11 +22,11 @@ String
 The following example removes the preceding spaces from a string\.
 
 ```
-ltrim('   Seattle Store#14')
+ltrim('   Seattle Store #14')
 ```
 
 The following value is returned\.
 
 ```
-Seattle Store#14
+Seattle Store #14
 ```

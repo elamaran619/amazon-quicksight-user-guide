@@ -13,26 +13,41 @@ To help you decide which edition is for you, take a look at the following table 
 
 | Features | Standard Edition | Enterprise Edition | 
 | --- | --- | --- | 
-| Upload \.csv files, flat files, and Excel files | ✓ | ✓ | 
-| Connect to supported AWS data sources | ✓ | ✓ | 
-| Connect to third\-party data sources | ✓ | ✓ | 
-| Connect to on\-premises or hosted databases | ✓ | ✓ | 
-| Data preparation tools | ✓ | ✓ | 
-| Build visualizations and share dashboards | ✓ | ✓ | 
-| Access all chart types | ✓ | ✓ | 
-| Filter data | ✓ | ✓ | 
-| Scale to thousands of users | ✓ | ✓ | 
-| In\-memory calculation with SPICE | ✓ | ✓ | 
+| Free Authors | 1 | 1 | 
+| Free Trial Authors \(60 Days\) | 4 | 4 | 
+| Included SPICE Capacity | 10 GB/User | 10 GB/User | 
+| Readers | N/A | $0\.30/session | 
+| Additional SPICE Capacity | $0\.25/GB/mo\. | $0\.38/GB/mo\. | 
+| Connect to spreadsheets, databases, data lakes, and business apps | ✓ | ✓ | 
+| Easily analyze data with AutoGraph | ✓ | ✓ | 
+| Fast, scalable visualizations | ✓ | ✓ | 
+| Publish dashboards for interactive data access | ✓ | ✓ | 
+| Single\-Sign\-On with SAML or OpenID Connect | ✓ | ✓ | 
+| Web and mobile access | ✓ | ✓ | 
+| Drill\-down to detail and customize filters | ✓ | ✓ | 
 | Enable audit logs with AWS CloudTrail | ✓ | ✓ | 
-| Federated Single Sign\-On with SAML | ✓ | ✓ | 
-| Active Directory integration |   | ✓ | 
-| Encryption at rest |   | ✓ | 
-| Row\-level security |   | ✓ | 
-| Private VPC access |   | ✓ | 
+| Reader Role |  | ✓ | 
+| Securely Access data in Private VPCs and On\-Prem |  | ✓ | 
+| Row Level Security |  | ✓ | 
+| Hourly refresh of SPICE data |  | ✓ | 
+| Secure data encryption at rest |  | ✓ | 
+| Connect to Active Directory |  | ✓ | 
+| Use Active Directory groups |  | ✓ | 
 
 ## Availability of Editions<a name="edition-availability"></a>
 
-If you want to use Amazon QuickSight Enterprise edition, currently you must choose the US East \(N\. Virginia\) Region as your Amazon QuickSight capacity region\. The Microsoft Active Directory directory that you select to integrate with Amazon QuickSight must also reside in US East \(N\. Virginia\) Region\. This AWS Region is also where default [SPICE](welcome.md#spice) capacity for your account is allocated\. However, you can purchase additional SPICE capacity in any AWS Region supported by Amazon QuickSight\. You can access other AWS resources in any AWS Region\.
+All editions are available in any AWS Region that is currently supported by Amazon QuickSight\. 
+
+The capacity region in which you start your Amazon QuickSight subscription is where your account's default [SPICE](welcome.md#spice) capacity is allocated\. However, you can purchase additional SPICE capacity and access your AWS resources in any other supported AWS Region\.
+
+You can start a new Amazon QuickSight subscription using Standard edition, choosing any default capacity region\. You can then upgrade it to Enterprise edition at any time, and connect to it using Role Based Federation \(SSO\) or email invitations\.
+
+If you require Active Directory integration, begin by creating a new Enterprise edition subscription\. Choose the US East \(N\. Virginia\) Region as your default capacity region\. 
+
+**Note**  
+If you are using Microsoft Active Directory onsite at your data center or outside your default AWS Region, you can use AD Connector to integrate with Amazon QuickSight Enterprise edition\. Currently, Amazon QuickSight only supports AD Connectors located in the US East \(N\. Virginia\) Region\. 
+
+To manage Enterprise account settings, you must temporarily change your region for your session to US East \(N\. Virginia\) Region\. You can change it back when you have finished editing your account settings\. These settings include changing your subscription's notification email, enabling IAM access requests, editing access to AWS resources, and unsubscribing from Amazon QuickSight\.
 
 ## User Management Between Edititons<a name="edition-user-management"></a>
 

@@ -45,9 +45,9 @@ Before you begin, you must be able connect to an existing AWS account\. If your 
 
 1. Review the choices you made, then choose **Finish**\. 
 
-1. \(Optional\) If you are using Standard edition, skip this step\. To open Amazon QuickSight, choose **Go to Amazon QuickSight**\. To manage user groups, choose **Manage access to QuickSight**\.
+1. \(Optional\) To open Amazon QuickSight, choose **Go to Amazon QuickSight**\. 
 
-   Otherwise, close the browser and notify your users how to connect\.
+   If you are using Enterprise edition, you can manage user groups, by choosing **Manage access to QuickSight**\. Otherwise, close the browser and notify your users how to connect\.
 
 For Enterprise edition, there are a few more steps to complete: configuring users and groups to access Amazon QuickSight\.
 

@@ -24,21 +24,21 @@ Integer
 The following example rounds a decimal field to the next highest integer\.
 
 ```
-ceil(sales_amount)
+ceil(salesAmount)
 ```
 
 The following are the given field values\.
 
 ```
 20.13
-	        892.03
-	        57.54
+892.03
+57.54
 ```
 
 For these field values, the following values are returned\.
 
 ```
 21
-	        893
-	        58
+893
+58
 ```

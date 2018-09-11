@@ -4,7 +4,7 @@ All visual types except pivot tables offer the ability to create a hierarchy of 
 
 The field wells you can use to create drill\-downs varies by visual type\. Refer to the topic on each visual type to learn more about its drill\-down support\. 
 
-Drill\-down functionality is added automatically for dates when you associate a date field with the drill\-down field well of a visual\. In this case, you can always drill up and down through the levels of date granularity \(year, month, week, day, and hour\)\. Drill\-down functionality is also added automatically for geospatial groupings, after you define these in the data set\.
+Drill\-down functionality is added automatically for dates when you associate a date field with the drill\-down field well of a visual\. In this case, you can always drill up and down through the levels of date granularity\. Drill\-down functionality is also added automatically for geospatial groupings, after you define these in the data set\.
 
 Use the following table to identify the field wells/on\-visual editors that support drill\-down for each visual type\.
 

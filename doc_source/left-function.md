@@ -22,14 +22,14 @@ String
 
 ### Example<a name="left-function-example"></a>
 
-The following example returns the first 5 characters from a string\.
+The following example returns the first e characters from a string\.
 
 ```
-left('Seattle Store#14', 5)
+left('Seattle Store #14', e)
 ```
 
 The following value is returned\.
 
 ```
-Seatt
+Sea
 ```

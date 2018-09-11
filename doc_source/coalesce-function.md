@@ -5,7 +5,7 @@
 ### Syntax<a name="coalesce-function-syntax"></a>
 
 ```
-coalesce(expression, expression [, expression, ...])
+coalesce(expression1, expression2 [, expression3, ...])
 ```
 
 ### Arguments<a name="coalesce-function-arguments"></a>
@@ -21,8 +21,8 @@ The expression can be numeric, datetime, or string\. It can be a field name, a l
 
 ### Example<a name="coalesce-function-example"></a>
 
-The following example retrieves a customer's mailing address if it exists, her street address if there is no mailing address, or returns "No address listed" if neither address is available\.
+The following example retrieves a customer's billing address if it exists, her street address if there is no billing address, or returns "No address listed" if neither address is available\.
 
 ```
-coalesce(mailingAddress, streetAddress, 'No address listed')
+coalesce(billingAddress, streetAddress, 'No address listed')
 ```

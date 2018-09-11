@@ -22,11 +22,11 @@ String
 The following example converts a string value into uppercase\.
 
 ```
-toUpper('Seattle Store#14')
+toUpper('Seattle Store #14')
 ```
 
 The following value is returned\.
 
 ```
-SEATTLE STORE#14
+SEATTLE STORE #14
 ```

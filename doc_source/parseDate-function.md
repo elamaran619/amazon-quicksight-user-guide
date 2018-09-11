@@ -34,27 +34,27 @@ Date
 
 ### Example<a name="parseDate-function-example"></a>
 
-The following example evaluates Field2 to determine if it contains date values\.
+The following example evaluates `prodDate` to determine if it contains date values\.
 
 ```
-parseDate(Field2, 'MM/dd/yyyy')
+parseDate(prodDate, 'MM/dd/yyyy')
 ```
 
 The following are the given field values\.
 
 ```
-Field2
-        --------
-        01-01-1999
-        12/31/2006
-        1/18/1982 
-        7/4/2010
+prodDate
+--------
+01-01-1999
+12/31/2006
+1/18/1982 
+7/4/2010
 ```
 
 For these field values, the following rows are returned\.
 
 ```
 12-31-2006T00:00:00.000Z
-        01-18-1982T00:00:00.000Z
-        07-04-2010T00:00:00.000Z
+01-18-1982T00:00:00.000Z
+07-04-2010T00:00:00.000Z
 ```

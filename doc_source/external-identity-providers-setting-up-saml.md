@@ -37,7 +37,7 @@ Your SAML identity provider defines your organization's IdP to AWS\. It does so 
 
 Next, create an IAM role that establishes a trust relationship between IAM and your organization's IdP\. This role identifies your IdP as a principal \(trusted entity\) for the purposes of federation\. The role also defines which users authenticated by your organization's IdP are allowed to access Amazon QuickSight\. For more information about creating a role for a SAML IdP, review [Creating a Role for SAML 2\.0 Federation](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_saml.html) in the *IAM User Guide*\.
 
-After you have created the role, you can limit the role to have permissions only to Amazon QuickSight by attaching an inline policy to the role\. The following sample policy document provides access to Amazon QuickSight\. This policy allows the user access to Amazon QuickSight and allows them to create both author accounts and user accounts\.
+After you have created the role, you can limit the role to have permissions only to Amazon QuickSight by attaching an inline policy to the role\. The following sample policy document provides access to Amazon QuickSight\. This policy allows the user access to Amazon QuickSight and allows them to create both author accounts and reader accounts\.
 
 **Note**  
 In the following example, replace *<YOUR\_AWS\_ACCOUNT\_ID>* with your 12\-digit AWS account ID \(with no hyphens ‘‐’\)\.
@@ -80,7 +80,9 @@ If you want to provide access to Amazon QuickSight and also the ability to creat
 
 You can view account details in the AWS Management Console\.
 
-Once you have set up SAML and the IAM policy or policies, you don't need to invite users manually\. The first time that users open Amazon QuickSight, they are provisioned automatically\. If they have permissions for the `quicksight:CreateUser` action, they are added as Amazon QuickSight users\. If they have permissions for the `quicksight:CreateAdmin` action, they are added as Amazon QuickSight administrators\.
+Once you have set up SAML and the IAM policy or policies, you don't need to invite users manually\. The first time that users open Amazon QuickSight, they are provisioned automatically, using the highest level permissions in the policy\. For example, if they have permissions to both `quicksight:CreateUser` and `quicksight:CreateReader`, they are provisioned as authors\. If they also have permissions to `quicksight:CreateAdmin`, they are provisioned as admins\. Each permission level includes the ability to create the same level user and below\. For example, an author can add other authors or readers\. 
+
+Users who are invited manually are created in the role assigned by the person who invited them\. They don't need to have policies that grant them permissions\.
 
 ## Step 3: Configure the SAML IdP<a name="external-identity-providers-config-idp"></a>
 

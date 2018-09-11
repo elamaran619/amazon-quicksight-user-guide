@@ -24,21 +24,21 @@ Integer
 The following example converts a decimal field to an integer\.
 
 ```
-decimalToInt(sales_amount)
+decimalToInt(salesAmount)
 ```
 
 The following are the given field values\.
 
 ```
-20.13
-        892.03
-        57.54
+ 20.13
+892.03
+ 57.54
 ```
 
 For these field values, the following values are returned\.
 
 ```
-20
-        892
-        58
+ 20
+892
+ 58
 ```

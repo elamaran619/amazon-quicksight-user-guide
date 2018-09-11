@@ -5,7 +5,7 @@
 ### Syntax<a name="formatDate-function-syntax"></a>
 
 ```
-formatDate(date, ['format'], ['time_zone'])
+formatDate(date, ['format'], ['timezone'])
 ```
 
 ### Arguments<a name="formatDate-function-arguments"></a>
@@ -30,23 +30,23 @@ String
 The following example formats a UTC date and displays using a specific time zone\.
 
 ```
-formatDate({Order Date}, 'dd MMM yyyy', 'America/Los_Angeles')
+formatDate(orderDate, 'dd MMM yyyy', 'America/Los_Angeles')
 ```
 
 The following are the given field values\.
 
 ```
 order date      
-        =========
-        2012-12-14T00:00:00.000Z  
-        2013-12-29T00:00:00.000Z
-        2012-11-15T00:00:00.000Z
+=========
+2012-12-14T00:00:00.000Z  
+2013-12-29T00:00:00.000Z
+2012-11-15T00:00:00.000Z
 ```
 
 For these field values, the following values are returned\.
 
 ```
 13 Dec 2012
-        28 Dec 2013
-        14 Nov 2012
+28 Dec 2013
+14 Nov 2012
 ```

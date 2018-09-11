@@ -19,26 +19,26 @@ String
 
 ### Example<a name="toString-function-example"></a>
 
-The following example returns the values from Field2 \(which uses the date data type\) as strings\.
+The following example returns the values from `payDate` \(which uses the `date` data type\) as strings\.
 
 ```
-toString(Field2)
+toString(payDate)
 ```
 
 The following are the given field values\.
 
 ```
-Field2
-        --------
-        1992-11-14T00:00:00.000Z
-        2012-10-12T00:00:00.000Z
-        1973-04-08T00:00:00.000Z
+payDate
+--------
+1992-11-14T00:00:00.000Z
+2012-10-12T00:00:00.000Z
+1973-04-08T00:00:00.000Z
 ```
 
 For these field values, the following rows are returned\.
 
 ```
 1992-11-14T00:00:00.000Z
-        2012-10-12T00:00:00.000Z
-        1973-04-08T00:00:00.000Z
+2012-10-12T00:00:00.000Z
+1973-04-08T00:00:00.000Z
 ```

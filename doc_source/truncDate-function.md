@@ -15,6 +15,7 @@ truncDate('period', date)
  *period*   
 The period of the date that you want returned\. Valid periods are as follows:  
 + YYYY: This returns the year portion of the date\.
++ Q: This returns the date of the first day of the quarter that the date belongs to\. 
 + MM: This returns the month portion of the date\.
 + DD: This returns the day portion of the date\.
 + WK: This returns the week portion of the date\. The week starts on Sunday in Amazon QuickSight\.
@@ -34,23 +35,23 @@ Date
 The following example returns a date representing the month of the order date\.
 
 ```
-truncDate('MM', {Order Date})
+truncDate('MM', orderDate)
 ```
 
 The following are the given field values\.
 
 ```
-order date      
-        =========
-        2012-12-14T00:00:00.000Z  
-        2013-12-29T00:00:00.000Z
-        2012-11-15T00:00:00.000Z
+orderDate      
+=========
+2012-12-14T00:00:00.000Z  
+2013-12-29T00:00:00.000Z
+2012-11-15T00:00:00.000Z
 ```
 
 For these field values, the following values are returned\.
 
 ```
 2012-12-01T00:00:00.000Z
-        2013-12-01T00:00:00.000Z
-        2012-11-01T00:00:00.000Z
+2013-12-01T00:00:00.000Z
+2012-11-01T00:00:00.000Z
 ```

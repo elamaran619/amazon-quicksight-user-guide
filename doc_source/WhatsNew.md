@@ -1,8 +1,8 @@
 # Document History<a name="WhatsNew"></a>
 
-**Latest documentation update: **June 22, 2018
+**Latest documentation update: **September 10, 2018
 
-The following table describes the important changes to the *Amazon QuickSight User Guide*\. If you want to be notified about updates to this documentation, you can subscribe to the RSSfeed\. 
+The following table describes the important changes to the *Amazon QuickSight User Guide*\. If you want to be notified about updates to this documentation, you can subscribe to the RSS feed using the icon in the menu bar\. If you are also interested in updates for all AWS products, see [What's New with AWS](https://aws.amazon.com/new/)\.
 
 **Note**  
 In a Kindle publication, you can find the last change date above the table of contents\. However, on the Kindle website, the original publication date is unchanged\. 
@@ -16,6 +16,10 @@ The following table describes the important changes in each release of the *Amaz
 
 | Change | Description | Date Changed | 
 | --- | --- | --- | 
+| New features | Use date functions to find out what quarter a date is in:  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/WhatsNew.html) Add parameters to URLs\. For more information see, [Using Parameters in a URL](parameters-in-a-url.md)\.  | September 10, 2018 | 
+| New features | You can sort strings in SPICE data sets\. For more information on these features, see [Sorting Visual Data in Amazon QuickSight](sorting-visual-data.md)  | August 20, 2018 | 
+| New features | You can schedule emailed reports, and add data labels to your visuals\.  For more information on these features, see the following sections: [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/WhatsNew.html)  | August 15, 2018 | 
+| New features | You can create table calculations, using aggregated measures to discover how dimensions influence measures or each other\. Also, you can visualize time data at granularities as low as one minute\.  For more information on these features, see the following sections: [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/WhatsNew.html)  | August 8, 2018 | 
 | New features | You can replace data sets, customize labels, and format dimensions that are aggregated with count and count distinct\. Also, new visuals start out smaller in size\. For more information on these features, see the following sections: [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/WhatsNew.html)  | June 21, 2018 | 
 | New features and a new AWS Region |  You can upgrade your Amazon QuickSight subscription from Standard edition to Enterprise edition\. In Enterprise edition, Amazon QuickSight supports usage\-based pricing for users in the reader role, sharing dashboards with all users in the reader role, and hourly refresh of data sets\. Amazon QuickSight supports also supports private connections to data in a VPC with a private subnet in Enterprise edition\.  In both editions, Amazon QuickSight supports parameters with on\-sheet controls, dashboard co\-ownership, custom URL actions, and 25\-GB SPICE data sets\. Also, Amazon QuickSight is available in Asia Pacific \(Tokyo\)\.  For more information on these features, see the following sections: [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/WhatsNew.html)  | May 30, 2018 | 
 | New feature |  Amazon QuickSight supports quick sorting from axis labels, duplicating data sets, and showing or hiding totals on tabular reports\. Also, you can add custom SQL to a data set earlier in the creation workflow\. For more information on these features, see the following sections: [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/WhatsNew.html)  | May 25, 2018 | 

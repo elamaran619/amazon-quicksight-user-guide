@@ -1,6 +1,6 @@
 # Working with Calculated Fields<a name="working-with-calculated-fields"></a>
 
-Create calculated fields to use operators or functions to analyze or transform field data\. For details about supported functions and operators, see [Amazon QuickSight Calculated Field Function and Operator ReferenceFunctions and Operators](calculated-field-reference.md)\.
+Create calculated fields to use operators or functions to analyze or transform field data\. For details about supported functions and operators, see [Calculated Field Function and Operator Reference for Amazon QuickSight Functions and Operators](calculated-field-reference.md)\.
 
 You can use multiple functions and operators in a calculated field\. For example, you might use the `formatDate` function to extract the year from a date field, and then the `ifelse` function to segment records based on the year\.
 
@@ -37,7 +37,7 @@ As an example, take decimal field FieldA with a value of 0\.00006, which is disp
 
 ## Adding a Calculated Field During Data Preparation<a name="adding-a-calculated-field"></a>
 
-Create calculated fields to use functions and operators to analyze or transform field data\. For details about supported functions and operators, see [Amazon QuickSight Calculated Field Function and Operator ReferenceFunctions and Operators](calculated-field-reference.md)\. For more information about using calculated fields, see [Working with Calculated Fields](#working-with-calculated-fields)\.
+Create calculated fields to use functions and operators to analyze or transform field data\. For details about supported functions and operators, see [Calculated Field Function and Operator Reference for Amazon QuickSight Functions and Operators](calculated-field-reference.md)\. For more information about using calculated fields, see [Working with Calculated Fields](#working-with-calculated-fields)\.
 
 You can add calculated fields to a data set during data preparation or from the analysis page\. When you add a calculated field to a data set during data preparation, it's available to all analyses that use that data set\. When you add a calculated field to a data set in an analysis, it's available only in that analysis\.
 

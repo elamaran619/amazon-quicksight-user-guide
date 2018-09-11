@@ -6,7 +6,7 @@ If you use an Amazon QuickSight manifest file, it must have a \.json extension, 
 
 If you use an Amazon Redshift manifest file, Amazon QuickSight processes the optional `mandatory` flag similarly to Amazon Redshift, terminating the import process and returning an error if the associated file is not found\.
 
-Files you select for import must be delimited\-text \(for example, \.csv or \.tsv\), log \(\.clf\), or extended log \(\.elf\) format, or JSON \(\.json\)\. All files identified in one manifest file must use the same file format\. Plus, they must have the same number and type of columns\. If you are importing JSON files, then for `globalUploadSettings` you need to specify `format`, but not `delimiter`, `textqualifier`, and `containsHeader`\.
+Files you select for import must be delimited\-text \(for example, \.csv or \.tsv\), log \(\.clf\), or extended log \(\.elf\) format, or JSON \(\.json\)\. All files identified in one manifest file must use the same file format\. Plus, they must have the same number and type of columns\. Amazon QuickSight supports UTF\-8 file encoding, but not UTF\-8 \(with BOM\)\. If you are importing JSON files, then for `globalUploadSettings` you need to specify `format`, but not `delimiter`, `textqualifier`, and `containsHeader`\.
 
 Any files you specify must be in Amazon S3 buckets that you have granted Amazon QuickSight access to\. For information about granting Amazon QuickSight access to AWS resources, see [Managing Amazon QuickSight Permissions to AWS Resources](managing-permissions.md)\.
 

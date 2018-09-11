@@ -14,7 +14,7 @@ epochDate(epochdate)
 
  *epochdate*   
 An epoch date, which is an integer representation of a date as the number of seconds since 00:00:00 UTC on January 1, 1970\.   
-*epochdate* must be an integer\. It can be the name of a field that uses the integer data type, a literal integer value, or a call to another function that outputs an integer\. If the integer value is longer than 10 digits, the digits after the tenth place are discarded\.
+*epochdate* must be an integer\. It can be the name of a field that uses the integer data type, a literal integer value, or a call to another function that outputs an integer\.  If the integer value is longer than 10 digits, the digits after the tenth place are discarded\.
 
 ### Return Type<a name="epochDate-function-return-type"></a>
 

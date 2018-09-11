@@ -54,7 +54,7 @@ This format generates an "Access Denied" error: **s3://us\-east\-1\.amazonaws\.c
 
 **To set permissions to your Athena query results location**
 
-1. Open the AWS Artifact console at [https://console\.aws\.amazon\.com/artifact/](https://console.aws.amazon.com/artifact/)\. 
+1. Open the Athena console at [https://console\.aws\.amazon\.com/athena/](https://console.aws.amazon.com/athena/home)\.
 
 1. Choose **Settings** and get the value in **Query result location**\. If **Encrypt query results** is enabled \(selected\), check whether it uses SSE\-KMS or CSE\-KMS, and note the key\. 
 

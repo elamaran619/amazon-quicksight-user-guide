@@ -18,8 +18,8 @@ The character that delimits where the string is broken into substrings\. For exa
 
 ```
 one
-        two
-        three
+two
+three
 ```
 If you choose `position = 2`, `split` returns `'two'`\.
 

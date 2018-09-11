@@ -10,10 +10,10 @@ ifelse(if, then [, if, then ...], else)
 
 ### Arguments<a name="ifelse-function-arguments"></a>
 
-`ifelse` takes one or more *if*, *then* expression pairings plus an expression for the *else* argument\.
+`ifelse` takes one or more *if*, *then* expression pairings, plus one expression for the *else* argument\.
 
  *if*   
-The expression to be evaluated as true or not\. It can be a field name like **address1**, a literal value like **'Unknown'**, or another function like `toString({Sales Amount})`\.   
+The expression to be evaluated as true or not\. It can be a field name like **address1**, a literal value like **'Unknown'**, or another function like `toString(salesAmount)`\.   
 If you use multiple AND and OR operators in the `if` argument, enclose statements in parentheses to identify processing order\. For example, the following `if` argument returns records with a month of 1, 2, or 5 and a year of 2000\.  
 
 ```
@@ -26,10 +26,10 @@ ifelse(month = 5 OR (month < 3 AND year = 2000), 'yes', 'no')
 ```
 
  *then*   
-The expression to be returned if its *if* argument is evaluated as true\. It can be a field name like **address1**, a literal value like **'Unknown'**, or a call to another function\. The expression must have the same data type as the other `then` arguments and the `else` argument\. 
+The expression to return if its *if* argument is evaluated as true\. It can be a field name like **address1**, a literal value like **'Unknown'**, or a call to another function\. The expression must have the same data type as the other `then` arguments and the `else` argument\. 
 
  *else*   
-The expression to be returned if none of the *if* arguments evaluate as true\. It can be a field name like **address1**, a literal value like **'Unknown'**, or another function like `toString({Sales Amount})`\. The expression must have the same data type as all of the `then` arguments\. 
+The expression to return if none of the *if* arguments evaluate as true\. It can be a field name like **address1**, a literal value like **'Unknown'**, or another function like `toString(salesAmount)`\. The expression must have the same data type as all of the `then` arguments\. 
 
 ### Return Type<a name="ifelse-function-return-type"></a>
 

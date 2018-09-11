@@ -7,7 +7,7 @@
 ### Syntax<a name="intToDecimal-function-syntax"></a>
 
 ```
-intToDecimal(int)
+intToDecimal(integer)
 ```
 
 ### Arguments<a name="intToDecimal-function-arguments"></a>
@@ -24,21 +24,23 @@ Decimal
 The following example converts an integer field to a decimal\.
 
 ```
-intToDecimal(transaction_count)
+intToDecimal(price)
 ```
 
 The following are the given field values\.
 
 ```
 20
-        892
-        57
+892
+57
 ```
 
 For these field values, the following values are returned\.
 
 ```
 20.0
-        892.0
-        58.0
+892.0
+58.0
 ```
+
+You can apply formatting inside an analysis, for example to format `price` as currency\. 

@@ -50,5 +50,4 @@ Use the following procedure to create a new visual\.
         Amazon QuickSight creates the visual using the visual type you selected\.
    + Create a visual using a suggestion\.
 
-     On the tool bar, choose **X\-Ray**, then choose a suggested visual\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/visuals-pane-xray.png)
+     On the tool bar, choose **Suggested**, then choose a suggested visual\.

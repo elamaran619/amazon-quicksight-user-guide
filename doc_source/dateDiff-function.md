@@ -7,7 +7,7 @@
 ### Syntax<a name="dateDiff-function-syntax"></a>
 
 ```
-dateDiff(date, date)
+dateDiff(date1, date2)
 ```
 
 ### Arguments<a name="dateDiff-function-arguments"></a>
@@ -26,21 +26,21 @@ Integer
 The following example returns the difference between two dates\.
 
 ```
-dateDiff({Order Date}, {Ship Date})
+dateDiff(orderDate, shipDate)
 ```
 
 The following are the given field values\.
 
 ```
-order date          ship date
-        ==============================
-        01/01/14            01/05/14
-        09/13/16            09/20/16
+orderdDate          shipdate
+=============================
+01/01/14            01/05/14
+09/13/16            09/20/16
 ```
 
 For these field values, the following values are returned\.
 
 ```
 4
-        7
+7
 ```

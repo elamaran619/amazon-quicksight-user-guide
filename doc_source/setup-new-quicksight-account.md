@@ -11,13 +11,20 @@ To get signed up for Amazon QuickSight, choose one of the following\.
 
 ## Setup a Free Standalone User Account in Amazon QuickSight<a name="setup-aws-individual-user"></a>
 
-This section covers the fastest way to setup a free Amazon QuickSight account\. Amazon QuickSight offers a 60 day free trial for 4 users\. If you maintain 1 user only, the Amazon QuickSight account remains free\.
+This section covers the fastest way to setup a free Amazon QuickSight account\. 
 
-Do you already have an AWS account? See [Set up Amazon QuickSight for an existing AWS user](#setup-quicksight-for-existing-aws-account)\.
+If you have only one user \(author or admin\), you can use Amazon QuickSight for free\. If your team wants to try out Amazon QuickSight, you can sign up for a 60 day free trial for up to 4 additional users \(author or admin\)\. After the trial is over, you can reduce the number of users to 1 only, and then the Amazon QuickSight account remains free\. 
 
-Are you a student or educator, new to AWS? See [Sign Up for AWS and a Free Amazon QuickSight Account as an Educator or Student](#setup-aws-educator-or-student)\.
+If you want to conduct a trial with a larger number than five users, you can still sign up this way\. However, you are billed for users over five during the first sixty days, and users over 1 thereafter\.
 
-The automated sign up guides you through the following steps\. To begin, choose **Sign Up** at the top right of the [Amazon QuickSight website](https://aws.amazon.com/quicksight/)\.
+**Note**  
+You can only create users in the reader role in Enterprise edition\. They aren't as part of the free trial\.
+
+If one of the following applies, visit the corresponding site for more information:
++ Do you already have an AWS account? See [Set up Amazon QuickSight for an existing AWS user](#setup-quicksight-for-existing-aws-account)\. 
++ Are you a student or educator, new to AWS? See [Sign Up for AWS and a Free Amazon QuickSight Account as an Educator or Student](#setup-aws-educator-or-student)\.
+
+The following automated sign up guides you through the steps to open your account\. To begin, choose **Sign Up** at the top right of the [Amazon QuickSight website](https://aws.amazon.com/quicksight/)\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/quicksight-sign-up-free.png)
 
@@ -36,11 +43,11 @@ If you are an educator or a student, you can sign up using [AWS Educate](https:/
 
 This section covers how to setup a free Amazon QuickSight account, when you already have an existing AWS account\. Amazon QuickSight offers a 60 day free trial for 4 users\. If you maintain 1 user only, the Amazon QuickSight account remains free\.
 
-If you don't already have an AWS account, see [Setup a Free Standalone User Account in Amazon QuickSight](#setup-aws-individual-user)\.
+If one of the following applies, visit the corresponding site for more information:
++ If you don't already have an AWS account, see [Setup a Free Standalone User Account in Amazon QuickSight](#setup-aws-individual-user)\.
++ If you're a student or educator, new to AWS, see [Sign Up for AWS and a Free Amazon QuickSight Account as an Educator or Student](#setup-aws-educator-or-student) instead\.
 
-If you're a student or educator, new to AWS, see [Sign Up for AWS and a Free Amazon QuickSight Account as an Educator or Student](#setup-aws-educator-or-student) instead\.
-
-This process helps an individual user to start up a free Amazon QuickSight Standard account\. If you want to use Enterprise edition, or if you are an administrator trying to configure Amazon QuickSight for your company, see [Subscribe to Amazon QuickSight](signing-up.md#how-to-add-quicksight-to-your-aws-account) instead\.
+The following process helps an individual user to start up a free Amazon QuickSight Standard account\. If you want to use Enterprise edition, or if you are an administrator trying to configure Amazon QuickSight for your company, see [Subscribe to Amazon QuickSight](signing-up.md#how-to-add-quicksight-to-your-aws-account) instead\.
 
 Before you begin, you must be able connect to an existing AWS account\. If your company already has an AWS account, contact your AWS account administrator for assistance\. 
 

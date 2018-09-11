@@ -22,11 +22,11 @@ String
 The following example converts a string value into lowercase\.
 
 ```
-toLower('Seattle Store#14')
+toLower('Seattle Store #14')
 ```
 
 The following value is returned\.
 
 ```
-seattle store#14
+seattle store #14
 ```

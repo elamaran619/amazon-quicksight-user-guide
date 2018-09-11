@@ -11,3 +11,5 @@ Use the following sections to learn how to publish, share, and view dashboards\.
 + [Copying a Dashboard](copying-a-dashboard.md)
 + [Deleting a Dashboard](deleting-a-dashboard.md)
 + [Sharing Dashboards](sharing-a-dashboard.md)
++ [Sending Reports by Email](sending-reports.md)
++ [Subscribing to Reports](subscribing-to-reports.md)

@@ -108,7 +108,7 @@ For file uploads, Amazon S3 sources, Athena and Salesforce, Amazon QuickSight su
 
 For relational database sources, including Amazon Redshift, Amazon RDS, PostgreSQL, MySQL, Aurora, MariaDB, and Microsoft SQL Server, Amazon QuickSight supports the following date and time formats \(24 hr only\): 
 
-Amazon QuickSight supports dates in the range from Jan 1, 1900 00:00:00 UTC to Dec 31, 2037 23:59:59 UTC\.
+Amazon QuickSight supports dates in the range from Jan 1, 1400 00:00:00 UTC to Feb 26, 2364 23:59:59 UTC for SPICE data sets, \.
 
 1.  `dd/MM/yyyy HH:mm:ss`, for example 31/12/2016 15:30:00\. 
 
@@ -157,3 +157,10 @@ Amazon QuickSight supports dates in the range from Jan 1, 1900 00:00:00 UTC to D
 1.  `yyyy-MMM-dd HH:mm:ss`, for example 2016\-DEC\-31 15:30:00\. 
 
 1.  `yyyy-MMM-dd`, for example 2016\-DEC\-31\. 
+
+1. `yyyyMMdd'T'HHmmss`, for example 20161231T153000\.
+
+1. `yyyy-MM-dd'T'HH:mm:ss`, for example 2016\-12\-31T15:30:00\.
+
+**Note**  
+When you create a calculated column formula using a date format that contains apostrophes, make sure to escape them\. For example, `formatDate({myDateField}, "yyyyMMdd'T'HHmmss")` or `formatDate({myDateField}, 'yyyyMMdd\'T\'HHmmss')`\.

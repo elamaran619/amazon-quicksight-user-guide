@@ -19,32 +19,32 @@ Integer
 
 ### Example<a name="parseInt-function-example"></a>
 
-The following example evaluates Field2 to determine if it contains integer values\.
+The following example evaluates `feeType` to determine if it contains integer values\.
 
 ```
-parseInt(Field2)
+parseInt(feeType)
 ```
 
 The following are the given field values\.
 
 ```
-Field2
-        --------
-        2
-        2.1
-        2a
-        3
-        3b
-        (null)
-        5
+feeType
+--------
+2
+2.1
+2a
+3
+3b
+(null)
+5
 ```
 
 For these field values, the following rows are returned\.
 
 ```
 2
-        2
-        3
-        (null)
-        5
+2
+3
+(null)
+5
 ```

@@ -5,7 +5,7 @@
 ### Syntax<a name="concat-function-syntax"></a>
 
 ```
-concat(expression, expression [, expression ...])
+concat(expression1, expression2 [, expression3 ...])
 ```
 
 ### Arguments<a name="concat-function-arguments"></a>
@@ -24,25 +24,25 @@ String
 The following example concatenates three string fields and adds appropriate spacing\.
 
 ```
-concat(salutation, ' ', first_name, ' ', last_name)
+concat(salutation, ' ', firstName, ' ', lastName)
 ```
 
 The following are the given field values\.
 
 ```
-salutation    first_name    last_name
-        -------------------------------------
-        Ms.            Jane            Doe
-        Dr.            Sally           Roe
-        Mr.            John            Smith
+salutation     firstName          lastName
+-------------------------------------------------------
+Ms.            Li                  Juan
+Dr.            Ana Carolina        Silva
+Mr.            Nikhil              Jayashankar
 ```
 
 For these field values, the following values are returned\.
 
 ```
-Ms. Jane Doe
-        Dr. Sally Roe
-        Mr. John Smith
+Ms. Li Juan
+Dr. Ana Carolina Silva
+Mr. Nikhil Jayashankar
 ```
 
 The following example concatenates two string literals\.

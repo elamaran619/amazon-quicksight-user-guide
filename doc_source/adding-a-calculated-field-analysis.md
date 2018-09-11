@@ -8,24 +8,9 @@ Single\-row operations are those that supply a \(potentially\) different result 
 
 By creating the aggregated calculated field within the analysis, you can then drill down into the data\. The value of that aggregated field is recalculated appropriately for each level\. This type of aggregation isn't possible during data set preparation\.
 
-For example, let's say that you want to figure out the percentage of profit for each country, region, and state\. You can add a calculated field to your analysis, `(sum({sales amount} - cost)) / sum({sales amount})`\. This field is then calculated for each country, region, and state, at the time your analyst drills down into the geography\.
+For example, let's say that you want to figure out the percentage of profit for each country, region, and state\. You can add a calculated field to your analysis, `(sum(salesAmount - cost)) / sum(salesAmount)`\. This field is then calculated for each country, region, and state, at the time your analyst drills down into the geography\.
 
-The functions available in [SPICE](welcome.md#spice) data include the following\. 
-+ [avg](avg-function.md)
-+ [ceil](ceil-function.md)
-+ [count](count-function.md)
-+ [dateDiff](dateDiff-function.md)
-+ [decimalToInt](decimalToInt-function.md)
-+ [distinct\_count](distinct_count-function.md)
-+ [epochDate](epochDate-function.md)
-+ [extract](extract-function.md)
-+ [floor](floor-function.md)
-+ [intToDecimal](intToDecimal-function.md)
-+ [max](max-function.md)
-+ [min](min-function.md)
-+ [round](round-function.md)
-+ [sum](sum-function.md)
-+ [truncDate](truncDate-function.md)
+To see which functions are available in [SPICE](welcome.md#spice), see \.[Functions by Category](calculated-field-reference.md#functions-by-category)
 
 **Note**  
 The date functions `extract` and `truncDate` don't support SS \(second\) in SPICE\. 
@@ -57,7 +42,7 @@ When a calculated field formula contains an aggregation, it becomes a custom agg
 + In a pivot table, custom aggregations can't be added to table calculations\.
 + Scatter plots with custom aggregations need at least one dimension under **Group/Color** in the field wells\.
 
-For details about supported functions and operators, see [Amazon QuickSight Calculated Field Function and Operator ReferenceFunctions and Operators](calculated-field-reference.md)\.
+For details about supported functions and operators, see [Calculated Field Function and Operator Reference for Amazon QuickSight Functions and Operators](calculated-field-reference.md)\.
 
 **Topics**
 + [avg](avg-function.md)

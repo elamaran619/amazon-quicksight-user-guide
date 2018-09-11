@@ -19,32 +19,32 @@ Decimal
 
 ### Example<a name="parseDecimal-function-example"></a>
 
-The following example evaluates Field2 to determine if it contains decimal values\.
+The following example evaluates `fee` to determine if it contains decimal values\.
 
 ```
-parseDecimal(Field2)
+parseDecimal(fee)
 ```
 
 The following are the given field values\.
 
 ```
-Field2
-        --------
-        2
-        2a
-        12.13
-        3b
-        3.9
-        (null)
-        198.353398
+fee
+--------
+2
+2a
+12.13
+3b
+3.9
+(null)
+198.353398
 ```
 
 For these field values, the following rows are returned\.
 
 ```
-        2.0
-        12.13
-        3.9
-        (null)
-        198.353398
+2.0
+12.13
+3.9
+(null)
+198.353398
 ```

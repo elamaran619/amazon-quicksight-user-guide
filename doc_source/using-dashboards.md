@@ -1,5 +1,13 @@
 # Using Data Dashboards in Amazon QuickSight<a name="using-dashboards"></a>
 
+**Topics**
++ [View data](#viewing-dashboard-data)
++ [Filter data](#filtering-dashboard-data)
++ [Sort data](#sorting-dashboard-data)
++ [Export data](#export-dashboard-to-csv)
++ [Interact with Data](#using-visuals-on-a-dashboard)
++ [Get email reports](#subscribing-to-a-dashboard-report-for-readers)
+
 ## Viewing Dashboard Data<a name="viewing-dashboard-data"></a>
 
 In Amazon QuickSight, you can view data dashboards in email or interact with them on a webpage or your mobile device\. If you are an Amazon QuickSight reader, you don't need a monthly subscription\. To learn how to get the most out of reading your dashboards, use the following section\. 
@@ -15,14 +23,14 @@ You can filter data in a visual in three ways:
 + You can use the filter icon at the top of each visual to filter visuals one at a time\. 
 + You can create your own filters by using the filter pane on the left side of the page\.
 
-## Filtering Dashboard Data<a name="sorting-dashboard-data"></a>
+## Sorting Dashboard Data<a name="sorting-dashboard-data"></a>
 
 You can sort data in a visual in three ways: 
 + You can hover over the label for the field you want to sort by, and choose the sort icon\. 
 + You can choose the filter icon at the top right of the visual you want to sort\.
 + You can click or tap on the field and choose **Sort** from the context menu\.
 
-## Export Data to a CSV file<a name="export-dashboard-to-csv"></a>
+## Exporting Data from a Dashboard<a name="export-dashboard-to-csv"></a>
 
 To export data from an analysis or dashboard to a comma\-separated value \(CSV\) file, use the `v`\-shaped menu at the top right of a visual\. Data exports only for the visual you choose\. 
 
@@ -45,3 +53,25 @@ These actions are as follows:
 + Change chart colors or specific field colors
 
   You can change all the chart colors to a specific color\. Alternatively, you can choose a specific field value to change its color, if that field is part of the color well \(usually in the legend\)\. 
+
+## Subscribing to Your Dashboard<a name="subscribing-to-a-dashboard-report-for-readers"></a>
+
+You can subscribe to a dashboard in report form, and receive it in an email\. You can also adjust your report settings\.
+
+Use the following procedure to change your subscription and report settings for a specific dashboard\.
+
+1. First, open a dashboard that is shared with you\.
+
+1. Choose the **Reports** icon at top right\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/subscribe-to-report-1.png)
+
+1. The **Change report preferences** screen appears\. This screen shows the current report schedule, in addition to the subscription and optimization options\.
+
+   For **Subscription**, choose **Subscribe** to start receiving reports, or **Unsubscribe** to stop receiving reports\.
+
+   Under **Optimize**, choose the device you prefer to view the report on\. 
+   + If you usually use a mobile device or you prefer to view reports in a portrait format, choose **Viewing on a mobile device**\. When you receive the report, the visuals display in a single vertical column\. 
+   + If you usually use a desktop or you prefer to view reports in a landscape format, choose **Viewing on a desktop**\. When you receive the report, the visuals display in the same layout shown in your dashboard on your desktop\.  
+![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/subscribe-to-report-2.png)
+
+1. Choose **Update** to confirm your choices, or choose **Cancel** to discard your changes\.

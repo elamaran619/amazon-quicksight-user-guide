@@ -30,10 +30,10 @@ If you are configuring an AWS instance in a non\-default VPC, make sure that the
 
   For more information about Amazon QuickSight IP address ranges, see [IP Address Ranges for Amazon QuickSight](#ip-address-ranges) following\.
 
-  For more information about configuring VPC ACLs, see [Network ACLs](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html)\.
+  For more information about configuring VPC ACLs, see [Network ACLs](http://docs.aws.amazon.com/vpc/latest/userguide/VPC_ACLs.html)\.
 + Security group rules that allow traffic between the cluster or instance and Amazon QuickSight servers\. For further details on how to create appropriate security group rules, see [Authorizing Connections from Amazon QuickSight to AWS Data Stores](enabling-access.md)\.
 
-For more information about configuring a VPC in the Amazon VPC service, see [Networking in Your VPC](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Networking.html)\.
+For more information about configuring a VPC in the Amazon VPC service, see [Networking in Your VPC](http://docs.aws.amazon.com/vpc/latest/userguide/VPC_Networking.html)\.
 
 ### Network Configuration for an AWS Instance in a Private VPC<a name="network-configuration-aws-private-vpc"></a>
 

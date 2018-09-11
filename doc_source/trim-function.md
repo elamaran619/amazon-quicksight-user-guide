@@ -22,11 +22,11 @@ String
 The following example removes the following spaces from a string\.
 
 ```
-trim('   Seattle Store#14   ')
+trim('   Seattle Store #14   ')
 ```
 
 For these field values, the following values are returned\.
 
 ```
-Seattle Store#14
+Seattle Store #14
 ```

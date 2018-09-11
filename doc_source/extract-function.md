@@ -7,7 +7,7 @@
 ### Syntax<a name="extract-function-syntax"></a>
 
 ```
-extract('period', date)
+extract(period, date)
 ```
 
 ### Arguments<a name="extract-function-arguments"></a>
@@ -15,6 +15,7 @@ extract('period', date)
  *period*   
 The period that you want extracted from the date value\. Valid periods are as follows:  
 + YYYY: This returns the year portion of the date\.
++ Q: This returns the quarter that the date belongs to \(1–4\)\. 
 + MM: This returns the month portion of the date\.
 + DD: This returns the day portion of the date\.
 + WD: This returns the day of the week as an integer, with Sunday as 1\.
@@ -34,21 +35,21 @@ Integer
 The following example extracts the day from a date value\.
 
 ```
-extract('DD', {Order Date})
+extract('DD', orderDate)
 ```
 
 The following are the given field values\.
 
 ```
-order date      
-        =========
-        01/01/14  
-        09/13/16
+orderDate
+=========
+01/01/14  
+09/13/16
 ```
 
 For these field values, the following values are returned\.
 
 ```
 01
-        13
+13
 ```

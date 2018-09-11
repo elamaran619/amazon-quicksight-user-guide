@@ -5,7 +5,7 @@ You create filters on date fields by selecting the filter conditions and date va
   + **Between** – Between a start date and an end date
   + **After** – After a specified date
   + **Before** – Before a specified date
-+ **Relative** – A series of date/time elements based on the current date\. You can filter records based on the current date and your selected unit of measure \(UOM\)\. Date filter UOMs include years, quarters, months, weeks, days, and hours\. You can use the following comparison types:
++ **Relative** – A series of date/time elements based on the current date\. You can filter records based on the current date and your selected unit of measure \(UOM\)\. Date filter UOMs include years, quarters, months, weeks, days, hours, and minutes\. You can use the following comparison types:
   + **Previous** – The previous UOM—for example, the previous year\.
   + **This** – This UOM, which includes all dates and times that fall within the select UOM, even if they occur in the future\.
   + **to date *or* up to now** – UOM to date, or UOM up to now\. The displayed phrase adapts to the UOM you choose\. However, in all cases this option filters out data that is not between the beginning of the current UOM and the current moment\.

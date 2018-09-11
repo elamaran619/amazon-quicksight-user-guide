@@ -5,7 +5,7 @@
 ### Syntax<a name="nullIf-function-syntax"></a>
 
 ```
-nullIf(expression, expression)
+nullIf(expression1, expression2)
 ```
 
 ### Arguments<a name="nullIf-function-arguments"></a>
@@ -24,23 +24,23 @@ String
 The following example returns nulls if the reason for a shipment delay is unknown\.
 
 ```
-nullIf({Delay Reason}, 'unknown')
+nullIf(delayReason, 'unknown')
 ```
 
 The following are the given field values\.
 
 ```
-delay reason
-    ============
-    unknown         
-    back ordered 
-    weather delay
+delayReason
+============
+unknown         
+back ordered 
+weather delay
 ```
 
 For these field values, the following values are returned\.
 
 ```
 (null)
-    back ordered 
-    weather delay
+back ordered 
+weather delay
 ```
