@@ -13,7 +13,7 @@ percentDifference
 (
      measure 
      ,[ sortorder_field ASC_or_DESC, ... ]  
-     ,lookup index,
+     ,lookup index
      ,[ partition_field, ... ] 
 )
 ```
