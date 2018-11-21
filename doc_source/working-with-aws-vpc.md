@@ -90,7 +90,7 @@ For more information, see [Security Groups for Your VPC](http://docs.aws.amazon.
 
 #### Security Group Rules for Amazon QuickSight's Elastic Network Interface<a name="vpc-security-groups-for-eni"></a>
 
-When using a VPC Connection, traffic comes from the elastic network interface that we create in your VPC\. Each elastic network inteface gets its own private IP address that’s chosen from the subnet you configure\. The private IP address is unique for each AWS account, unlike the public IP range\. 
+When using a VPC Connection, traffic comes from the elastic network interface that we create in your VPC\. Each elastic network interface gets its own private IP address that’s chosen from the subnet you configure\. The private IP address is unique for each AWS account, unlike the public IP range\. 
 
 The security group attached to the Amazon QuickSight elastic network interface should have outbound rules allowing traffic to all of the data source instances in your VPC that you want Amazon QuickSight to connect to\. If you don't want to restrict which instances Amazon QuickSight can connect to, you can configure your security group with an outbound rule to allow traffic to 0\.0\.0\.0/0 on all ports\. If you want to restrict Amazon QuickSight to connect only to certain instances, you can specify the security group ID \(recommended\) or private IP address of the instances you want to allow\. You specify these, along with the appropriate port numbers for your instances, in your outbound security group rule\.
 
