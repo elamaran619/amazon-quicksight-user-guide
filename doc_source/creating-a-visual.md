@@ -1,6 +1,6 @@
 # Creating an Amazon QuickSight Visual<a name="creating-a-visual"></a>
 
-You can create a visual in several ways\. You can select the fields that you want and use AutoGraph to let Amazon QuickSight determine the most appropriate visual type, or you can choose a specific visual type and choose fields to populate it\. Alternatively, if you aren't sure what questions your data can answer for you, you can choose **Suggested** on the tool bar and choose a visual that Amazon QuickSight suggests for you\. Suggested visuals are ones that we think are of interest, based on a preliminary examination of your data\. For more information about AutoGraph, see [Using AutoGraph](autograph.md)\. 
+You can create a visual in several ways\. You can select the fields that you want and use AutoGraph to let Amazon QuickSight determine the most appropriate visual type\. Alternatively, you can choose a specific visual type and choose fields to populate it\. Alternatively, if you aren't sure what questions your data can answer for you, you can choose **Suggested** on the tool bar and choose a visual that Amazon QuickSight suggests for you\. Suggested visuals are ones that we think are of interest, based on a preliminary examination of your data\. For more information about AutoGraph, see [Using AutoGraph](autograph.md)\. 
 
 You can add more visuals to the workspace by choosing **Add**, then **Add visual**\. Visuals created after June\-21\-2018 are smaller in size, fitting two on each row\. You can resize the visuals and drag them to rearrange them\. 
 
@@ -18,7 +18,7 @@ You can't use the same field for more than one dimension field well or drop targ
 
 ## Searching for Fields<a name="searching-for-a-field"></a>
 
-If you have a long field list in the **Fields list** pane, you can search to locate a specific field by choosing the search icon at the top of the **Fields list** pane and then typing a search term into the search box\. Any field whose name contains the search term is shown\. Search is case\-insensitive and wildcards are not supported\. Choose the cancel icon \(**X**\) to the right of the search box to return to viewing all fields\.
+If you have a long field list in the **Fields list** pane, you can search to locate a specific field\. To do so, choose the search icon at the top of the **Fields list** pane and then enter a search term into the search box\. Any field whose name contains the search term is shown\. Search is case\-insensitive and wildcards aren't supported\. Choose the cancel icon \(**X**\) to the right of the search box to return to viewing all fields\.
 
 ## Creating a Visual<a name="create-a-visual"></a>
 

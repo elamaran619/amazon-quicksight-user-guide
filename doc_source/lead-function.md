@@ -1,4 +1,4 @@
-# lead<a name="lead-function"></a>
+# `lead`<a name="lead-function"></a>
 
 `lead` calculates the lead \(following\) value for a measure based on specified partitions and sorts\.
 

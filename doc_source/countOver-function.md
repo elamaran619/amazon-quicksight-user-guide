@@ -1,4 +1,4 @@
-# countOver<a name="countOver-function"></a>
+# `countOver`<a name="countOver-function"></a>
 
 `countOver` calculates the count of a dimension or measure partitioned by a list of dimensions\. 
 

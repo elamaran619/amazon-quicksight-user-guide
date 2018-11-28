@@ -56,7 +56,7 @@ Support for JSON file structures \(\.json\) includes the following:
 + JSON records with structures
 + JSON records with root elements as arrays
 
-You can also use the `parseJson` function to extract values from JSON objects in a text file\. For example, if your CSV file has a JSON object embedded in one of the fields, you can extract a value from a specified key value pair \(KVP\)\. For more information on how to do this, see [parseJson](parseJson-function.md)\.
+You can also use the `parseJson` function to extract values from JSON objects in a text file\. For example, if your CSV file has a JSON object embedded in one of the fields, you can extract a value from a specified key value pair \(KVP\)\. For more information on how to do this, see [`parseJson`](parseJson-function.md)\.
 
 The following JSON features aren't supported:
 + Reading JSON with a structure containing a list of records

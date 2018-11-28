@@ -6,4 +6,4 @@ Here is a list of things to check:
 + Inconsistency between the field data type and the field data, for example text data in a field with a numeric data type\.
 + Having a file that contains a header but having the **Contains header** upload setting deselected\.
 + Having the data source data violate one or more [Data Source Limits](data-source-limits.md)\.
-+ Field data that is incompatible with or excluded by the function used in a calculated field\. For example, if you have a calculated field that uses [parseDate](parseDate-function.md), rows with data that doesn't evaluate to a valid date are skipped\.
++ Field data that is incompatible with or excluded by the function used in a calculated field\. For example, if you have a calculated field that uses [`parseDate`](parseDate-function.md), rows with data that doesn't evaluate to a valid date are skipped\.

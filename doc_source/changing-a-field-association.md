@@ -6,8 +6,7 @@ You can change the field assigned to an element in a visual by using the field w
 
 Use the following procedure to modify the mapping of a field to a visual element\.
 
-1. On the visual, choose the on\-visual editor for the visual element for which you want to change the field\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/choose-element.png)
+1. On the visual, choose the on\-visual editor for the visual element for which you want to change the field\.
 
 1. On the on\-visual editor menu, choose the field that you want to associate with that visual element\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/choose-field.png)

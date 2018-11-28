@@ -1,4 +1,4 @@
-# lag<a name="lag-function"></a>
+# `lag`<a name="lag-function"></a>
 
 `lag` calculates the lag \(previous\) value for a measure based on specified partitions and sorts\.
 

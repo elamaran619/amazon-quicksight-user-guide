@@ -15,6 +15,9 @@ The following list shows the supported Amazon QuickSight actions:
 + **`"quicksight:GetGroupMapping"`**
 
   `GetGroupMapping` is used only in Amazon QuickSight Enterprise edition accounts\. It enables the user to use Amazon QuickSight to identify and display the Microsoft Active Directory \(Microsoft Active Directory\) directory groups that are mapped to roles in Amazon QuickSight\. 
++ **`"quicksight:GetDashboardEmbedUrl"`**
+
+  `GetDashboardEmbedUrl` allows a dashboard to be invoked as an embedded entity\. 
 + **`"quicksight:SearchDirectoryGroups"`**
 
   `SearchDirectoryGroups` is used only in Amazon QuickSight Enterprise edition accounts\. It enables the user to use Amazon QuickSight to display your Microsoft Active Directory directory groups so that you can choose which ones to map to roles in Amazon QuickSight\. 

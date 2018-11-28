@@ -1,4 +1,4 @@
-# percentOfTotal<a name="percentOfTotal-function"></a>
+# `percentOfTotal`<a name="percentOfTotal-function"></a>
 
 `percentOfTotal` calculates the percentage a measure contributes to the total, based on the dimensions specified\. 
 

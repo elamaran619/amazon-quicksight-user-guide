@@ -4,6 +4,8 @@ A *dashboard* is a read\-only snapshot of an analysis that you can share with ot
 
 When you share a dashboard, you specify which users have access to it\. Users who are dashboard viewers can view and filter the dashboard data\. Any selections to filters, controls, or sorting that users apply while viewing the dashboard exist only while the user is viewing the dashboard, and aren't saved once it's closed\. Users who are dashboard owners can edit and share the dashboard, and optionally can edit and share the analysis\. If you want them to also edit and share the data set, you can set that up in the analysis\. 
 
+A shared dashboard can also be embedded in a website or app, if you are using Enterprise edition\. For more information about embedded dashboards, see [Embedding Amazon QuickSight Dashboards](embedding-dashboards.md)\. 
+
 Use the following sections to learn how to publish, share, and view dashboards\.
 
 **Topics**

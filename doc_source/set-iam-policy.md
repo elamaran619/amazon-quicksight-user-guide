@@ -69,6 +69,39 @@ To prevent Amazon QuickSight administrators from unsubscribing from Amazon Quick
 | --- | --- | 
 |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/set-iam-policy.html)  |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/set-iam-policy.html)  | 
 
+## IAM Policy Actions for Embedding Dashboards with Amazon QuickSight<a name="iam-policy-actions-for-embedded-dashboards"></a>
+
+To allow a user to invoke an embedded dashboard from Amazon QuickSight, allow the following actions in an IAM policy\. In the policy, you need to supply the dashboard IDs for the dashboards that can be embedded\. For an example, see [IAM Policy Examples for Amazon QuickSight Dashboard Embedding ](#iam-policy-examples-for-dashboard-embedding)\. 
+
+
+****  
+
+| Standard Edition | Enterprise Edition | 
+| --- | --- | 
+|     |  [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/quicksight/latest/user/set-iam-policy.html)  | 
+
+### IAM Policy Examples for Amazon QuickSight Dashboard Embedding<a name="iam-policy-examples-for-dashboard-embedding"></a>
+
+The following example shows an IAM policy that enables dashboard sharing for specific dashboards\.
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": "quicksight:RegisterUser",
+            "Resource": "*",
+            "Effect": "Allow"
+        },
+        {
+            "Action": "quicksight:GetDashboardEmbedUrl",
+            "Resource": "arn:aws:quicksight:us-west-2:111122223333:dashboard/1a1ac2b2-3fc3-4b44-5e5d-c6db6778df89",
+            "Effect": "Allow"
+        }
+    ]
+}
+```
+
 ## IAM Policy Examples for Amazon QuickSight<a name="iam-policy-examples-for-quicksight"></a>
 
 Following, you can find several IAM policy examples for Amazon QuickSight\.

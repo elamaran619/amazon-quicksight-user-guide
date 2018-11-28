@@ -1,4 +1,4 @@
-# intToDecimal<a name="intToDecimal-function"></a>
+# `intToDecimal`<a name="intToDecimal-function"></a>
 
 `intToDecimal` converts an integer value to the decimal data type\.
 

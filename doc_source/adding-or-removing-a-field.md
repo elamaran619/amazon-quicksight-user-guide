@@ -10,7 +10,7 @@ You can also let Amazon QuickSight map the field to the most appropriate visual 
 
 ## Adding a Field by Using a Drop Target<a name="add-a-field-drop-target"></a>
 
-To add a field to a visual by using a drop target, choose a field in the **Fields list** pane and then drag the field to your chosen drop target on the visual, making sure the drop indicator shows that the field is being added\.
+To add a field to a visual by using a drop target, first choose a field in the **Fields list** pane\. Then drag the field to your chosen drop target on the visual, making sure the drop indicator shows that the field is being added\.
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/drop-target-add.png)
 

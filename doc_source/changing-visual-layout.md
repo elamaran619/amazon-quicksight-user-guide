@@ -4,7 +4,7 @@ When you create an analysis, you see a workspace that contains one full\-sized v
 
 If you change a visual to make it considerably smaller, the on\-visual editors are hidden so that the chart elements have more room to display\. Bar chart visuals can also display fewer data points\. To see a resized visual in full pane mode so that on\-visual editors and all data points are displayed, use the **Maximize** option on the on\-visual menu\. Choose **Minimize** to return the visual to its original size when you are done\.
 
-If you resize a visual that uses a legend so that it is taller than it is wide, the legend displays on the bottom of the chart if it had been displaying on the right\-hand side\.
+In some cases, you might resize a visual that uses a legend so that it is taller than it is wide\. In such cases, the legend displays on the bottom of the chart if it had been displaying on the right\-hand side\.
 
 If you reduce the size of the browser window, Amazon QuickSight resizes and if necessary reorders visuals for optimal display\. For example, smaller visuals that were side by side might be displayed sequentially\. The original layout is restored when the size of the browser window is increased again\.
 

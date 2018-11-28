@@ -24,7 +24,7 @@ When we describe how to use the different visual types, we use the term *measure
 
 We use the term *dimension* to refer to text or date fields that can be items, like products, or attributes that are related to measures and can be used to partition them\. Examples are sales date for sales figures or product manufacturer for customer satisfaction numbers\. Amazon QuickSight automatically identifies a field as a measure or a dimension based on its data type\. 
 
-Numeric fields can act as dimensions, for example ZIP codes and most ID numbers\. It's helpful to give such fields a string data type during data preparation, so that Amazon QuickSight understands that they are to be treated as dimensions and are not useful for performing mathematical calculations\. 
+Numeric fields can act as dimensions, for example ZIP codes and most ID numbers\. It's helpful to give such fields a string data type during data preparation\. This way, Amazon QuickSight understands that they are to be treated as dimensions and are not useful for performing mathematical calculations\. 
 
 You can change whether a field is displayed as a dimension or measure on an analysis\-by\-analysis basis instead\. For more information, see [Fields as Dimensions and Measures](creating-a-visual.md#dimensions-and-measures)\.
 

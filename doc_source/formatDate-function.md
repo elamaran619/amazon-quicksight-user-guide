@@ -1,4 +1,4 @@
-# formatDate<a name="formatDate-function"></a>
+# `formatDate`<a name="formatDate-function"></a>
 
 `formatDate` formats a date using a pattern you specify\. 
 

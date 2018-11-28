@@ -1,4 +1,4 @@
-# sumOver<a name="sumOver-function"></a>
+# `sumOver`<a name="sumOver-function"></a>
 
 `sumOver` calculates the sum of a measure partitioned by a list of dimensions\. 
 

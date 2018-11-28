@@ -8,7 +8,7 @@ SPICE capacity is pooled across users for the Amazon QuickSight account\. All of
 
 To free up SPICE capacity, delete unused data sets from SPICE\. For more information about deleting a data set, see [Deleting a Data Set](delete-a-data-set.md)\. 
 
-You can purchase additional SPICE capacity if you want to, up to a limit of 1 TB total capacity per QuickSight account\. If you need an exception to this limit, follow the instructions at [AWS Service Limits](http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html) to submit a limit increase request\. You can also release purchased SPICE capacity that you aren't using\. Purchasing or releasing SPICE capacity only affects the capacity for the currently selected AWS Region\. For information about additional SPICE pricing, see [Amazon QuickSight](https://quicksight.aws.amazon.com/)\.
+You can purchase additional SPICE capacity if you want to, up to a limit of 1 TB total capacity per QuickSight account\. If you need an exception to this limit, follow the instructions at [AWS Service Limits](https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html) to submit a limit increase request\. You can also release purchased SPICE capacity that you aren't using\. Purchasing or releasing SPICE capacity only affects the capacity for the currently selected AWS Region\. For information about additional SPICE pricing, see [Amazon QuickSight](https://quicksight.aws.amazon.com/)\.
 
 ## Capacity Planning for SPICE<a name="capacity-planning-for-spice"></a>
 

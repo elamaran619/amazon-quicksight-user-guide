@@ -1,4 +1,4 @@
-# ltrim<a name="ltrim-function"></a>
+# `ltrim`<a name="ltrim-function"></a>
 
 `ltrim` removes preceding whitespace from a string\.
 

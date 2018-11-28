@@ -97,7 +97,7 @@ You can also combine data sets that include data stored in Amazon Redshift and i
 
 After you've registered your data catalog \(for Athena\) or external schema \(for a [Hive metastore](https://aws.amazon.com/blogs/big-data/migrate-external-table-definitions-from-a-hive-metastore-to-amazon-athena/)\), you can use Amazon QuickSight to select the external schema and the Amazon Redshift Spectrum tables\. This process works just as for any other Amazon Redshift tables in your cluster\. You don't need to load or transform your data\. 
 
-For more information on using Amazon Redshift Spectrum, see [Using Amazon Redshift Spectrum to Query External Data](http://docs.aws.amazon.com/redshift/latest/dg/c-using-spectrum.html) in the *Amazon Redshift Database Developer Guide\.*
+For more information on using Amazon Redshift Spectrum, see [Using Amazon Redshift Spectrum to Query External Data](https://docs.aws.amazon.com/redshift/latest/dg/c-using-spectrum.html) in the *Amazon Redshift Database Developer Guide\.*
 
 To connect using Redshift Spectrum, you need to do the following:
 + Create or identify an IAM role associated with the Amazon Redshift cluster\.
@@ -106,4 +106,4 @@ To connect using Redshift Spectrum, you need to do the following:
 
 Redshift Spectrum lets you separate storage from compute, so you can scale them separately\. You only pay for the queries that you run\.
 
-To connect to Redshift Spectrum tables, you don't need to grant Amazon QuickSight access to Amazon S3 or Athena\. Amazon QuickSight only needs access to the Amazon Redshift cluster\. For full details on configuring Redshift Spectrum, see [Getting Started with Amazon Redshift Spectrum](http://docs.aws.amazon.com/redshift/latest/dg/c-getting-started-using-spectrum.html) in the *Amazon Redshift Database Developer Guide\.* 
+To connect to Redshift Spectrum tables, you don't need to grant Amazon QuickSight access to Amazon S3 or Athena\. Amazon QuickSight only needs access to the Amazon Redshift cluster\. For full details on configuring Redshift Spectrum, see [Getting Started with Amazon Redshift Spectrum](https://docs.aws.amazon.com/redshift/latest/dg/c-getting-started-using-spectrum.html) in the *Amazon Redshift Database Developer Guide\.* 

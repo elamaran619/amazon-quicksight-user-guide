@@ -1,4 +1,4 @@
-# replace<a name="replace-function"></a>
+# `replace`<a name="replace-function"></a>
 
 `replace` replaces part of a string with another string that you specify\. 
 

@@ -65,4 +65,4 @@ To help find issues with SSL, you can use an online SSL checker, or a tool like 
 
 1. The administrator corrects the problem by installing the SSL certificate on the user's database server\. 
 
-For more detail on the solution in this example, see [Using SSL to Encrypt a Connection to a DB Instance](http://docs.aws.amazon.com//AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html) in the* Amazon RDS User Guide\.*
+For more detail on the solution in this example, see [Using SSL to Encrypt a Connection to a DB Instance](https://docs.aws.amazon.com//AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html) in the* Amazon RDS User Guide\.*

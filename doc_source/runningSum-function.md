@@ -1,4 +1,4 @@
-# runningSum<a name="runningSum-function"></a>
+# `runningSum`<a name="runningSum-function"></a>
 
 `runningSum` calculates a running sum for a measure based on the specified dimensions and sort orders\. 
 

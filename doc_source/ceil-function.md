@@ -1,4 +1,4 @@
-# ceil<a name="ceil-function"></a>
+# `ceil`<a name="ceil-function"></a>
 
 `ceil` rounds a decimal value to the next highest integer\. For example, `ceil(29.02)` returns `30`\.
 

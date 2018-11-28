@@ -1,4 +1,4 @@
-# right<a name="right-function"></a>
+# `right`<a name="right-function"></a>
 
 `right` returns the rightmost characters from a string, including spaces\. You specify the number of characters to be returned\.
 

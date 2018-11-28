@@ -1,4 +1,4 @@
-# locate<a name="locate-function"></a>
+# `locate`<a name="locate-function"></a>
 
 `locate` locates a substring that you specify within another string, and returns the number of characters until the first character in the substring\. The function returns 0 if it doesn't find the substring\.
 

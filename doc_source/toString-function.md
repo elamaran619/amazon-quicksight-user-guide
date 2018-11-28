@@ -1,4 +1,4 @@
-# toString<a name="toString-function"></a>
+# `toString`<a name="toString-function"></a>
 
 `toString` formats the input expression as a string\. `toString` skips rows containing null values\.
 

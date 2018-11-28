@@ -1,6 +1,6 @@
 # Working with Table Calculations<a name="working-with-calculations"></a>
 
-You can use table calculations to apply statistical functions to pivot table cells that contain measures \(numeric values\)\. Use the following sections to understand which functions you can use in calculations, and how to apply or remove them \.
+You can use table calculations to apply statistical functions to pivot table cells that contain measures \(numeric values\)\. Use the following sections to understand which functions you can use in calculations, and how to apply or remove them\.
 
 If the data type doesn't work properly for the calculation you create, then the data type of the cell values is changed\. For example, let's say you apply the **Rank** function to a currency data type\. The values display as integers rather than currency, because rank isn't measured as currency\. Similarly, if you apply the **Percent difference** function instead, the cell values display as percentages\. 
 

@@ -1,4 +1,4 @@
-# substring<a name="substring-function"></a>
+# `substring`<a name="substring-function"></a>
 
 `substring` returns the characters in a string, starting at the location specified by the *start* argument and proceeding for the number of characters specified by the *length* arguments\. 
 

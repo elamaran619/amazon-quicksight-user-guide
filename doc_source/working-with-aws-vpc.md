@@ -27,7 +27,7 @@ Use the following procedure to create a connection to a VPC\. Before you begin, 
    1. On the Amazon VPC console, find the **VPC ID** that you want to use\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/vpc-console.png)
 
-   1. On the Amazon VPC subnet console page, see which subnets are in that VPC by locating the VPC ID\. Choose a subnet, and copy its **Subnet ID** value\. The subnet you choose is the one where you plan to create an elastic network interface\. It must be possible to route from this subnet to any destinations you want to reach\. For more information, see [VPCs and Subnets](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Subnets.html)\.  
+   1. On the Amazon VPC subnet console page, see which subnets are in that VPC by locating the VPC ID\. Choose a subnet, and copy its **Subnet ID** value\. The subnet you choose is the one where you plan to create an elastic network interface\. It must be possible to route from this subnet to any destinations you want to reach\. For more information, see [VPCs and Subnets](https://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Subnets.html)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/vpc-subnet-console.png)
 
    1. On the **Adding VPC connection** screen, enter the **Subnet ID** value that you copied in the previous step for **Subnet ID**\.
@@ -59,12 +59,12 @@ Creating a VPC connection requires permission for the `quicksight:CreateVPCConne
 
 For best practices when using Amazon VPC, see the following:
 + [AWS Single VPC Design](https://aws.amazon.com/answers/networking/aws-single-vpc-design/) on the AWS website
-+ [Recommended Network ACL Rules for Your VPC](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Appendix_NACLs.html) in the *Amazon VPC User Guide*
-+ [VPC Scenarios and Examples](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Scenarios.html) in the *Amazon VPC User Guide*
++ [Recommended Network ACL Rules for Your VPC](https://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Appendix_NACLs.html) in the *Amazon VPC User Guide*
++ [VPC Scenarios and Examples](https://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Scenarios.html) in the *Amazon VPC User Guide*
 
 ## What Is Amazon VPC?<a name="vpc-intro"></a>
 
-Amazon Virtual Private Cloud \(Amazon VPC\) enables you to define a virtual network in your own logically isolated area within the AWS cloud, known as a *virtual private cloud \(VPC\)*\. You can launch your AWS resources, such as instances, into your VPC\. Your VPC closely resembles a traditional network that you might operate in your own data center, with the benefits of using AWS's scalable infrastructure\. You can configure your VPC; you can select its IP address range, create subnets, and configure route tables, network gateways, and security settings\. You can connect instances in your VPC to the internet\. You can connect your VPC to your own corporate data center, making the AWS cloud an extension of your data center\. To protect the resources in each subnet, you can use multiple layers of security, including security groups and network access control lists\. For more information, see the [Amazon VPC User Guide](http://docs.aws.amazon.com/vpc/latest/userguide/)\.
+Amazon Virtual Private Cloud \(Amazon VPC\) enables you to define a virtual network in your own logically isolated area within the AWS cloud, known as a *virtual private cloud \(VPC\)*\. You can launch your AWS resources, such as instances, into your VPC\. Your VPC closely resembles a traditional network that you might operate in your own data center, with the benefits of using AWS's scalable infrastructure\. You can configure your VPC; you can select its IP address range, create subnets, and configure route tables, network gateways, and security settings\. You can connect instances in your VPC to the internet\. You can connect your VPC to your own corporate data center, making the AWS cloud an extension of your data center\. To protect the resources in each subnet, you can use multiple layers of security, including security groups and network access control lists\. For more information, see the [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/)\.
 
 ## How Amazon QuickSight Connects to Your VPC<a name="vpc-how-does-quicksight-connect"></a>
 
@@ -86,7 +86,7 @@ The security group attached to your data source's instance must allow inbound tr
 
 You can do this by adding a rule to your security group that allows traffic from the security group ID that is associated with the Amazon QuickSight \(recommended\)\. Alternatively, you can use a rule that allows traffic from the private IP address assigned to Amazon QuickSight\.
 
-For more information, see [Security Groups for Your VPC](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html) and [VPCs and Subnets](http://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Subnets.html)\.
+For more information, see [Security Groups for Your VPC](https://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html) and [VPCs and Subnets](https://docs.aws.amazon.com//AmazonVPC/latest/UserGuide/VPC_Subnets.html)\.
 
 #### Security Group Rules for Amazon QuickSight's Elastic Network Interface<a name="vpc-security-groups-for-eni"></a>
 

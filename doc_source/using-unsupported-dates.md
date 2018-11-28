@@ -14,7 +14,7 @@ Use this procedure to help Amazon QuickSight understand dates in different forma
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/dataset-change-datatype.png)
 **Note**  
 Integer dates that aren’t Unix epoch datetimes don't work as is\. For example, these formats are not supported as integers: `MMddyy`, `MMddyyyy`, `ddMMyy`, `ddMMyyyy`, and `yyMMdd`\. The workaround is to first change them to text format\. Make sure all your rows contain six digits \(not five\)\. Then change the text data type to datetime\.  
-For more information on Unix epoch datetimes, see [epochDate](epochDate-function.md)\.
+For more information on Unix epoch datetimes, see [`epochDate`](epochDate-function.md)\.
 
    When you change the data type to date, the **Edit date format** screen appears\.
 

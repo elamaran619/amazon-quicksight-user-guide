@@ -1,4 +1,4 @@
-# rtrim<a name="rtrim-function"></a>
+# `rtrim`<a name="rtrim-function"></a>
 
 `rtrim` removes following whitespace from a string\. 
 

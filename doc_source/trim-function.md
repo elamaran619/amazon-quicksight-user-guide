@@ -1,4 +1,4 @@
-# trim<a name="trim-function"></a>
+# `trim`<a name="trim-function"></a>
 
 `trim` removes both preceding and following whitespace from a string\. 
 

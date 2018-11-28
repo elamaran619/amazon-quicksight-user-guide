@@ -1,24 +1,23 @@
 # Restricting Access to a Data Set by Using Row\-Level Security<a name="restrict-access-to-a-data-set-using-row-level-security"></a>
 
-In the Enterprise edition of Amazon QuickSight, you can restrict access to a data set by configuring row\-level security on it\. You can do this before or after you have shared the data set\. Only the users you shared with can see any of the data\. By adding row\-level security to all or some of these users, you can further control their access\.
+In the Enterprise edition of Amazon QuickSight, you can restrict access to a data set by configuring row\-level security on it\. You can do this before or after you have shared the data set\. Only the people you shared with can see any of the data\. By adding row\-level security, you can further control their access\.
 
-To do this, you create a query or file that has one column named `UserName`\. You can also think of this as *adding a rule* for that user\. Then you can add one column to the query or file for each field that you want to grant or restrict access to\. For each user name that you add, you add the values for each field\. You can use NULL \(no value\) to mean all values\. To see examples of data set rules, see [Creating Data Set Rules for Row\-Level Security](#create-data-set-rules-for-row-level-security)\.
+To do this, you create a query or file that has one column named `UserName`, `GroupName`, or both\. You can also think of this as *adding a rule* for that user or group\. Then you can add one column to the query or file for each field that you want to grant or restrict access to\. For each user or group name that you add, you add the values for each field\. You can use NULL \(no value\) to mean all values\. To see examples of data set rules, see [Creating Data Set Rules for Row\-Level Security](#create-data-set-rules-for-row-level-security)\.
 
-To apply the data set rules, you add the rules as a *permissions data set* to your data set\. Then you choose to explicitly allow or deny access based on the data set rules\. Allowing access is the default\. Keep in mind these points when you allow and deny access\.
-+ If you use the rules to *grant access*, each user specified can see only the rows that *match* the field values in the data set rules\. 
+To apply the data set rules, you add the rules as a permissions data set to your data set\. Then you choose to explicitly allow or deny access based on the data set rules\. Allowing access is the default\. Keep in mind these points when you allow and deny access:
++ The permissions data set can't contain duplicate values\. Duplicates are ignored when evaluating how to apply the rules\.
++ If you use the rules to *grant access*, each user or group specified can see only the rows that *match* the field values in the data set rules\. 
++ If you add a rule for a user or group and leave all the other columns with no value \(NULL\), you grant them access to all the data\. 
++ If you don't add a rule for a user or group, that user or group can't see any of the data\. 
++ If you use the rules to *deny access*, each user or group specified can see only the rows that *don't match* the field values in the data set rules\. 
++ If you add a rule for a user or group and leave all the other columns with no value \(NULL\), you deny the user or group access to all the data\.
++ If you don't add a rule for a user or group, they are denied nothing—in other words, they can see all the data\. 
 
-  If you add a rule for a user, and leave all the other columns with no value \(NULL\), you grant that user access to all the data\. 
+Amazon QuickSight treats spaces as literal values\. If you have a space in a field that you are restricting, the data set rule applies to those rows\. Amazon QuickSight treats both NULLs and blanks \(empty strings “”\) as "no value"\. A NULL is an empty field value\. 
 
-  If you don't add a rule for a user, that user can't see any of the data\. 
-+ If you use the rules to *deny access*, each user specified can see only the rows that *don't match* the field values in the data set rules\. 
+Depending on what data source your data set is coming from, you can configure a direct query to access a table of permissions\. Terms with spaces inside them don't need to be delimited with quotes\. If you use a direct query, you can easily change the query in the original data source\. 
 
-  If you add a rule for a user, and leave all the other columns with no value \(NULL\), you deny that user access to all the data\.
-
-  If you don't add a rule for a user, the user is denied nothing — in other words, that user can see all the data\. 
-
-Amazon QuickSight treats spaces as literal values\. So, if you have a space in a field that you are restricting, the data set rule applies to those rows\. Amazon QuickSight treats both NULLs and blanks \(empty strings “”\) as "no value"\. A NULL is an empty field value\. 
-
-You can upload data set rules from a text file or spreadsheet\. Alternatively, depending on what data source your data set is coming from, you can configure a direct query to access a table of permissions\. If you use a direct query, you can easily change the query in the original data source\. If you use file\-based data set rules, you must apply any changes by overwriting the existing rules in the data set's permissions settings\.
+Alternatively, you can upload data set rules from a text file or spreadsheet\. If you are using a comma\-separated value \(CSV\) file, don't include any spaces on the given line\. Terms with spaces inside them need to be delimited with quotes\. If you use data set rules that are file\-based, apply any changes by overwriting the existing rules in the data set's permissions settings\.
 
 Data sets that are restricted are marked with the word **RESTRICTED** in the **Your Data Sets** screen\.
 

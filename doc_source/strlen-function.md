@@ -1,4 +1,4 @@
-# strlen<a name="strlen-function"></a>
+# `strlen`<a name="strlen-function"></a>
 
 `strlen` returns the number of characters in a string, including spaces\.
 

@@ -18,11 +18,11 @@ You can use the combo chart visual type to create a single\-measure or single\-l
 
 To create a multi\-measure chart, you can choose to add multiple lines, or multiple bars\. A multi\-measure bar chart shows two or more measures for one dimension\. You can group the bars in clusters, or stack them\. 
 
-For the bars, use a dimension for the axis and a measure for the value\. The dimension is typically a text field that is related to the measure in some way and can be used to segment it in order to see more detailed information\. Each bar in the chart represents a measure value for an item in the dimension you chose\. 
+For the bars, use a dimension for the axis and a measure for the value\. The dimension is typically a text field that is related to the measure in some way and can be used to segment it to see more detailed information\. Each bar in the chart represents a measure value for an item in the dimension you chose\. 
 
-Bars and lines show up to 2500 data points on the axis for visuals that don't use group/color\. For visuals that do use group/color, bars show up to 50 data points on the axis and up to 50 data points for group/color, while lines show 200 data points on the axis and up to 25 data points for group/color\. \. For more information about how we handle data that falls outside display limits, see [Display Limits in Visuals](working-with-visual-types.md#display-limits)\.
+Bars and lines show up to 2500 data points on the axis for visuals that don't use group/color\. For visuals that do use group/color, bars show up to 50 data points on the axis and up to 50 data points for group/color, while lines show 200 data points on the axis and up to 25 data points for group/color\. For more information about how we handle data that falls outside display limits, see [Display Limits in Visuals](working-with-visual-types.md#display-limits)\.
 
-A clustered bar chart shows values for a dimension grouped by a parent dimension\. A stacked bar combo chart shows values for a dimension stacked by parent dimension\. Combo charts uses a scale based on the maximum value for the selected measure\. 
+A clustered bar chart shows values for a dimension grouped by a parent dimension\. A stacked bar combo chart shows values for a dimension stacked by parent dimension\. Combo charts use a scale based on the maximum value for the selected measure\. 
 
 The icons for combo charts are as follows\.
 

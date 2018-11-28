@@ -1,6 +1,6 @@
 # Exploring Amazon S3 Analytics Data<a name="explore-from-s3-analytics"></a>
 
-Amazon QuickSight contains a dashboard designed to provide insight into your Amazon S3 analytics data\. To use this feature, you must first enable S3 analytics storage class analysis for your S3 buckets\. For more on enabling storage class analysis in S3, see [Amazon S3 Analytics – Storage Class Analysis](http://docs.aws.amazon.com/AmazonS3/latest/dev/analytics-storage-class.html) in the *Amazon S3 Developer Guide\. *
+Amazon QuickSight contains a dashboard designed to provide insight into your Amazon S3 analytics data\. To use this feature, you must first enable S3 analytics storage class analysis for your S3 buckets\. For more on enabling storage class analysis in S3, see [Amazon S3 Analytics – Storage Class Analysis](https://docs.aws.amazon.com/AmazonS3/latest/dev/analytics-storage-class.html) in the *Amazon S3 Developer Guide\. *
 
 After you have enabled storage class analysis, you can use Amazon QuickSight to explore your S3 analytics data\.
 
@@ -27,4 +27,4 @@ Use the template as is, or customize it to suit your needs\. For example, one vi
 
 You can also add your own visualizations to the dashboard\. For example, you can break down the data access patterns, using filters for storage class analysis that you already have defined in S3 analytics\. 
 
-To learn more about using S3 analytics and storage class analysis, see [Amazon S3 Analytics – Storage Class Analysis](http://docs.aws.amazon.com/AmazonS3/latest/dev/analytics-storage-class.html) in the *Amazon S3 Developer Guide\.* 
+To learn more about using S3 analytics and storage class analysis, see [Amazon S3 Analytics – Storage Class Analysis](https://docs.aws.amazon.com/AmazonS3/latest/dev/analytics-storage-class.html) in the *Amazon S3 Developer Guide\.* 

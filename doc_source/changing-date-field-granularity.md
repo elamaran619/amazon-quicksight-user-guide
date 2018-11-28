@@ -2,6 +2,7 @@
 
 You can change the granularity for a date field on a visual to determine the intervals for which item values are shown\. You can set the date field granularity to one of the following values:
 + Year \(this is the default\)\. 
++ Quarter
 + Month
 + Week
 + Day
@@ -14,8 +15,7 @@ Hour and minute are only available if the field contains time data\.
 
 Use the following procedure to change date field granularity by using an on\-visual editor\.
 
-1. On the visual, choose the field well for the date field whose granularity you want to change\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/date-field-well.png)
+1. On the visual, choose the field well for the date field whose granularity you want to change\.
 
 1. On the field well menu, choose **Aggregate**, then choose the time interval that you want to apply, as shown following:  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/date-scope.png)

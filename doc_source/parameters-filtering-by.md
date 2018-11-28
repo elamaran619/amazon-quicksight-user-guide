@@ -1,12 +1,14 @@
 # Using Filters with Parameters in Amazon QuickSight<a name="parameters-filtering-by"></a>
 
-Use this section to filter the data in an analysis or dashboard by a parameter value\. Before using a filter with a parameter, you should already know how to work with filters\. 
+Use this section to filter the data in an analysis or dashboard by a single\-value parameter value\. To use a multivalued parameter—one with a multiselect drop\-down control—create a custom filter that is equal \(or not equal\) to the values\. 
+
+Before using a filter with a parameter, you should already know how to work with filters\. 
 
 1. Verify that your analysis has a parameter already created\. Choose **Edit** from either the parameter or the control's menu to find out what settings are in use\.
 
-1. Choose the **Filter** pane from the left side of the screen\. If there is already a filter for the field that you want to use, choose it to open its settings\. Otherwise, create a filter for the field that you want to filter by parameter\.
+1. Choose the **Filter** pane from the left of the screen\. If there is already a filter for the field that you want to use, choose it to open its settings\. Otherwise, create a filter for the field that you want to filter by parameter\.
 
-1. Select** Use Parameters**\.
+1. Choose **Use Parameters**\.
 
 1. Choose your parameters from the list or lists below **Use parameters**\. For text \(string\) fields, first choose **Custom Filter**, and then enable **Use Parameters**\.
 
@@ -15,6 +17,8 @@ Use this section to filter the data in an analysis or dashboard by a parameter v
 
    For fields with other data types, choose **Select a parameter** and then choose your parameter from the list\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/parameters-add-to-filter-text.png)
+**Note**  
+Parameters that can hold multiple values must use equal or not equal as the comparison type\.
 
 1. Choose **Apply** to save your changes\.
 

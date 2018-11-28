@@ -19,7 +19,7 @@ Before configuring your SAML 2\.0 connection, do the following:
   + Set up SAML 2\.0 authentication, using the same steps as for the AWS Management Console\. When this process is complete, you can configure your relay state to match the relay state of Amazon QuickSight \(See [Step 5: Configure the Relay State of Your Federation](#external-identity-providers-relay-state)\)\. 
 + Create an Amazon QuickSight account and note the name to use when you configure your IAM policy and IdP\. For more information on creating an Amazon QuickSight account, see [Signing Up for Amazon QuickSight](signing-up.md)\.
 
-After you create the setup to federate to the AWS Management Console as outlined in the tutorial, you can edit the relay state provided in the tutorial\. You do so with the relay state of Amazon QuickSight, described in step 5 following\. For more information about integrating with your IdP or using SSO in AWS, see [Integrating Third\-Party SAML Solution Providers with AWS](http://docs.aws.amazon.com/singlesignon/latest/userguide/) in the *IAM User Guide*\. 
+After you create the setup to federate to the AWS Management Console as outlined in the tutorial, you can edit the relay state provided in the tutorial\. You do so with the relay state of Amazon QuickSight, described in step 5 following\. For more information about integrating with your IdP or using SSO in AWS, see [Integrating Third\-Party SAML Solution Providers with AWS](https://docs.aws.amazon.com/singlesignon/latest/userguide/) in the *IAM User Guide*\. 
 
 ## Step 1: Create a SAML Provider in AWS<a name="external-identity-providers-create-saml-provider"></a>
 
@@ -29,13 +29,13 @@ Your SAML identity provider defines your organization's IdP to AWS\. It does so 
 
 1. Sign in to the AWS Management Console and open the IAM console at [https://console\.aws\.amazon\.com/iam/](https://console.aws.amazon.com/iam/)\.
 
-1. Create a new SAML provider, which is an entity in IAM that holds information about your organization's identity provider\. For more information, see [Creating SAML Identity Providers](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml.html) in the *IAM User Guide*\. 
+1. Create a new SAML provider, which is an entity in IAM that holds information about your organization's identity provider\. For more information, see [Creating SAML Identity Providers](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml.html) in the *IAM User Guide*\. 
 
 1. As part of this process, upload the metadata document produced by the IdP software in your organization noted in the previous section\. 
 
 ## Step 2: Configure Permissions in AWS for Your Federated Users<a name="external-identity-providers-grantperms"></a>
 
-Next, create an IAM role that establishes a trust relationship between IAM and your organization's IdP\. This role identifies your IdP as a principal \(trusted entity\) for the purposes of federation\. The role also defines which users authenticated by your organization's IdP are allowed to access Amazon QuickSight\. For more information about creating a role for a SAML IdP, review [Creating a Role for SAML 2\.0 Federation](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_saml.html) in the *IAM User Guide*\.
+Next, create an IAM role that establishes a trust relationship between IAM and your organization's IdP\. This role identifies your IdP as a principal \(trusted entity\) for the purposes of federation\. The role also defines which users authenticated by your organization's IdP are allowed to access Amazon QuickSight\. For more information about creating a role for a SAML IdP, review [Creating a Role for SAML 2\.0 Federation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_saml.html) in the *IAM User Guide*\.
 
 After you have created the role, you can limit the role to have permissions only to Amazon QuickSight by attaching an inline policy to the role\. The following sample policy document provides access to Amazon QuickSight\. This policy allows the user access to Amazon QuickSight and allows them to create both author accounts and reader accounts\.
 
@@ -94,7 +94,7 @@ For more information, see your IdP documentation\.
 
 ## Step 4: Create Assertions for the SAML Authentication Response<a name="external-identity-providers-create-assertions"></a>
 
-Next, configure the information that the IdP passes as SAML attributes to AWS as part of the authentication response\. For more information, see [Configuring SAML Assertions for the Authentication Response](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_assertions.html) in the *IAM User Guide*\.
+Next, configure the information that the IdP passes as SAML attributes to AWS as part of the authentication response\. For more information, see [Configuring SAML Assertions for the Authentication Response](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml_assertions.html) in the *IAM User Guide*\.
 
 ## Step 5: Configure the Relay State of Your Federation<a name="external-identity-providers-relay-state"></a>
 

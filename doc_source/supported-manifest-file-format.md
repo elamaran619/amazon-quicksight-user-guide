@@ -1,6 +1,6 @@
 # Supported Formats for Amazon S3 Manifest Files<a name="supported-manifest-file-format"></a>
 
-You use JSON manifest files to specify files in Amazon S3 to import into Amazon QuickSight\. These JSON manifest files can use either the Amazon QuickSight format described following or the Amazon Redshift format described in [Using a Manifest to Specify Data Files](http://docs.aws.amazon.com/redshift/latest/dg/loading-data-files-using-manifest.html)\. You don't have to use Amazon Redshift to use the Amazon Redshift manifest file format\. 
+You use JSON manifest files to specify files in Amazon S3 to import into Amazon QuickSight\. These JSON manifest files can use either the Amazon QuickSight format described following or the Amazon Redshift format described in [Using a Manifest to Specify Data Files](https://docs.aws.amazon.com/redshift/latest/dg/loading-data-files-using-manifest.html)\. You don't have to use Amazon Redshift to use the Amazon Redshift manifest file format\. 
 
 If you use an Amazon QuickSight manifest file, it must have a \.json extension, for example my\_manifest\.json\. If you use an Amazon Redshift manifest file, it can have any extension\. 
 

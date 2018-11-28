@@ -1,4 +1,4 @@
-# dateDiff<a name="dateDiff-function"></a>
+# `dateDiff`<a name="dateDiff-function"></a>
 
 `dateDiff` returns the difference in days between two date fields\.
 

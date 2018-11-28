@@ -1,4 +1,4 @@
-# difference<a name="difference-function"></a>
+# `difference`<a name="difference-function"></a>
 
 `difference` calculates the difference between a measure based on one set of partitions and sorts, and a measure based on another\. 
 

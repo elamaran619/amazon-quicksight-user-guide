@@ -1,4 +1,4 @@
-# avgOver<a name="avgOver-function"></a>
+# `avgOver`<a name="avgOver-function"></a>
 
 `avgOver` calculates the average of a measure partitioned by a list of dimensions\. 
 

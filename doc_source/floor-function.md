@@ -1,4 +1,4 @@
-# floor<a name="floor-function"></a>
+# `floor`<a name="floor-function"></a>
 
 `floor` decrements a decimal value to the next lowest integer\. For example, `floor(29.08)` returns `29`\.
 

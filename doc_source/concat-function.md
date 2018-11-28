@@ -1,4 +1,4 @@
-# concat<a name="concat-function"></a>
+# `concat`<a name="concat-function"></a>
 
 `concat` concatenates two or more strings\.
 

@@ -16,8 +16,7 @@ The visual elements that support aggregated fields varies by visual type\.
 
 Use the following procedure to change or add aggregation on a field\.
 
-1. On the visual, choose the on\-visual editor for the field that you want to apply aggregation to\.  
-![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/editor-aggregate.png)
+1. On the visual, choose the on\-visual editor for the field that you want to apply aggregation to\.
 
 1. On the on\-visual editor menu, choose **Aggregate**, then choose the aggregate function that you want to apply\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/editor-aggregate2.png)

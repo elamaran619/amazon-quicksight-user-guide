@@ -1,4 +1,4 @@
-# Adding a compound filter with And/Or operators<a name="add-a-compound-filter"></a>
+# Adding a Compound Filter with And/Or Operators<a name="add-a-compound-filter"></a>
 
 When you add multiple filters to a visual, Amazon QuickSight uses the AND operator to combine them\.
 
@@ -17,6 +17,6 @@ To create a filter group, follow these steps\.
 
 1.  \(Optional\) You can add additional filter conditions to the filter group\. 
 
-1.  \(Optional\) To remove a filter from the filter group, choose **X** near the field name\. 
+1.  \(Optional\) To remove a filter from the filter group, choose trashcan icon near the field name\. 
 
 1.  When you are finished, choose **Apply**\. 

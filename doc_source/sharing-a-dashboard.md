@@ -4,6 +4,8 @@ After you publish a dashboard, you can share it with other users or groups, and 
 
 After you share a dashboard, you can review the other users or groups that have access to it\. You can also revoke access to the dashboard, or remove yourself from it\.
 
+You can also embed interactive dashboards in websites and apps\. For more information, see [Embedding Amazon QuickSight Dashboards](embedding-dashboards.md)\.
+
 **Topics**
 + [View the Users Sharing the Dashboard](#view-users-dashboard)
 + [Share an Existing Dashboard](#share-a-dashboard)

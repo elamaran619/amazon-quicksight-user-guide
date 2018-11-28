@@ -5,4 +5,4 @@ If you are editing an analysis for a selected data source, and the connection to
 To fix this issue, do the following:
 + Verify that you still have access to the data source\.
 + Add exceptions to your ad blocker for `*.aws.amazon.com`, `amazonaws.com`, and `https://mobileanalytics.*.amazonaws.com`\.
-+ If you are using a proxy server, verify that `*.quicksight.aws.amazon.com` is added to the list of whitelisted \(safe\) domains\.
++ If you are using a proxy server, verify that `*.quicksight.aws.amazon.com` is added to the list of approved domains \(allowlist\)\.

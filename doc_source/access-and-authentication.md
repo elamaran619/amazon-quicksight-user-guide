@@ -4,8 +4,6 @@ Use the following topics to manage access and authentication to Amazon QuickSigh
 
 **Topics**
 + [Managing User Accounts in Amazon QuickSight Enterprise Edition](managing-users-enterprise.md)
-+ [Enabling Single Sign\-On Access to Amazon QuickSight Using SAML 2\.0](external-identity-providers.md)
-+ [Provisioning Users for Amazon QuickSight](provisioning-users.md)
-+ [Using Multi\-Factor Authentication \(MFA\) with Amazon QuickSight](using-multi-factor-authentication-mfa.md)
++ [Adding Domains for Embedded Dashboard Users](approve-domain-for-dashboard-embedding.md)
 + [Upgrading Your Amazon QuickSight Subscription from Standard Edition to Enterprise Edition](upgrading-subscription.md)
 + [Canceling Your Amazon QuickSight Subscription and Closing the Account](closing-account.md)

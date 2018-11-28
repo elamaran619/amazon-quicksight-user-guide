@@ -1,4 +1,4 @@
-# minOver<a name="minOver-function"></a>
+# `minOver`<a name="minOver-function"></a>
 
 `minOver` calculates the minimum of a measure or date partitioned by a list of dimensions\. 
 

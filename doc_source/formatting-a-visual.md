@@ -63,7 +63,7 @@ Use the following procedure to hide or display the visual title\. The visual tit
 1. Enable or disable **Show legend** and **Show legend title**\.   
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/show-legend2.png)
 
-1. To customize the title of the legend, type a new title in the **Legend** text box\. To revert to the default name, delete your entry\.
+1. To customize the title of the legend, enter a new title in the **Legend** text box\. To revert to the default name, delete your entry\.
 
 1. For **POSITION**, choose **Right**, **Bottom**, or **Top** to determine where on the visual the legend displays\.
 
@@ -135,7 +135,7 @@ Use the following procedure to set the axis range for a visual\.
 
 1. On the **Format Visual** pane, choose **X\-Axis** or **Y\-axis**, depending on what type of visual you are customizing\. This is the **X\-Axis** section for horizontal bar charts, the **Y\-Axis** section for vertical bar charts and line charts, and both axes are available for scatter plots\. On combo charts, use **Bars** and **Lines** instead\. 
 
-1. Type a new name in the box to rename the axis\. To revert to the default name, delete your entry\.  
+1. Enter a new name in the box to rename the axis\. To revert to the default name, delete your entry\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/customize-visual-scale.png)
 
 1. Set the range for the axis by choosing one of the following options:
@@ -143,9 +143,9 @@ Use the following procedure to set the axis range for a visual\.
    + Choose **Auto \(based on data range\)** to have the range start at the lowest value for the measure being displayed and end around the highest value for the measure being displayed\.
    + Choose **Custom range** to have the range start and end at values that you specify\.
 
-     If you choose **Custom range**, type the start and end values in the fields in that section\. Typically, you use integers for the range values\. For stacked 100 percent bar charts, use a decimal value to indicate the percentage that you want\. For example, if you want the range to be 0–30 percent instead of 0–100 percent, type 0 for the start value and \.3 for the end value\.
+     If you choose **Custom range**, enter the start and end values in the fields in that section\. Typically, you use integers for the range values\. For stacked 100 percent bar charts, use a decimal value to indicate the percentage that you want\. For example, if you want the range to be 0–30 percent instead of 0–100 percent, enter 0 for the start value and \.3 for the end value\.
 
-1. To customize the number of values to show on the axis, type in an integer between 1 and 50\.
+1. To customize the number of values to show on the axis, enter in an integer between 1 and 50\.
 
 1. Close the **Format Visual** pane by choosing the X icon in the upper\-right corner of the pane\.
 
@@ -153,7 +153,7 @@ Use the following procedure to set the axis range for a visual\.
 
 Use the following list to see which visuals support what type of formatting\.
 + Bar charts \(both horizontal and vertical\) support the following formatting:
-  + Customize, display, or hide title, field labels and data labels
+  + Customize, display, or hide title, field labels, and data labels
   + Customize, display, or hide legend \(exception: simple charts without clustering or multiple measures don't show a legend\)
   + Specify axis range and steps on x\-axis for horizontal bar charts, and on y\-axis for vertical bar charts
   + Show or hide the “other” category

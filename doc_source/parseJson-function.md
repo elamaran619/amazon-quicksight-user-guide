@@ -1,6 +1,22 @@
-# parseJson<a name="parseJson-function"></a>
+# `parseJson`<a name="parseJson-function"></a>
 
-After you import a text file that has a JSON object in one or more fields, use `parseJson` to extract values from the JSON object\. You can use `parseJson` when you are preparing a data set in [SPICE](welcome.md#spice)\. `parseJson` is not currently supported in database queries or in analyses\.
+Use `parseJson` to extract values from a JSON object\. 
+
+In [SPICE](welcome.md#spice), you can use `parseJson` when you are preparing a data set, but not in calculated fields during analysis\.
+
+For direct query, you can use `parseJson` both during data preparation and analysis\. The `parseJson` function applies to either strings or to JSON native data types, depending on the dialect, as shown in the following table\.
+
+
+| Dialect | Type | 
+| --- | --- | 
+| PostgreSQL | JSON | 
+| Amazon Redshift | String | 
+| Microsoft SQL Server | String | 
+| MySQL | JSON | 
+| Teradata | JSON | 
+| Presto | String | 
+| Snowflake | Semistructured data type object and array | 
+| Hive | String | 
 
 ### Syntax<a name="parseJson-function-syntax"></a>
 
@@ -15,17 +31,52 @@ The field containing the JSON object that you want to parse\.
 
  *path*   
 The path to the data element you want to parse from the JSON object\. Valid path syntax includes:  
-+ *$* — Root object
-+ *\.* — Child operator
-+ *\[ \]* — Subscript operator for array
++ *$* – Root object
++ *\.* – Child operator
++ *\[ \]* – Subscript operator for array
 
 ### Return Type<a name="parseJson-function-return-type"></a>
 
 String
 
+### Example<a name="parseJson-function-example-query"></a>
+
+The following example evaluates incoming JSON to retrieve a value for item quantity\. By using this during data preparation, you can create a table out of the JSON\.
+
+```
+parseJson({jsonField}, “$.items.qty”)
+```
+
+The following shows the JSON\.
+
+```
+{
+    "customer": "John Doe",
+    "items": {
+        "product": "Beer",
+        "qty": 6
+    },
+    "list1": [
+        "val1",
+        "val2"
+    ],
+    "list2": [
+        {
+            "list21key1": "list1value1"
+        }
+    ]
+}
+```
+
+For this example, the following value is returned\.
+
+```
+6
+```
+
 ### Example<a name="parseJson-function-example"></a>
 
-The following example evaluates JSONObject1 to extract the first key value pair \(KVP\), labelled `"State"`, and assign the value to the calculated field you are creating\.
+The following example evaluates `JSONObject1` to extract the first key value pair \(KVP\), labelled `"State"`, and assign the value to the calculated field that you are creating\.
 
 ```
 parseJson(JSONObject1, “$.state”)
@@ -47,37 +98,4 @@ For these field values, the following rows are returned\.
 New York
 North Carolina
 Utah
-```
-
-### Example<a name="parseJson-function-example-csv"></a>
-
-The following example shows a properly formatted JSON object that is embedded in a CSV file\.
-
-```
-State,Time of Day,Day,Date,JSONfield,Sales Amount
-Washington,Evening,W,1/11/18,"{
-	""basket"": ""Beer|Diapers|Cat Food|Crackers|Bread"",
-	""StoreID"": 253,
-	""CashID"": 34
-}",96.69
-California,Noon,T,3/6/18,"{
-	""basket"": ""Beer|Diapers|Cat Food|Crackers|Bread"",
-	""StoreID"": 253,
-	""CashID"": 34
-}",52.18
-Oregon,Morning,M,1/9/18,"{
-	""basket"": ""Beer|Diapers|Cat Food|Crackers|Bread"",
-	""StoreID"": 253,
-	""CashID"": 34
-}",87.67
-California,Night,Su,3/20/17,"{
-	""basket"": ""Beer|Diapers|Cat Food|Crackers|Bread"",
-	""StoreID"": 253,
-	""CashID"": 34
-}",23.83
-California,Noon,R,8/21/17,"{
-	""basket"": ""Beer|Diapers|Cat Food|Crackers|Bread"",
-	""StoreID"": 253,
-	""CashID"": 34
-}",56.6
 ```
