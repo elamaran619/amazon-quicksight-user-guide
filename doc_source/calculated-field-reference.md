@@ -51,7 +51,7 @@ Because parenthesis are first in the order of operations, you can change the ord
 The following example uses multiple arithmetic operators to determine a sales total after discount\.
 
 ```
-(Quantity * Amount) - Discount)
+(Quantity * Amount) - Discount
 ```
 
 ### Example: \(=\) Equal<a name="operator-example-equal"></a>
