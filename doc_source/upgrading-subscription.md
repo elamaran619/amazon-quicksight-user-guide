@@ -25,7 +25,7 @@ Use the following procedure to upgrade to Enterprise edition\. To perform the up
 1. At top left, choose **Upgrade now**\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/admin-page-upgrade-now.png)
 
-   The following screen appears\. For the latest prices, see https://aws\.amazon\.com/quicksight/\.  
+   The following screen appears\. For the latest prices, see [https://aws\.amazon\.com/quicksight/](https://aws.amazon.com/quicksight/)\.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/quicksight/latest/user/images/upgrade-to-enterprise-edition.png)
 
 1. Be sure that you want to upgrade\.
