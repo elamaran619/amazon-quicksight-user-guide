@@ -135,7 +135,7 @@ The following example uses the Amazon Redshift format to identify a \.csv file f
 ```
 {
     "entries": [
-        
+        {
             "url": "https://s3-us-west-2.amazonaws.com/myalias-test/Consumer_Complaints3.csv",
             "mandatory": true
         }
