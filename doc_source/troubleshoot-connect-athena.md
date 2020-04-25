@@ -1,6 +1,6 @@
 # I Can't Connect to Amazon Athena<a name="troubleshoot-connect-athena"></a>
 
-You get an insufficient permissions error when your run a query and the permissions aren't configured\. To verify that you can connect Amazon QuickSight to Amazon Athena, check these settings: 
+You get an insufficient permissions error when you run a query and the permissions aren't configured\. To verify that you can connect Amazon QuickSight to Amazon Athena, check these settings: 
 + AWS resource permissions inside of Amazon QuickSight
 + IAM \(IAM\) policies
 + Amazon S3 location
