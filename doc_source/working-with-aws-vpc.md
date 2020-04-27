@@ -109,7 +109,7 @@ The following data source types can use a VPC connection:
 + MariaDB
 + Microsoft SQL Server
 
-The instance you are connecting to must either reside within your VPC or be reachable by using an AWS Direct Connect gateway\. Amazon QuickSight can't send traffic through a VPC connection to instances that are only reachable by a VPN gateway, NAT gateway, or VPC peering connection\.
+The instance you are connecting to must either reside within your VPC or be reachable by using an AWS Direct Connect gateway\. Amazon QuickSight can also send traffic from VPC of one region to another using cross region VPC peering\. However, Amazon QuickSight can't send traffic through a VPC connection to instances that are only reachable by a VPN gateway, NAT gateway, or cross account PC peering connection\.
 
 Amazon QuickSight can't connect to a network load balancer by using a VPC connection\.
 
