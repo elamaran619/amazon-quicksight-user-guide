@@ -1,5 +1,5 @@
 # Adding Custom URL Actions to Visuals in Amazon QuickSight<a name="custom-url-actions"></a>
-
+dd
 You can use URL schemes to perform an action, based on a URL, from within your dashboard\. In some cases, you might want to create a link to another URL from your visual, or you might want to create an email directly from a visual\. Users viewing the dashboard can use a URL action to send data points to other URLs \(dashboards, analyses, and websites\) by using the data point context menu\. 
 
 To use an existing URL action, choose a data point on a visual\. When you hover over the data point, a notification appears regarding that data point\. To get the URL action menu, choose the data point to bring up the context menu\. You can find URL actions listed in the middle of the context menu, just above **Color** options\.
